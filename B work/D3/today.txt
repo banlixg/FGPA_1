@@ -1,0 +1,15 @@
+按下 key1
+  ↓ 消抖后出现 key_next_press
+扫描已完成、至少找到一张图？
+  ↓ 是
+next_req_pending 设为 1：记住切图请求
+  ↓ 等待：读取模块就绪，当前图有效，且没有别的加载任务
+选定下一张 load_idx 和另一块写入缓冲区
+load_start_pulse 出现；load_busy 设为 1
+next_req_pending 清为 0：请求开始处理
+  ↓
+图片源数据读完：bmp_ready
+  ↓ 还不能切换画面
+整帧真正写完：write_finish_pulse
+  ↓
+显示缓冲区切换；img_idx 更新；load_busy 变回 0
