@@ -1,0 +1,58 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/FPGA FILE/official_routine_simulation/breath_led/sim
+T_opt
+!s110 1791027562
+Von>>bm3_QRmJ4iKd@eQE50
+04 10 4 work tb_key_led fast 0
+=1-bcfce7dea895-6ac0e96a-28d-fea4
+o-quiet -auto_acc_if_foreign -work work +acc
+n@_opt
+OL;O;10.4;61
+vkey_led
+Z0 !s110 1791027269
+!i10b 1
+!s100 XcCnfER9eAzBmXPUKWh6[1
+I]]?`CH^QPUzmE6P4Q7<jA1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/FPGA FILE/official_routine_simulation/key_led/sim
+w1791025711
+8D:/FPGA FILE/official_routine_simulation/key_led/src/key_led.v
+FD:/FPGA FILE/official_routine_simulation/key_led/src/key_led.v
+L0 1
+Z3 OL;L;10.4;61
+r1
+!s85 0
+31
+!s108 1791027269.670000
+!s107 D:/FPGA FILE/official_routine_simulation/key_led/src/key_led.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/FPGA FILE/official_routine_simulation/key_led/src/key_led.v|
+!i113 0
+Z4 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vtb_key_led
+R0
+!i10b 1
+!s100 Gjdn:=9[<86[X9VOV0eAo0
+IWNF8Z_4C=`3G6aQMlUQFI3
+R1
+R2
+w1791027239
+8D:/FPGA FILE/official_routine_simulation/key_led/src/tb_key_led.v
+FD:/FPGA FILE/official_routine_simulation/key_led/src/tb_key_led.v
+L0 3
+R3
+r1
+!s85 0
+31
+!s108 1791027269.707000
+!s107 D:/FPGA FILE/official_routine_simulation/key_led/src/tb_key_led.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/FPGA FILE/official_routine_simulation/key_led/src/tb_key_led.v|
+!i113 0
+R4
