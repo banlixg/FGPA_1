@@ -1,0 +1,224 @@
+# if {[file exists result.txt]} {file delete result.txt}
+# set b_has_design [expr {![catch {examine sim:/tb_team_frame_latch/done}]}]
+# 0
+# if {![file isdirectory work]} {vlib work}
+# vmap work work
+# Model Technology ModelSim SE-64 vmap 10.4 Lib Mapping Utility 2014.12 Dec  3 2014
+# vmap -modelsim_quiet work work 
+# Modifying modelsim.ini
+# vlog ../src/team_frame_latch.v ../src/tb_team_frame_latch.v
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 22:02:24 on Oct 06,2026
+# vlog ../src/team_frame_latch.v ../src/tb_team_frame_latch.v 
+# -- Compiling module team_frame_latch
+# -- Compiling module tb_team_frame_latch
+# 
+# Top level modules:
+# 	tb_team_frame_latch
+# End time: 22:02:24 on Oct 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# if {$b_has_design} {
+#     restart -force
+# } else {
+#     vsim -voptargs=+acc work.tb_team_frame_latch
+# }
+# vsim -c -do "cd {D:/FPGA FILE/FPGA_1/FGPA_1/competition_hdmi/03_sim/B/D01-D02/B_frame/sim}; do {C:/Users/banli/Documents/Codex/2026-10-06/new-chat-2/work/B_frame_script_fix/sim/verify_rerun.do}" 
+# Start time: 22:02:25 on Oct 06,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# 
+# //  ModelSim SE-64 10.4 Dec  3 2014 
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# Loading work.tb_team_frame_latch(fast)
+# Loading work.team_frame_latch(fast)
+# log -r /*
+# if {![batch_mode] && !$b_has_design} {
+#     add wave -radix unsigned sim:/tb_team_frame_latch/clk
+#     add wave -radix unsigned sim:/tb_team_frame_latch/rst_n
+#     add wave -radix unsigned sim:/tb_team_frame_latch/frame_accept
+#     add wave -radix unsigned sim:/tb_team_frame_latch/frame_id_in
+#     add wave -radix unsigned sim:/tb_team_frame_latch/frame_id_out
+#     add wave -radix unsigned sim:/tb_team_frame_latch/frame_valid
+#     add wave -radix unsigned sim:/tb_team_frame_latch/accepted_pulse
+# }
+# Let initial assignments finish before setting the test-only injection flag.
+# run 2 ns
+# PASS check=1 t=1000 id=0 valid=0 pulse=0
+# force -deposit sim:/tb_team_frame_latch/inject_fail $INJECT_FAIL
+# run 1098 ns
+# PASS check=2 t=51000 id=0 valid=0 pulse=0
+# PASS check=3 t=71000 id=1 valid=1 pulse=1
+# PASS check=4 t=91000 id=1 valid=1 pulse=0
+# PASS check=5 t=111000 id=2 valid=1 pulse=1
+# PASS check=6 t=131000 id=3 valid=1 pulse=1
+# PASS check=7 t=151000 id=3 valid=1 pulse=0
+# PASS check=8 t=156000 id=0 valid=0 pulse=0
+# PASS check=9 t=191000 id=0 valid=1 pulse=1
+# PASS check=10 t=211000 id=0 valid=1 pulse=0
+# ALL_PASS checks=10
+# if {![batch_mode]} {
+#     configure wave -timelineunits ns
+#     wave zoom range 0ns 220ns
+# }
+# if {![file exists result.txt]} {b_stop_test "No result.txt produced"}
+# set b_result_handle [open result.txt r]
+# file4edd1c0
+# set b_result [read $b_result_handle]
+# ALL_PASS checks=10
+# 
+# close $b_result_handle
+# if {![string match "ALL_PASS*" $b_result]} {b_stop_test $b_result}
+# set B_LAST_RESULT PASS
+# PASS
+# puts "SCRIPT_PASS: $b_result"
+# 1
+# RUNNING
+# if {[file exists result.txt]} {file delete result.txt}
+# set b_has_design [expr {![catch {examine sim:/tb_team_frame_latch/done}]}]
+# 1
+# if {![file isdirectory work]} {vlib work}
+# vmap work work
+# Model Technology ModelSim SE-64 vmap 10.4 Lib Mapping Utility 2014.12 Dec  3 2014
+# vmap -modelsim_quiet work work 
+# Modifying modelsim.ini
+# vlog ../src/team_frame_latch.v ../src/tb_team_frame_latch.v
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 22:02:26 on Oct 06,2026
+# vlog ../src/team_frame_latch.v ../src/tb_team_frame_latch.v 
+# -- Compiling module team_frame_latch
+# -- Compiling module tb_team_frame_latch
+# 
+# Top level modules:
+# 	tb_team_frame_latch
+# End time: 22:02:26 on Oct 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# if {$b_has_design} {
+#     restart -force
+# } else {
+#     vsim -voptargs=+acc work.tb_team_frame_latch
+# }
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# 
+# Loading work.tb_team_frame_latch(fast)
+# Loading work.team_frame_latch(fast)
+# log -r /*
+# if {![batch_mode] && !$b_has_design} {
+#     add wave -radix unsigned sim:/tb_team_frame_latch/clk
+#     add wave -radix unsigned sim:/tb_team_frame_latch/rst_n
+#     add wave -radix unsigned sim:/tb_team_frame_latch/frame_accept
+#     add wave -radix unsigned sim:/tb_team_frame_latch/frame_id_in
+#     add wave -radix unsigned sim:/tb_team_frame_latch/frame_id_out
+#     add wave -radix unsigned sim:/tb_team_frame_latch/frame_valid
+#     add wave -radix unsigned sim:/tb_team_frame_latch/accepted_pulse
+# }
+# Let initial assignments finish before setting the test-only injection flag.
+# run 2 ns
+# PASS check=1 t=1000 id=0 valid=0 pulse=0
+# force -deposit sim:/tb_team_frame_latch/inject_fail $INJECT_FAIL
+# run 1098 ns
+# PASS check=2 t=51000 id=0 valid=0 pulse=0
+# PASS check=3 t=71000 id=1 valid=1 pulse=1
+# PASS check=4 t=91000 id=1 valid=1 pulse=0
+# PASS check=5 t=111000 id=2 valid=1 pulse=1
+# PASS check=6 t=131000 id=3 valid=1 pulse=1
+# PASS check=7 t=151000 id=3 valid=1 pulse=0
+# PASS check=8 t=156000 id=0 valid=0 pulse=0
+# PASS check=9 t=191000 id=0 valid=1 pulse=1
+# PASS check=10 t=211000 id=0 valid=1 pulse=0
+# FAIL check=11 t=211000 id=0 valid=1 pulse=0 expected=1/1/0
+# TEST_FAIL failures=1 checks=11
+# if {![batch_mode]} {
+#     configure wave -timelineunits ns
+#     wave zoom range 0ns 220ns
+# }
+# if {![file exists result.txt]} {b_stop_test "No result.txt produced"}
+# set b_result_handle [open result.txt r]
+# file4edffc0
+# set b_result [read $b_result_handle]
+# TEST_FAIL failures=1 checks=11
+# 
+# close $b_result_handle
+# if {![string match "ALL_PASS*" $b_result]} {b_stop_test $b_result}
+# 0
+# RUNNING
+# if {[file exists result.txt]} {file delete result.txt}
+# set b_has_design [expr {![catch {examine sim:/tb_team_frame_latch/done}]}]
+# 1
+# if {![file isdirectory work]} {vlib work}
+# vmap work work
+# Model Technology ModelSim SE-64 vmap 10.4 Lib Mapping Utility 2014.12 Dec  3 2014
+# vmap -modelsim_quiet work work 
+# Modifying modelsim.ini
+# vlog ../src/team_frame_latch.v ../src/tb_team_frame_latch.v
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 22:02:26 on Oct 06,2026
+# vlog ../src/team_frame_latch.v ../src/tb_team_frame_latch.v 
+# -- Compiling module team_frame_latch
+# -- Compiling module tb_team_frame_latch
+# 
+# Top level modules:
+# 	tb_team_frame_latch
+# End time: 22:02:26 on Oct 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# if {$b_has_design} {
+#     restart -force
+# } else {
+#     vsim -voptargs=+acc work.tb_team_frame_latch
+# }
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# 
+# Loading work.tb_team_frame_latch(fast)
+# Loading work.team_frame_latch(fast)
+# log -r /*
+# if {![batch_mode] && !$b_has_design} {
+#     add wave -radix unsigned sim:/tb_team_frame_latch/clk
+#     add wave -radix unsigned sim:/tb_team_frame_latch/rst_n
+#     add wave -radix unsigned sim:/tb_team_frame_latch/frame_accept
+#     add wave -radix unsigned sim:/tb_team_frame_latch/frame_id_in
+#     add wave -radix unsigned sim:/tb_team_frame_latch/frame_id_out
+#     add wave -radix unsigned sim:/tb_team_frame_latch/frame_valid
+#     add wave -radix unsigned sim:/tb_team_frame_latch/accepted_pulse
+# }
+# Let initial assignments finish before setting the test-only injection flag.
+# run 2 ns
+# PASS check=1 t=1000 id=0 valid=0 pulse=0
+# force -deposit sim:/tb_team_frame_latch/inject_fail $INJECT_FAIL
+# run 1098 ns
+# PASS check=2 t=51000 id=0 valid=0 pulse=0
+# PASS check=3 t=71000 id=1 valid=1 pulse=1
+# PASS check=4 t=91000 id=1 valid=1 pulse=0
+# PASS check=5 t=111000 id=2 valid=1 pulse=1
+# PASS check=6 t=131000 id=3 valid=1 pulse=1
+# PASS check=7 t=151000 id=3 valid=1 pulse=0
+# PASS check=8 t=156000 id=0 valid=0 pulse=0
+# PASS check=9 t=191000 id=0 valid=1 pulse=1
+# PASS check=10 t=211000 id=0 valid=1 pulse=0
+# ALL_PASS checks=10
+# if {![batch_mode]} {
+#     configure wave -timelineunits ns
+#     wave zoom range 0ns 220ns
+# }
+# if {![file exists result.txt]} {b_stop_test "No result.txt produced"}
+# set b_result_handle [open result.txt r]
+# file4edf7c0
+# set b_result [read $b_result_handle]
+# ALL_PASS checks=10
+# 
+# close $b_result_handle
+# if {![string match "ALL_PASS*" $b_result]} {b_stop_test $b_result}
+# set B_LAST_RESULT PASS
+# PASS
+# puts "SCRIPT_PASS: $b_result"
+# End time: 22:02:26 on Oct 06,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

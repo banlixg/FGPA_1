@@ -1,0 +1,2507 @@
+[
+  {
+    "relative": "00_team/B_素材清单.md",
+    "bytes": 1438,
+    "sha256": "bcdb93f9abbd4b447a0585213099d14f0f34f638456c505a20eb7e4ba7368750"
+  },
+  {
+    "relative": "00_team/B_读图路径.md",
+    "bytes": 1529,
+    "sha256": "5853426f75fe3e3681e2ec45fe62f9586bfee045fb7a3fd2010b3deb20ab94a9"
+  },
+  {
+    "relative": "00_team/每日记录/B_每日记录模板.md",
+    "bytes": 438,
+    "sha256": "874ac8054df905bda41cf09554dbc0399036aa95723a8995f1eeca713cb19271"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/doc/APUG092_HDMI1.4b_Transmitter_V1.0.docx",
+    "bytes": 5325755,
+    "sha256": "070b22d3ff63e697ed7db39eee61e8653c60f58e0d6eb9cfdaf2ab16001b1543"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/doc/convert/1.bmp",
+    "bytes": 921654,
+    "sha256": "958c09c75d9c1c329419b59b74c5b338f299e05648b1f76c8b93a1e567bb7665"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/doc/convert/1.png",
+    "bytes": 2449351,
+    "sha256": "db31a64cf761b0061657d63b1c294ffe4b9fc29c39b1e6c21e441907f3101574"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/doc/convert/3.bmp",
+    "bytes": 921654,
+    "sha256": "e84c4a500b919251a0df1ab6b8448e2d94438065fca0fe14a520e3c658e06bdd"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/doc/convert/3.png",
+    "bytes": 3709951,
+    "sha256": "3e2137277cc976a89a3e636ca499c12773940c202b8d70d2acef8666d3733003"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/doc/convert/convert_images_to_bmp.py",
+    "bytes": 4614,
+    "sha256": "8dc1ec7eb91ecc2fabb74d18268660d629279794b210efa00e1f81434d93711d"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/doc/convert/output_bmp/0.bmp",
+    "bytes": 921654,
+    "sha256": "f9938325dcf16100ef4cd08ab2827e1e646878ae54518cb1604dc04875dca218"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/doc/convert/output_bmp/1.bmp",
+    "bytes": 921654,
+    "sha256": "958c09c75d9c1c329419b59b74c5b338f299e05648b1f76c8b93a1e567bb7665"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/doc/convert/output_bmp/3.bmp",
+    "bytes": 921654,
+    "sha256": "e84c4a500b919251a0df1ab6b8448e2d94438065fca0fe14a520e3c658e06bdd"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/doc/convert/output_bmp/4.bmp",
+    "bytes": 921654,
+    "sha256": "78c9692b7c47af62e82220ba294e71548507da16990aa04f7c3dd58987b3ca06"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/doc/convert/README.md",
+    "bytes": 3782,
+    "sha256": "a6b3e104312a3562ebe40bb0ec4779cfe0153d7aedf290ddb026535f2a6751be"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/doc/convert/sync_to_sd.py",
+    "bytes": 5594,
+    "sha256": "c304534b3a29ab3cc3be79d1e75f51d37fc7a4fd9f238272a3782ce475b731ac"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/doc/TF卡图片/A_工程适配版.bmp",
+    "bytes": 921654,
+    "sha256": "78c9692b7c47af62e82220ba294e71548507da16990aa04f7c3dd58987b3ca06"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/doc/TF卡图片/logo_640x480_24bit_不翻转.bmp",
+    "bytes": 921654,
+    "sha256": "f9938325dcf16100ef4cd08ab2827e1e646878ae54518cb1604dc04875dca218"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/doc/TF卡图片/苹果_640x480_24bit_显示正常_工程适配版.bmp",
+    "bytes": 921654,
+    "sha256": "31a508b43bc3ec44f5814382a6dd12b5f379ca248b633120c25f1a6bf85239e1"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/doc/TF卡图片/草莓_640x480_24bit_显示正常_工程适配版.bmp",
+    "bytes": 921654,
+    "sha256": "a51b868d9e1c08ce599095a9a40048174cd35ce1c6ea3c74e370d3e6a6d87c2e"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/doc/TF卡图片/西瓜_640x480_24bit_显示正常_工程适配版.bmp",
+    "bytes": 921654,
+    "sha256": "bc7170e5c0d33b07c7f7a1622cd7a58084c2e4c7478d11b5ed29ee4ba8ec4297"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/.recent_user_depot.ini",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/al_ip/PLL.ipc",
+    "bytes": 1511,
+    "sha256": "8cb6df3a1bb99cf2f95f9a535d7f33213b837207b36e336848a6ed0db29ab8b5"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/al_ip/PLL.v",
+    "bytes": 2438,
+    "sha256": "4e873eef9499fa93508d8cf2cac90eea0e16c6f649ae29502cdc4c5886cd32aa"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/al_ip/PLL.vhd",
+    "bytes": 2688,
+    "sha256": "e46792bb3d2b72621b18b323c472213fd5880eb29e5e85f0b7d50e5117e47494"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/best_result/HDMI1.4b_Transmitter_v1.0.bit",
+    "bytes": 629624,
+    "sha256": "789cee5dd06b5fa1546fd52b5cdb7c68770e1619fea1f13edb75bb38ebba331c"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/best_result/HDMI1.4b_Transmitter_v1.0_inst.bid",
+    "bytes": 30199,
+    "sha256": "1804653dd7c4c7fdcc444adccb0c3d2f27454e0f2f04c87088e194a4d7ab6d99"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/best_result/HDMI1.4b_Transmitter_v1.0_phy.ts",
+    "bytes": 66,
+    "sha256": "9f109dd3fbe0e1b344c614b148d9593da518f498971153b7cf40c0d57df8a524"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/best_result/readMe.txt",
+    "bytes": 58,
+    "sha256": "c1200b9149088b7981da9e19d6c54782e120ac77ce218f52210da2b13675f2b6"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/.bitgen.begin.f",
+    "bytes": 164,
+    "sha256": "7c64eb653ff8bea413877f8471ba357e6f05f85bede0d61ed984eb9f9302db0d"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/.bitgen.end.f",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/.bitgen_param.f",
+    "bytes": 326,
+    "sha256": "4782317c37138edb5af25475933f063500b7223fc4d9d0130aa2167a5befc37f"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/.opt_place.begin.f",
+    "bytes": 164,
+    "sha256": "7c64eb653ff8bea413877f8471ba357e6f05f85bede0d61ed984eb9f9302db0d"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/.opt_place.end.f",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/.opt_route.begin.f",
+    "bytes": 164,
+    "sha256": "7c64eb653ff8bea413877f8471ba357e6f05f85bede0d61ed984eb9f9302db0d"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/.opt_route.end.f",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/.temp.f",
+    "bytes": 20,
+    "sha256": "ab290324d0cd2eefda3b327b96f79324cd2b76a2f554996c06f91ffa13675689"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/final_timing.rpt",
+    "bytes": 1321566,
+    "sha256": "e5081b8aa549aa66eaf0a7983c8eacb23bbb26e7806d66e889d9dbb3e9c24a4b"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/HDMI1.4b_Transmitter_v1.0.bit",
+    "bytes": 629624,
+    "sha256": "789cee5dd06b5fa1546fd52b5cdb7c68770e1619fea1f13edb75bb38ebba331c"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/HDMI1.4b_Transmitter_v1.0.prj",
+    "bytes": 19169,
+    "sha256": "9e6fb763388d48174ac18ee61913c2e751e4c0d0dcf4180bce7094f89bd0de9d"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/HDMI1.4b_Transmitter_v1.0.tcl",
+    "bytes": 7809,
+    "sha256": "d1a5d4291706dac224cc33008d8945e79ed2eb1adf8ce86cca46be564975bade"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/HDMI1.4b_Transmitter_v1.0_eco_pr.db",
+    "bytes": 3648696,
+    "sha256": "6aa7d187528e0ccc8c4f83bdd0a3e725a5c4631a88cf16bdf82e7db2ecf85011"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/HDMI1.4b_Transmitter_v1.0_exception.timing",
+    "bytes": 2277,
+    "sha256": "1749b96da081fc032d6a07ba65104d98ed9ae6a165368129b5194ebcf97e0cc0"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/HDMI1.4b_Transmitter_v1.0_inst.bid",
+    "bytes": 30199,
+    "sha256": "1804653dd7c4c7fdcc444adccb0c3d2f27454e0f2f04c87088e194a4d7ab6d99"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/HDMI1.4b_Transmitter_v1.0_phy.area",
+    "bytes": 24107,
+    "sha256": "1279b25ab3d0439386a16858106464e9eaf4c92896fbd8d9d68149561f7be8ed"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/HDMI1.4b_Transmitter_v1.0_phy.ts",
+    "bytes": 66,
+    "sha256": "9f109dd3fbe0e1b344c614b148d9593da518f498971153b7cf40c0d57df8a524"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/HDMI1.4b_Transmitter_v1.0_place.db",
+    "bytes": 2998136,
+    "sha256": "7060918b21d220573b43e0bf1f3f0906693eb25c13a7c736406dde8bc5d45312"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/HDMI1.4b_Transmitter_v1.0_place.timing",
+    "bytes": 1332191,
+    "sha256": "98ff53199431e68d0c3cfed8c1417a0c016558adf35543f0ea2be568148b0b14"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/HDMI1.4b_Transmitter_v1.0_pr.db",
+    "bytes": 3648696,
+    "sha256": "614b237e6e845ce0ede67e2492d40f3037a1cd3ef55ac9c24410fdb1c3c98018"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/HDMI1.4b_Transmitter_v1.0_pr.timing",
+    "bytes": 1321566,
+    "sha256": "99bbcaeee95a257406cd9b688fd70b4c23b72e8c2ce34157cda79a6492c0720e"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/minidump-20260424-180523.dmp",
+    "bytes": 159588,
+    "sha256": "fad5e7a5aa27c709b62b195dc67b5739fa7bfa778a349a1315a22bf643c42595"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/minidump-20260424-180732.dmp",
+    "bytes": 150118,
+    "sha256": "2a8bf03483b5e8b12606dd86e134f513a1d8f824f0bc400818942d31d17b95b7"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/place.qor",
+    "bytes": 1741,
+    "sha256": "09b56b50b459d6a59265939257f781b0b348580b8a7c8b903563aadfc246cdd0"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/place_flow.status",
+    "bytes": 1424,
+    "sha256": "4a462525b0b5be8ef61b597c158d042ec6f319b3512f74f133e81d61a6bb4ca7"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/route.qor",
+    "bytes": 1313,
+    "sha256": "d9cdccd6a40013350d7676b4d593534f188f3d64ef100f90a21ed5ffacc60fb7"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/route_flow.status",
+    "bytes": 1520,
+    "sha256": "a0fc5cad3b9cbab9894478ebbe18d89eb70a9bf519529d0a90c83e563bd6a9a9"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/run.bat",
+    "bytes": 267,
+    "sha256": "f6c62ee2e39588e6204a964ff86503ff17e89592f7e413c7d91b1529b18e686f"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/run.log",
+    "bytes": 86316,
+    "sha256": "93ff42a2166f93c3f2ef98301e901d1f84ececec10fb181f6186af8e18c19b9c"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/run.logw",
+    "bytes": 1036,
+    "sha256": "8e1e6d7959248ae1059e87a8fd723c49243fa6ee87135996ea94ff05a02bc097"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/settings.cfg",
+    "bytes": 616,
+    "sha256": "689868cf7fe85df540aae8628214ac7071d83df8b5831f236a6ba6014d7339fa"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/.opt_gate.begin.f",
+    "bytes": 164,
+    "sha256": "7e64f9699eb41d3ea9d4854a2020a6c06a4a8b7b8a772ad5fb3a3980203a8977"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/.opt_gate.end.f",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/.opt_rtl.begin.f",
+    "bytes": 164,
+    "sha256": "7e64f9699eb41d3ea9d4854a2020a6c06a4a8b7b8a772ad5fb3a3980203a8977"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/.opt_rtl.end.f",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/.read_design.begin.f",
+    "bytes": 164,
+    "sha256": "7e64f9699eb41d3ea9d4854a2020a6c06a4a8b7b8a772ad5fb3a3980203a8977"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/.read_design.end.f",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/.temp.f",
+    "bytes": 20,
+    "sha256": "0b69ad76f6b5867b82399a27da358c1e83c1f53a82fed2e63133964a0038421a"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/flow.status",
+    "bytes": 1620,
+    "sha256": "e2c1f83d7b77fabfe390feacc935c44aef5bd4682e8f15bd2561269e725967de"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/gate.qor",
+    "bytes": 6079,
+    "sha256": "fad597938a2aaac26a4af6206a1129cfdaea8ab33a48c6683c56bf47d6302829"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/HDMI1.4b_Transmitter_v1.0.prj",
+    "bytes": 19169,
+    "sha256": "9e6fb763388d48174ac18ee61913c2e751e4c0d0dcf4180bce7094f89bd0de9d"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/HDMI1.4b_Transmitter_v1.0.tcl",
+    "bytes": 7809,
+    "sha256": "d1a5d4291706dac224cc33008d8945e79ed2eb1adf8ce86cca46be564975bade"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/HDMI1.4b_Transmitter_v1.0_elaborate.db",
+    "bytes": 2817100,
+    "sha256": "2822aad1e9d5482a969f148568b409126f25fce40b77c396f9a28b0be28bed46"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/HDMI1.4b_Transmitter_v1.0_gate.area",
+    "bytes": 11020,
+    "sha256": "bf0cca075d54175e324d62ccae1576f58c032ad836a9b24ae8cdd775545de175"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/HDMI1.4b_Transmitter_v1.0_gate.db",
+    "bytes": 2282802,
+    "sha256": "1c2b759e0a8817010887504ce15232dfa257a82198a602ea5f809599f00e5084"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/HDMI1.4b_Transmitter_v1.0_gate.timing",
+    "bytes": 1463723,
+    "sha256": "776f0205d851b704d5929896a6fed1e5c10dbc3f16cca91a888dfaa4a76d2bcb"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/HDMI1.4b_Transmitter_v1.0_gate.ts",
+    "bytes": 66,
+    "sha256": "ba0b62538618f3af9838c4d0a7a72e88fcabad5e320bb7a5e1a08fb9a13ea0b2"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/HDMI1.4b_Transmitter_v1.0_rtl.area",
+    "bytes": 9390,
+    "sha256": "6c01ca81724fb2007cc7a6acc6a7863d8ab8d958e71f835125e8ed89a47bedb9"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/HDMI1.4b_Transmitter_v1.0_rtl.db",
+    "bytes": 2136578,
+    "sha256": "21aff027e496bbf37150887aae420db7243064ccf0b2b2d25303f5b66818fd8c"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/run.bat",
+    "bytes": 267,
+    "sha256": "f6c62ee2e39588e6204a964ff86503ff17e89592f7e413c7d91b1529b18e686f"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/run.log",
+    "bytes": 74177,
+    "sha256": "e96e1c03539f4ac703e943e4c1c89e0baca1f40375d7dbd12be93c8284913b3f"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/run.logw",
+    "bytes": 14162,
+    "sha256": "b78242aa0a29ed9831fb5c96f095bbc21d24b8b933a82c41242d46cb3b5a0c84"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/settings.cfg",
+    "bytes": 559,
+    "sha256": "fd6e031f9bb9ccca54b374dd7146b37c991af826662573ce69e1da555e486c48"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0.al",
+    "bytes": 16260,
+    "sha256": "a10a58631c3a4297f5a36c4fead699776c260751ca10066d69a9debd20ae2da4"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/best_result/lab_ex5_i2s_v1.0.bit",
+    "bytes": 629624,
+    "sha256": "1f7a9b80d0ecbec59865358b8f8405917bc9663c30469100b695b8a642ec3dfc"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/best_result/lab_ex5_i2s_v1.0_inst.bid",
+    "bytes": 20882,
+    "sha256": "4c30fb7589f5c64bdef356f003aa4ced1a54a62d29c403ee6cd5b7f7238e9436"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/best_result/lab_ex5_i2s_v1.0_phy.ts",
+    "bytes": 66,
+    "sha256": "7434ca31ef7cbbbd6c393f2bb4d01acef28e9268d29b9b794732196957072b7e"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/best_result/readMe.txt",
+    "bytes": 58,
+    "sha256": "c1200b9149088b7981da9e19d6c54782e120ac77ce218f52210da2b13675f2b6"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/phy_1/.bitgen.begin.f",
+    "bytes": 163,
+    "sha256": "dc7d2cb6bab09801788963c4f09033c9d62521d4d1f23d672b5bf05147793a8e"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/phy_1/.bitgen.end.f",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/phy_1/.bitgen_param.f",
+    "bytes": 326,
+    "sha256": "4782317c37138edb5af25475933f063500b7223fc4d9d0130aa2167a5befc37f"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/phy_1/.opt_place.begin.f",
+    "bytes": 163,
+    "sha256": "dc7d2cb6bab09801788963c4f09033c9d62521d4d1f23d672b5bf05147793a8e"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/phy_1/.opt_place.end.f",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/phy_1/.opt_route.begin.f",
+    "bytes": 163,
+    "sha256": "dc7d2cb6bab09801788963c4f09033c9d62521d4d1f23d672b5bf05147793a8e"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/phy_1/.opt_route.end.f",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/phy_1/.temp.f",
+    "bytes": 20,
+    "sha256": "24e64e323fb0535539d7cb1727d18a74028c7fdb60224981c2759b12ff58f5cd"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/phy_1/final_timing.rpt",
+    "bytes": 1575919,
+    "sha256": "59469762b1e11ce1b2a1d51b3c324c7f839de52050195b4532d063aa7af5c098"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/phy_1/lab_ex5_i2s_v1.0.bit",
+    "bytes": 629624,
+    "sha256": "1f7a9b80d0ecbec59865358b8f8405917bc9663c30469100b695b8a642ec3dfc"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/phy_1/lab_ex5_i2s_v1.0.prj",
+    "bytes": 15802,
+    "sha256": "9d1d79d8fb18a64a7d2bae7ddc854c302d030b1d432f436ca424d315c2354807"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/phy_1/lab_ex5_i2s_v1.0.tcl",
+    "bytes": 7809,
+    "sha256": "d1a5d4291706dac224cc33008d8945e79ed2eb1adf8ce86cca46be564975bade"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/phy_1/lab_ex5_i2s_v1.0_eco_pr.db",
+    "bytes": 3324082,
+    "sha256": "5bf1fd9119882682296863e9a8356dc3fd980049f6b169a959a32780d04759ee"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/phy_1/lab_ex5_i2s_v1.0_exception.timing",
+    "bytes": 2267,
+    "sha256": "47ff6e90080ff818e698a5572515675f0a6aa79637b336dba4b3ec6004fb2946"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/phy_1/lab_ex5_i2s_v1.0_inst.bid",
+    "bytes": 20882,
+    "sha256": "4c30fb7589f5c64bdef356f003aa4ced1a54a62d29c403ee6cd5b7f7238e9436"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/phy_1/lab_ex5_i2s_v1.0_phy.area",
+    "bytes": 22552,
+    "sha256": "b6a5c6406bd2ab85a6c4560b05734031b66a6f93680732f0f06aa56fd0aa2ad7"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/phy_1/lab_ex5_i2s_v1.0_phy.ts",
+    "bytes": 66,
+    "sha256": "7434ca31ef7cbbbd6c393f2bb4d01acef28e9268d29b9b794732196957072b7e"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/phy_1/lab_ex5_i2s_v1.0_place.db",
+    "bytes": 2773712,
+    "sha256": "459fe386f5b7297d3c8c40978fcb211ac85778363f4f6e9fc586cde13d9f0578"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/phy_1/lab_ex5_i2s_v1.0_place.timing",
+    "bytes": 1571838,
+    "sha256": "9f356e7ff506aec0f7e491527130f4deca6c22cada617cfec5f03f63e64464cc"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/phy_1/lab_ex5_i2s_v1.0_pr.db",
+    "bytes": 3324082,
+    "sha256": "60803549e8cd81eefb19e1808e73a5f5e03ad15d0a53d43c08c6c7df24e3d495"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/phy_1/lab_ex5_i2s_v1.0_pr.timing",
+    "bytes": 1575919,
+    "sha256": "59469762b1e11ce1b2a1d51b3c324c7f839de52050195b4532d063aa7af5c098"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/phy_1/place.qor",
+    "bytes": 1741,
+    "sha256": "910fbfa7da4ba7438cdee9800835bb4e54f41730b6c2f99cac1c2593a4f56116"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/phy_1/place_flow.status",
+    "bytes": 1405,
+    "sha256": "bfbd59eabb5a3a7432db6597313b3760f63efe2a8de05418f8ca4e94cd53b2bf"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/phy_1/route.qor",
+    "bytes": 1313,
+    "sha256": "c43e53a9dd23233205ab10d2ec1c5c41934c16c8dbbdb5bc78d5f8c5d2253898"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/phy_1/route_flow.status",
+    "bytes": 1501,
+    "sha256": "548317a05171fe83c98b4b2c037a812ac564601755de13491eab681f39b3d9a5"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/phy_1/run.bat",
+    "bytes": 267,
+    "sha256": "f6c62ee2e39588e6204a964ff86503ff17e89592f7e413c7d91b1529b18e686f"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/phy_1/run.log",
+    "bytes": 82209,
+    "sha256": "bcfc24c5eb30e0af8f855ee91a56220ff1696a54a21c68ab986c44d536742172"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/phy_1/run.logw",
+    "bytes": 1036,
+    "sha256": "7734767adc3a5cafe72a4ed20cde2d3473f719b3da9d30316bbd0872fba316e2"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/phy_1/settings.cfg",
+    "bytes": 607,
+    "sha256": "754b50a73b6d021048705a8e339dbaa65cece4797d49971c97d2da3bdb93a2d9"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/syn_1/.opt_gate.begin.f",
+    "bytes": 164,
+    "sha256": "93816b15b631514e23f8c30dbc3cb2f043ad88e58c6e5e6cac2b240cdb2dca58"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/syn_1/.opt_gate.end.f",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/syn_1/.opt_rtl.begin.f",
+    "bytes": 164,
+    "sha256": "93816b15b631514e23f8c30dbc3cb2f043ad88e58c6e5e6cac2b240cdb2dca58"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/syn_1/.opt_rtl.end.f",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/syn_1/.read_design.begin.f",
+    "bytes": 164,
+    "sha256": "93816b15b631514e23f8c30dbc3cb2f043ad88e58c6e5e6cac2b240cdb2dca58"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/syn_1/.read_design.end.f",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/syn_1/.temp.f",
+    "bytes": 20,
+    "sha256": "0dfe34835c76b846dda9ad8a08c0556c083ce9b10c96349d37750ee938e9f8b8"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/syn_1/flow.status",
+    "bytes": 1601,
+    "sha256": "27eb2063525b6d5317e211c6a12a85aedaa8300470c636f1b95d590e5414f6ca"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/syn_1/gate.qor",
+    "bytes": 6555,
+    "sha256": "3650919d342b7afd9552c4eac09c683d400cb025b93a4fafb95c395fadef0adf"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/syn_1/lab_ex5_i2s_v1.0.prj",
+    "bytes": 15802,
+    "sha256": "9d1d79d8fb18a64a7d2bae7ddc854c302d030b1d432f436ca424d315c2354807"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/syn_1/lab_ex5_i2s_v1.0.tcl",
+    "bytes": 7809,
+    "sha256": "d1a5d4291706dac224cc33008d8945e79ed2eb1adf8ce86cca46be564975bade"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/syn_1/lab_ex5_i2s_v1.0_elaborate.db",
+    "bytes": 2683938,
+    "sha256": "3361018560ee5702c73e0092f7789fc99d36a1df620fa0a21468fcc6c0f26aee"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/syn_1/lab_ex5_i2s_v1.0_gate.area",
+    "bytes": 9760,
+    "sha256": "abceec12ec70dac907edbaf59b252c382ea148141d84d787bf9e15b0df83dcc5"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/syn_1/lab_ex5_i2s_v1.0_gate.db",
+    "bytes": 2158508,
+    "sha256": "899b841e5f07c84ec97c651dd83e4804aa500e2783f8bc52cc7599e991225a32"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/syn_1/lab_ex5_i2s_v1.0_gate.timing",
+    "bytes": 1673262,
+    "sha256": "f39051131e885511940b524991f1e348e66b4fd332a0d062fae27212a8db43f8"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/syn_1/lab_ex5_i2s_v1.0_gate.ts",
+    "bytes": 66,
+    "sha256": "738c425f44c5f8d53e11ed44fd22cbb3e64c564b8e60966dd897ed4259ed1ce3"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/syn_1/lab_ex5_i2s_v1.0_rtl.area",
+    "bytes": 8296,
+    "sha256": "b1a95c95fcc2ce63d888936b8cd692c8dbe6b6e5cd7639b90b9763d5a211944a"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/syn_1/lab_ex5_i2s_v1.0_rtl.db",
+    "bytes": 2020392,
+    "sha256": "5715978706b51f96702a2fe0fe5b178d577e5b7f6090d5e7447b4214e99bec30"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/syn_1/run.bat",
+    "bytes": 267,
+    "sha256": "f6c62ee2e39588e6204a964ff86503ff17e89592f7e413c7d91b1529b18e686f"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/syn_1/run.log",
+    "bytes": 71892,
+    "sha256": "3906becdba0a22f5b631ae2f4225b44e665a0b7958ed346266c5a66a71d53ea9"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/syn_1/run.logw",
+    "bytes": 14162,
+    "sha256": "6e90db9057c00c29afa904f3f8065268569dcc25c7dd24aa2cd7ed144bf6604b"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/syn_1/settings.cfg",
+    "bytes": 550,
+    "sha256": "e724edbc4a180ae88f560510c97d45f9d5ff09c356b6f2d40b637854a06a746e"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/log/ipst.log",
+    "bytes": 231,
+    "sha256": "a7ed2237a3de9afb55908caeb410c67d39557cb89d1ebf796c9eb86b49e24e7d"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/log/td_2026-03-26_14-05-52.log",
+    "bytes": 388,
+    "sha256": "6706638d532398fc1983494d5aa92baea561e96620ea15ae31901d6f65790898"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/log/td_2026-03-26_14-05-52.logw",
+    "bytes": 388,
+    "sha256": "6706638d532398fc1983494d5aa92baea561e96620ea15ae31901d6f65790898"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/log/td_2026-03-31_16-08-13.log",
+    "bytes": 388,
+    "sha256": "9d262c55968393109baaeb14b6a91b74a84a25c8bb5fdf706560381f5e35cc00"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/log/td_2026-03-31_16-08-13.logw",
+    "bytes": 388,
+    "sha256": "9d262c55968393109baaeb14b6a91b74a84a25c8bb5fdf706560381f5e35cc00"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/log/td_2026-04-01_12-57-42.log",
+    "bytes": 388,
+    "sha256": "ca927ed609f0a524f1afb6b1c6706c3425d2c84f6489f9d9b2955254b88bb2ad"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/log/td_2026-04-01_12-57-42.logw",
+    "bytes": 388,
+    "sha256": "ca927ed609f0a524f1afb6b1c6706c3425d2c84f6489f9d9b2955254b88bb2ad"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/log/td_2026-04-03_13-53-26.log",
+    "bytes": 7484,
+    "sha256": "33911c501567b12eb2779d078113f355b47e1f487612c8c89362207c6514dc0c"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/log/td_2026-04-03_13-53-26.logw",
+    "bytes": 388,
+    "sha256": "39b8a0b40d59d71765068b7c8f3354c104542687901254505f3dfbf641f07ac4"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/log/td_2026-04-03_14-14-25.log",
+    "bytes": 388,
+    "sha256": "214e38c7e14df3d0ca212c2f25e20fd8c08ebf76959c9c2502eaff29e2a764bd"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/log/td_2026-04-03_14-14-25.logw",
+    "bytes": 388,
+    "sha256": "214e38c7e14df3d0ca212c2f25e20fd8c08ebf76959c9c2502eaff29e2a764bd"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/log/td_2026-04-03_15-13-49.log",
+    "bytes": 388,
+    "sha256": "e5c03a773fecdf18f59d9ece1b626b9a268c6395d899342366bf1edc000fb97c"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/log/td_2026-04-03_15-13-49.logw",
+    "bytes": 388,
+    "sha256": "e5c03a773fecdf18f59d9ece1b626b9a268c6395d899342366bf1edc000fb97c"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/log/td_2026-04-08_16-11-55.log",
+    "bytes": 388,
+    "sha256": "87feab3f432c33b87cbd9105530753af2d824900b3aef1619755251624b24fcf"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/log/td_2026-04-08_16-11-55.logw",
+    "bytes": 388,
+    "sha256": "87feab3f432c33b87cbd9105530753af2d824900b3aef1619755251624b24fcf"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/log/td_2026-04-09_10-34-08.log",
+    "bytes": 117702,
+    "sha256": "465cbbe0cf24c533894f4c92007c3df8106a6d26c5b6e70ea76abce20088ba7d"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/log/td_2026-04-09_10-34-08.logw",
+    "bytes": 858,
+    "sha256": "f0a7befd92c1d75202a5780890d74f5412136ae41a95baa492db5064a421fd86"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/log/td_2026-04-10_10-57-29.log",
+    "bytes": 99513,
+    "sha256": "e3b3e1f1f8e4f10fef792eafe7f3bea0ca6ebda98fee6adaf484c1d18df658ef"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/log/td_2026-04-10_10-57-29.logw",
+    "bytes": 902,
+    "sha256": "3a886ff52db3a834a208ea7e2e3675ed319edb695639215b954d7582b1847f68"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/log/td_2026-04-13_10-10-20.log",
+    "bytes": 2105,
+    "sha256": "3e7c1808dee6c2800dd3bd26febdfabc633ebc2668b3e426590d0870e62aa222"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/log/td_2026-04-13_10-10-20.logw",
+    "bytes": 388,
+    "sha256": "ed158a0e1e796d4933a0e54395110aa819d15f91b37aac6636e6c65cef811bd8"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/log/td_2026-04-13_12-45-43.log",
+    "bytes": 2107,
+    "sha256": "666c0f8bd4dcb823807311b34c33b9e9024e450d2e90d1ef4cdc8ddad47867e4"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/log/td_2026-04-13_12-45-43.logw",
+    "bytes": 388,
+    "sha256": "acc5ab2159e6982cf068c2d09a8c1f0ca9915e65ccb778ffbd6d52009bb2ceb4"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/log/td_2026-04-13_15-26-47.log",
+    "bytes": 2107,
+    "sha256": "30ad07e7ecfa0f402874a795cb9ab9b5bbdb69f752c1eb13cc2c3ec57c5d4c7a"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/log/td_2026-04-13_15-26-47.logw",
+    "bytes": 388,
+    "sha256": "3f34d6dc77b8505d519200fded7a52b2d7492829337a74f258c8298b577df7e0"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/log/td_2026-04-14_10-54-42.log",
+    "bytes": 2106,
+    "sha256": "f9b871789181160f02d2ff1bbc69f0cda230572b0729ea7271f876b4001f9511"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/log/td_2026-04-14_10-54-42.logw",
+    "bytes": 388,
+    "sha256": "355a8b716a0254d0d684b550ed27e113be5b5e5a733a7f6edefc3e74ddbd8a69"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/log/td_2026-04-14_16-24-06.log",
+    "bytes": 2107,
+    "sha256": "80a63a6f22fa136fc703c7b7fba26fcdf4e64c2ef7b16390c42446ac389476b5"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/log/td_2026-04-14_16-24-06.logw",
+    "bytes": 388,
+    "sha256": "2081eb3f89bd0cefb2acdfe91630b40ab59fe686e36e1e6b327d29ff25684111"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/log/td_2026-04-20_18-35-53.log",
+    "bytes": 147554,
+    "sha256": "ce94bdb22ea8fb34ca805b26334ce5d8d97d83a6c660e3f589cd0d438f3bfeb0"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/log/td_2026-04-20_18-35-53.logw",
+    "bytes": 34322,
+    "sha256": "9c7a3248dd8b9868d6b55406ce249ffacae2dda090e604d8cf5ce24c7ca4208b"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/log/td_2026-04-21_10-20-49.log",
+    "bytes": 247010,
+    "sha256": "2734e027600f0060fdc546ae98eca3e402cfa54023ce991c286fb6268536edef"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/log/td_2026-04-21_10-20-49.logw",
+    "bytes": 6735,
+    "sha256": "6679d5f3ddc8dc0dcd2703289416c1c8d7e61ac79889de7dfc07878c6c3bfb3f"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/log/td_2026-04-24_14-50-39.log",
+    "bytes": 2407,
+    "sha256": "dd13ebb592af805ad4d37e7452b2c6e2a819e7968e733f6d2dfb2c92522fd411"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/log/td_2026-04-24_14-50-39.logw",
+    "bytes": 388,
+    "sha256": "3c839c516998d0a42ab2ba641ff8a828ca0ee8365907ad3c3d55de256735f6cb"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/log/td_2026-04-24_16-08-23.log",
+    "bytes": 226582,
+    "sha256": "8aef2aa96b5fe7357c082258d31e36aa745178c2af70ae116de088e7a0198180"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/log/td_2026-04-24_16-08-23.logw",
+    "bytes": 9438,
+    "sha256": "3ecd2401593e75d650aa0a43ce1d7474fa567d4d7dd86152e11f010f8cab0426"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/log/td_2026-04-27_10-41-29.log",
+    "bytes": 2405,
+    "sha256": "bc24e1b61f6ac5e43fe8816e41db9e3c29c5664232870b3ecdf8d4d353a591af"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/log/td_2026-04-27_10-41-29.logw",
+    "bytes": 388,
+    "sha256": "8f172a84a3b476fbd170a9f1a470dca9b14fba04f032bf4cb6cb092e84a0f9b2"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/log/td_2026-06-04_11-03-05.log",
+    "bytes": 2389,
+    "sha256": "95f72b3f1c3eefac9c06558b2ce06ee1677a8117a5d29f77e5bfeb5c5d99cb9c"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/log/td_2026-06-04_11-03-05.logw",
+    "bytes": 388,
+    "sha256": "b2ab1b84242ad96971b50d30af7c6d91efdd96c39da21f6bc3992b206aeb0bc6"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/log/td_2026-06-05_14-01-18.log",
+    "bytes": 20497,
+    "sha256": "ba021244fbe80ba920b8b3e9c1605ed8813e85a9f7372240f1d08dbe30fe0a23"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/log/td_2026-06-05_14-01-18.logw",
+    "bytes": 958,
+    "sha256": "8495c561b3c05002b8a28afed479c847f8f9b43dba5f0a034913fd08b45bd24c"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/log/td_2026-06-05_14-32-05.log",
+    "bytes": 48080,
+    "sha256": "f83a0fca42197ea82673ec1fb7dc4e3a7f7ee519073c7ac3851c5f6c01b318d6"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/log/td_2026-06-05_14-32-05.logw",
+    "bytes": 1813,
+    "sha256": "25182476b5b60519ac93c2ef2dca7fd4f2ed5368b53447678d25357e6cddb8cd"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/log/td_2026-06-05_21-38-46.log",
+    "bytes": 22625,
+    "sha256": "2d89df72e732af57666d15ff83b30576e1b803f0dfb81cb36726774947f7b38b"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/td_project/log/td_2026-06-05_21-38-46.logw",
+    "bytes": 995,
+    "sha256": "87edf4dbb2e7d6ce9f2bd506c3492521ea63a9ceb20b9c8fa1d1a9643a2de627"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/user_source/constraints_source/.edid_debug_bak.cwc",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/user_source/constraints_source/edid_debug.cwc",
+    "bytes": 59256,
+    "sha256": "6716411e2346de08976e0ad8ed2e09eb93bdc0f60efc31bf75ba70e6cebe1f95"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/user_source/constraints_source/pin.adc",
+    "bytes": 5437,
+    "sha256": "7da7aa5aff3bc147231d5808e832bc0b90f44d58bcdb51295714991c9acb1651"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/user_source/constraints_source/timing.sdc",
+    "bytes": 3760,
+    "sha256": "49bacc6ae83e9f8a2c88cfaa4703827f4bc9991a033d832fac4287178bc79968"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/user_source/hdl_source/hdmi1.4b_transmitter_core/hdmi_1_4b_transmitter_core_wrapper.enc.v",
+    "bytes": 328975,
+    "sha256": "867e0b0bdd874bc383d00918c9e1be3fe01edf41f343b6a0d73e262776596a63"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/user_source/hdl_source/hdmi_phy_warpper.v",
+    "bytes": 4017,
+    "sha256": "416b082b0987001bdbc0a7e20a557cb8fb1dca34e25dc881e6d28a8cb3cf4300"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/user_source/hdl_source/include/global_def.v",
+    "bytes": 373,
+    "sha256": "04f854d7fe2f7816705b988ec59822fc258e4ed3a13529e36d0b9e6233a2682f"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/user_source/hdl_source/include/sdr_as_ram.enc.v",
+    "bytes": 7538,
+    "sha256": "767dbdfbd83d42223b77dfa7deab42ce8216a8fd6f6cb41b7e7593d9a345ba57"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/user_source/hdl_source/include/sdr_init_ref.enc.v",
+    "bytes": 9059,
+    "sha256": "6da5945f4af793610d0d64c65c7e5d2d1c86ed4c11bc5fdeacd27eb03178b9f6"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/user_source/hdl_source/include/sdr_wrrd.enc.v",
+    "bytes": 15637,
+    "sha256": "c7d7fe07d75f66aa88d9f986b3006319c995162434f104f9990664b374cdfdd2"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/user_source/hdl_source/IP/afifo_16_256.tcl",
+    "bytes": 554,
+    "sha256": "5807155b00f2f749328339e01a85b4bb836f91598286dd167513836b60af33db"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/user_source/hdl_source/IP/afifo_16_256.v",
+    "bytes": 34121,
+    "sha256": "dab43a76a35e21df4064a25edb940699b041427d70bae89cc03c5280b7bf4bf8"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/user_source/hdl_source/IP/afifo_16_256.vhd",
+    "bytes": 1405,
+    "sha256": "50d6d10017b63e1ce5a77bad4a80e9a3de81402909d30ca0818674a1887eb46d"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/user_source/hdl_source/IP/afifo_16_256_sim.v",
+    "bytes": 64027,
+    "sha256": "55b81ab3aa699902b6f11fe766658b852e0740844879a942dca81cd57b40f729"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/user_source/hdl_source/IP/afifo_16_32_256.ipc",
+    "bytes": 856,
+    "sha256": "9df57c0b914f2f6222f88e356528947224fddb866be2468f1391c26d4e60d371"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/user_source/hdl_source/IP/afifo_16_32_256.tcl",
+    "bytes": 554,
+    "sha256": "5807155b00f2f749328339e01a85b4bb836f91598286dd167513836b60af33db"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/user_source/hdl_source/IP/afifo_16_32_256.v",
+    "bytes": 34123,
+    "sha256": "3d29b06655482184a9ad157b9bd71b79032debe3199168d3b4d9570fdac31835"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/user_source/hdl_source/IP/afifo_32_16_256.ipc",
+    "bytes": 857,
+    "sha256": "a74955dc68a02bbfb36780127008c4737ec80e0888a4648e98e6eac9f5d2c349"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/user_source/hdl_source/IP/afifo_32_16_256.tcl",
+    "bytes": 554,
+    "sha256": "5807155b00f2f749328339e01a85b4bb836f91598286dd167513836b60af33db"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/user_source/hdl_source/IP/afifo_32_16_256.v",
+    "bytes": 34123,
+    "sha256": "7c3ee41f30be75ae686c9abff3a840fc5439209cda077e4aa275eac0dab9f564"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/user_source/hdl_source/IP/sdram.ipc",
+    "bytes": 385,
+    "sha256": "c3092876d4a66739dfc52cbda4fe84eab75099218f65db7e7d922c41dee1c201"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/user_source/hdl_source/IP/sdram.v",
+    "bytes": 1108,
+    "sha256": "1487e8583bbf52fe6d079a2854c10ebff2e569a3872a9088c1c9717ba14d17fe"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/user_source/hdl_source/IP/sdram.vhd",
+    "bytes": 1336,
+    "sha256": "853170e99291fb6b2b1bf3f5f20cd1dd0cc723052864147810b674e18cd70705"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/user_source/hdl_source/IP/sys_pll.ipc",
+    "bytes": 1721,
+    "sha256": "5199d4459b3437892ed6be21a62f7528d3ce534bd9b1001a84e42074122266fe"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/user_source/hdl_source/IP/sys_pll.v",
+    "bytes": 2527,
+    "sha256": "02da17afa1b3f23c880254924437b9529ef7ab872b888073fce43d3dce07a4f6"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/user_source/hdl_source/IP/sys_pll.vhd",
+    "bytes": 2820,
+    "sha256": "0ba7e030d4e3d459d6e411a037b731700f4cb259be92b2e444b4deba10d301d2"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/user_source/hdl_source/IP/video_pll.ipc",
+    "bytes": 1451,
+    "sha256": "b717f646067025a69b4021ed85adeeb6531fad881bce5a49fcb2171ccf401076"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/user_source/hdl_source/IP/video_pll.v",
+    "bytes": 2349,
+    "sha256": "57e45a062814673e97773cf6c58ff1629fa45895e30de9d2c2b6bdd30bd9bb13"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/user_source/hdl_source/IP/video_pll.vhd",
+    "bytes": 2619,
+    "sha256": "4c23a8a81b28c81bed4834e1e9a757db01eebd360c7fe3a7066f8f8f7b6a36c4"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/user_source/hdl_source/key_remove_shakes.v",
+    "bytes": 1762,
+    "sha256": "8832f59e7ba94bfb8cf31e4f5a772ef7177d5257a5a2532d53cbfa1d9b7f5cd9"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/user_source/hdl_source/lane_lvds_10_1.v",
+    "bytes": 4421,
+    "sha256": "de9529321354f04837e051d0ec1681cf44783d4be3284703a788e081147500bc"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/user_source/hdl_source/SD/ax_debounce.v",
+    "bytes": 2201,
+    "sha256": "93aa6dd38051250cc7f777c88466ac180afe9bcdce7838b9ea506455d8cbc9b8"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/user_source/hdl_source/SD/bmp_read.v",
+    "bytes": 11388,
+    "sha256": "ca3f998fc71b06c9409d2f21f47136bb2dcfe9bf56dcb033da63b431fcbe68f1"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/user_source/hdl_source/SD/color_bar.v",
+    "bytes": 9141,
+    "sha256": "afe1f56714ec58d2477ba1717e5a36c5a0da5fe5c07d70d11aa5ace710c4b152"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/user_source/hdl_source/SD/frame_fifo_read.v",
+    "bytes": 10172,
+    "sha256": "5952075b213ec638f5c9bb238d4d4162685f9e9b5e752674f0e68a92dbec83ac"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/user_source/hdl_source/SD/frame_fifo_write.v",
+    "bytes": 11551,
+    "sha256": "ef0f46443b6f79ebb9fbba8f39b11dca90ee7e9ae4637c1d45786744d964e540"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/user_source/hdl_source/SD/frame_read_write.v",
+    "bytes": 11057,
+    "sha256": "f9d7d04d81a8c8a3e226f855387971cf2308421bdd4c08c0ab465e9e40aa5cbd"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/user_source/hdl_source/SD/sd_card_bmp.v",
+    "bytes": 16622,
+    "sha256": "fdb06f8ec0126fdac0e5ae3311d9c1a1faede133342b0b10abc1f0ff4b71649b"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/user_source/hdl_source/SD/sd_card_cmd.v",
+    "bytes": 8550,
+    "sha256": "a1a50502afd4e8b238b0627cd5f204c04738e761d49ab48f33da35e22ba4a5fa"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/user_source/hdl_source/SD/sd_card_sec_read_write.v",
+    "bytes": 5620,
+    "sha256": "c245c07e3b0056808d86e06aad74348494e2a7050d493a3d4141d97ccf115203"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/user_source/hdl_source/SD/sd_card_top.v",
+    "bytes": 7277,
+    "sha256": "d5031b5b809a8df0a2c8cca194a511c5f74236e810cbe5e8436359f9e5f26a39"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/user_source/hdl_source/SD/sdram.v",
+    "bytes": 2412,
+    "sha256": "2d985c2477384e677c25714241e1a50206def8916aa03189a5b313b2d22dfc99"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/user_source/hdl_source/SD/seg_decoder.v",
+    "bytes": 681,
+    "sha256": "62a2664be7db6d0dace31fc97a8faef0c43f44b639b1d5a6a2c49773812a3b5e"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/user_source/hdl_source/SD/seg_scan.v",
+    "bytes": 1517,
+    "sha256": "c61d6b6808e06dd0edc6db2d8f214426a1fb96d546556ecd1f74ea9ca6889f52"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/user_source/hdl_source/SD/spi_master.v",
+    "bytes": 3655,
+    "sha256": "37f7a21144fa5cca3cc5c3b5f68a5ad40b3108336b600e45a1367734ac61403c"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/user_source/hdl_source/SD/video_define.v",
+    "bytes": 21,
+    "sha256": "77748966850a8f5af0d77f2cdb08006088ba5e1a31b98391fba6cc61c5247da2"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/user_source/hdl_source/SD/video_delay.v",
+    "bytes": 1595,
+    "sha256": "f47c4b63f8baa6d8874c87dca5b72dfdadd19f4a107403da98752bce98936433"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/user_source/hdl_source/SD/video_timing_data.v",
+    "bytes": 2432,
+    "sha256": "c6f75501e98dd5995f687aafb40455beffe45b426137b5089a73ac3a036f7282"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/user_source/hdl_source/startup_pulse.v",
+    "bytes": 713,
+    "sha256": "396e1e56febb8028339e646bc2f06b83e07ab11ef840e447422fb941956741c9"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/user_source/hdl_source/top_tf_hdmi_audio.v",
+    "bytes": 11475,
+    "sha256": "2262cc3cb4de26173b789ddcdc54956b6b9db77a9e863f470dd05ec431c2471f"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/user_source/hdl_source/video_rgb_to_axis_640x480.v",
+    "bytes": 1749,
+    "sha256": "1c8fc26c789f87227036bea034f1ab6fc5633f2ab2684be422c54687a290fb96"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/user_source/hdl_source/video_source_test.v",
+    "bytes": 2983,
+    "sha256": "39cc05c9684a594d4254d11e66e97344053ab75bdb00f3f5a301643fd7aadbfc"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/user_source/ip_source/pll.ipc",
+    "bytes": 2124,
+    "sha256": "5d632bad332785258c35ca41ce2b4a2a550e6bfd75be0b63a3f72403ca2ce11e"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/user_source/ip_source/pll.v",
+    "bytes": 3333,
+    "sha256": "202799f886f12cfc1d837afa932328b636c6c3dee70167be68c084133647b39c"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/src/user_source/ip_source/pll.vhd",
+    "bytes": 3559,
+    "sha256": "a8166865b5aef9caaee525d4633aa1dec4172244a7bbff239e0d658c0ca775e4"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/代码说明.md",
+    "bytes": 4099,
+    "sha256": "960ab04d6f0c8c779e202847bf646abc942326d0ebb32586077aefc88133fcc3"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/演示视频/VID_20260428_143508.mp4",
+    "bytes": 261438503,
+    "sha256": "003bb02976bdf85679e5e20e8c960ec17eff0157ed32f31454e90e6b1e235a87"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/设计参考例程文档.docx",
+    "bytes": 52069,
+    "sha256": "2089a0ed9c4ea250e643612368080ed877d10de38709bfd4eea592c0e23b13a1"
+  },
+  {
+    "relative": "01_baseline/lab_ex4_tf/设计参考例程文档.md",
+    "bytes": 16571,
+    "sha256": "53f7d36a606c27992ee793e088c4d04e61d5196083c72b638294127b0298a054"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/doc/APUG092_HDMI1.4b_Transmitter_V1.0.docx",
+    "bytes": 5325755,
+    "sha256": "070b22d3ff63e697ed7db39eee61e8653c60f58e0d6eb9cfdaf2ab16001b1543"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/doc/convert/1.bmp",
+    "bytes": 921654,
+    "sha256": "958c09c75d9c1c329419b59b74c5b338f299e05648b1f76c8b93a1e567bb7665"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/doc/convert/1.png",
+    "bytes": 2449351,
+    "sha256": "db31a64cf761b0061657d63b1c294ffe4b9fc29c39b1e6c21e441907f3101574"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/doc/convert/3.bmp",
+    "bytes": 921654,
+    "sha256": "e84c4a500b919251a0df1ab6b8448e2d94438065fca0fe14a520e3c658e06bdd"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/doc/convert/3.png",
+    "bytes": 3709951,
+    "sha256": "3e2137277cc976a89a3e636ca499c12773940c202b8d70d2acef8666d3733003"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/doc/convert/convert_images_to_bmp.py",
+    "bytes": 4614,
+    "sha256": "8dc1ec7eb91ecc2fabb74d18268660d629279794b210efa00e1f81434d93711d"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/doc/convert/output_bmp/0.bmp",
+    "bytes": 921654,
+    "sha256": "f9938325dcf16100ef4cd08ab2827e1e646878ae54518cb1604dc04875dca218"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/doc/convert/output_bmp/1.bmp",
+    "bytes": 921654,
+    "sha256": "958c09c75d9c1c329419b59b74c5b338f299e05648b1f76c8b93a1e567bb7665"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/doc/convert/output_bmp/3.bmp",
+    "bytes": 921654,
+    "sha256": "e84c4a500b919251a0df1ab6b8448e2d94438065fca0fe14a520e3c658e06bdd"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/doc/convert/output_bmp/4.bmp",
+    "bytes": 921654,
+    "sha256": "78c9692b7c47af62e82220ba294e71548507da16990aa04f7c3dd58987b3ca06"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/doc/convert/README.md",
+    "bytes": 3782,
+    "sha256": "a6b3e104312a3562ebe40bb0ec4779cfe0153d7aedf290ddb026535f2a6751be"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/doc/convert/sync_to_sd.py",
+    "bytes": 5594,
+    "sha256": "c304534b3a29ab3cc3be79d1e75f51d37fc7a4fd9f238272a3782ce475b731ac"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/doc/TF卡图片/A_工程适配版.bmp",
+    "bytes": 921654,
+    "sha256": "78c9692b7c47af62e82220ba294e71548507da16990aa04f7c3dd58987b3ca06"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/doc/TF卡图片/logo_640x480_24bit_不翻转.bmp",
+    "bytes": 921654,
+    "sha256": "f9938325dcf16100ef4cd08ab2827e1e646878ae54518cb1604dc04875dca218"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/doc/TF卡图片/苹果_640x480_24bit_显示正常_工程适配版.bmp",
+    "bytes": 921654,
+    "sha256": "31a508b43bc3ec44f5814382a6dd12b5f379ca248b633120c25f1a6bf85239e1"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/doc/TF卡图片/草莓_640x480_24bit_显示正常_工程适配版.bmp",
+    "bytes": 921654,
+    "sha256": "a51b868d9e1c08ce599095a9a40048174cd35ce1c6ea3c74e370d3e6a6d87c2e"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/doc/TF卡图片/西瓜_640x480_24bit_显示正常_工程适配版.bmp",
+    "bytes": 921654,
+    "sha256": "bc7170e5c0d33b07c7f7a1622cd7a58084c2e4c7478d11b5ed29ee4ba8ec4297"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/.recent_user_depot.ini",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/al_ip/AUDIO_SAMPLE_ROM.ipc",
+    "bytes": 1166,
+    "sha256": "650ab6133bd5b35260d34e3e984d15f0bfb45b74b8a88d323d46bb4ceab6aacc"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/al_ip/AUDIO_SAMPLE_ROM.v",
+    "bytes": 1455,
+    "sha256": "0bc4a18dfd8d598103faea82e9f02a85beaba5a3e21047a4e6baab063ca005bd"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/al_ip/AUDIO_SAMPLE_ROM.vhd",
+    "bytes": 1621,
+    "sha256": "4c3d4ea17939b4d07a8d95c006174f94ced027b91daae5fd065e094d1e8071af"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/al_ip/PLL.ipc",
+    "bytes": 1511,
+    "sha256": "8cb6df3a1bb99cf2f95f9a535d7f33213b837207b36e336848a6ed0db29ab8b5"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/al_ip/PLL.v",
+    "bytes": 2438,
+    "sha256": "4e873eef9499fa93508d8cf2cac90eea0e16c6f649ae29502cdc4c5886cd32aa"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/al_ip/PLL.vhd",
+    "bytes": 2688,
+    "sha256": "e46792bb3d2b72621b18b323c472213fd5880eb29e5e85f0b7d50e5117e47494"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/al_ip/PLL_HDMI_AUDIO.ipc",
+    "bytes": 1841,
+    "sha256": "ce38f1b2917ef9df107be46e716767b7c8a78af079412b2988cf266b589bd645"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/al_ip/PLL_HDMI_AUDIO.v",
+    "bytes": 2757,
+    "sha256": "1e174c1dc4edbce9c61d6b390aca3b7b94022b60995a92981d5278247b7f5867"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/al_ip/PLL_HDMI_AUDIO.vhd",
+    "bytes": 2941,
+    "sha256": "1b5025b3fe29d4428c6aa58ef99e7c5d7c5d697e74dacd8ac8f2d068290e0e2f"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0.al",
+    "bytes": 19580,
+    "sha256": "34476b60ae600f9c212c279cc8459d0250addbaf441d40dbc177572768fd0608"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/best_result/HDMI1.4b_Transmitter_v1.0.bit",
+    "bytes": 629624,
+    "sha256": "789cee5dd06b5fa1546fd52b5cdb7c68770e1619fea1f13edb75bb38ebba331c"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/best_result/HDMI1.4b_Transmitter_v1.0_inst.bid",
+    "bytes": 30199,
+    "sha256": "1804653dd7c4c7fdcc444adccb0c3d2f27454e0f2f04c87088e194a4d7ab6d99"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/best_result/HDMI1.4b_Transmitter_v1.0_phy.ts",
+    "bytes": 66,
+    "sha256": "9f109dd3fbe0e1b344c614b148d9593da518f498971153b7cf40c0d57df8a524"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/best_result/readMe.txt",
+    "bytes": 58,
+    "sha256": "c1200b9149088b7981da9e19d6c54782e120ac77ce218f52210da2b13675f2b6"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/.bitgen.begin.f",
+    "bytes": 164,
+    "sha256": "7c64eb653ff8bea413877f8471ba357e6f05f85bede0d61ed984eb9f9302db0d"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/.bitgen.end.f",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/.bitgen_param.f",
+    "bytes": 326,
+    "sha256": "4782317c37138edb5af25475933f063500b7223fc4d9d0130aa2167a5befc37f"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/.opt_place.begin.f",
+    "bytes": 164,
+    "sha256": "7c64eb653ff8bea413877f8471ba357e6f05f85bede0d61ed984eb9f9302db0d"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/.opt_place.end.f",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/.opt_route.begin.f",
+    "bytes": 164,
+    "sha256": "7c64eb653ff8bea413877f8471ba357e6f05f85bede0d61ed984eb9f9302db0d"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/.opt_route.end.f",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/.temp.f",
+    "bytes": 20,
+    "sha256": "ab290324d0cd2eefda3b327b96f79324cd2b76a2f554996c06f91ffa13675689"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/final_timing.rpt",
+    "bytes": 1321566,
+    "sha256": "e5081b8aa549aa66eaf0a7983c8eacb23bbb26e7806d66e889d9dbb3e9c24a4b"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/HDMI1.4b_Transmitter_v1.0.bit",
+    "bytes": 629624,
+    "sha256": "789cee5dd06b5fa1546fd52b5cdb7c68770e1619fea1f13edb75bb38ebba331c"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/HDMI1.4b_Transmitter_v1.0.prj",
+    "bytes": 19169,
+    "sha256": "9e6fb763388d48174ac18ee61913c2e751e4c0d0dcf4180bce7094f89bd0de9d"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/HDMI1.4b_Transmitter_v1.0.tcl",
+    "bytes": 7809,
+    "sha256": "d1a5d4291706dac224cc33008d8945e79ed2eb1adf8ce86cca46be564975bade"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/HDMI1.4b_Transmitter_v1.0_eco_pr.db",
+    "bytes": 3648696,
+    "sha256": "6aa7d187528e0ccc8c4f83bdd0a3e725a5c4631a88cf16bdf82e7db2ecf85011"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/HDMI1.4b_Transmitter_v1.0_exception.timing",
+    "bytes": 2277,
+    "sha256": "1749b96da081fc032d6a07ba65104d98ed9ae6a165368129b5194ebcf97e0cc0"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/HDMI1.4b_Transmitter_v1.0_inst.bid",
+    "bytes": 30199,
+    "sha256": "1804653dd7c4c7fdcc444adccb0c3d2f27454e0f2f04c87088e194a4d7ab6d99"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/HDMI1.4b_Transmitter_v1.0_phy.area",
+    "bytes": 24107,
+    "sha256": "1279b25ab3d0439386a16858106464e9eaf4c92896fbd8d9d68149561f7be8ed"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/HDMI1.4b_Transmitter_v1.0_phy.ts",
+    "bytes": 66,
+    "sha256": "9f109dd3fbe0e1b344c614b148d9593da518f498971153b7cf40c0d57df8a524"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/HDMI1.4b_Transmitter_v1.0_place.db",
+    "bytes": 2998136,
+    "sha256": "7060918b21d220573b43e0bf1f3f0906693eb25c13a7c736406dde8bc5d45312"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/HDMI1.4b_Transmitter_v1.0_place.timing",
+    "bytes": 1332191,
+    "sha256": "98ff53199431e68d0c3cfed8c1417a0c016558adf35543f0ea2be568148b0b14"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/HDMI1.4b_Transmitter_v1.0_pr.db",
+    "bytes": 3648696,
+    "sha256": "614b237e6e845ce0ede67e2492d40f3037a1cd3ef55ac9c24410fdb1c3c98018"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/HDMI1.4b_Transmitter_v1.0_pr.timing",
+    "bytes": 1321566,
+    "sha256": "99bbcaeee95a257406cd9b688fd70b4c23b72e8c2ce34157cda79a6492c0720e"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/minidump-20260424-180523.dmp",
+    "bytes": 159588,
+    "sha256": "fad5e7a5aa27c709b62b195dc67b5739fa7bfa778a349a1315a22bf643c42595"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/minidump-20260424-180732.dmp",
+    "bytes": 150118,
+    "sha256": "2a8bf03483b5e8b12606dd86e134f513a1d8f824f0bc400818942d31d17b95b7"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/place.qor",
+    "bytes": 1741,
+    "sha256": "09b56b50b459d6a59265939257f781b0b348580b8a7c8b903563aadfc246cdd0"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/place_flow.status",
+    "bytes": 1424,
+    "sha256": "4a462525b0b5be8ef61b597c158d042ec6f319b3512f74f133e81d61a6bb4ca7"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/route.qor",
+    "bytes": 1313,
+    "sha256": "d9cdccd6a40013350d7676b4d593534f188f3d64ef100f90a21ed5ffacc60fb7"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/route_flow.status",
+    "bytes": 1520,
+    "sha256": "a0fc5cad3b9cbab9894478ebbe18d89eb70a9bf519529d0a90c83e563bd6a9a9"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/run.bat",
+    "bytes": 267,
+    "sha256": "f6c62ee2e39588e6204a964ff86503ff17e89592f7e413c7d91b1529b18e686f"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/run.log",
+    "bytes": 86316,
+    "sha256": "93ff42a2166f93c3f2ef98301e901d1f84ececec10fb181f6186af8e18c19b9c"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/run.logw",
+    "bytes": 1036,
+    "sha256": "8e1e6d7959248ae1059e87a8fd723c49243fa6ee87135996ea94ff05a02bc097"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/settings.cfg",
+    "bytes": 616,
+    "sha256": "689868cf7fe85df540aae8628214ac7071d83df8b5831f236a6ba6014d7339fa"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/.opt_gate.begin.f",
+    "bytes": 164,
+    "sha256": "7e64f9699eb41d3ea9d4854a2020a6c06a4a8b7b8a772ad5fb3a3980203a8977"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/.opt_gate.end.f",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/.opt_rtl.begin.f",
+    "bytes": 164,
+    "sha256": "7e64f9699eb41d3ea9d4854a2020a6c06a4a8b7b8a772ad5fb3a3980203a8977"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/.opt_rtl.end.f",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/.read_design.begin.f",
+    "bytes": 164,
+    "sha256": "7e64f9699eb41d3ea9d4854a2020a6c06a4a8b7b8a772ad5fb3a3980203a8977"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/.read_design.end.f",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/.temp.f",
+    "bytes": 20,
+    "sha256": "0b69ad76f6b5867b82399a27da358c1e83c1f53a82fed2e63133964a0038421a"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/flow.status",
+    "bytes": 1620,
+    "sha256": "e2c1f83d7b77fabfe390feacc935c44aef5bd4682e8f15bd2561269e725967de"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/gate.qor",
+    "bytes": 6079,
+    "sha256": "fad597938a2aaac26a4af6206a1129cfdaea8ab33a48c6683c56bf47d6302829"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/HDMI1.4b_Transmitter_v1.0.prj",
+    "bytes": 19169,
+    "sha256": "9e6fb763388d48174ac18ee61913c2e751e4c0d0dcf4180bce7094f89bd0de9d"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/HDMI1.4b_Transmitter_v1.0.tcl",
+    "bytes": 7809,
+    "sha256": "d1a5d4291706dac224cc33008d8945e79ed2eb1adf8ce86cca46be564975bade"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/HDMI1.4b_Transmitter_v1.0_elaborate.db",
+    "bytes": 2817100,
+    "sha256": "2822aad1e9d5482a969f148568b409126f25fce40b77c396f9a28b0be28bed46"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/HDMI1.4b_Transmitter_v1.0_gate.area",
+    "bytes": 11020,
+    "sha256": "bf0cca075d54175e324d62ccae1576f58c032ad836a9b24ae8cdd775545de175"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/HDMI1.4b_Transmitter_v1.0_gate.db",
+    "bytes": 2282802,
+    "sha256": "1c2b759e0a8817010887504ce15232dfa257a82198a602ea5f809599f00e5084"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/HDMI1.4b_Transmitter_v1.0_gate.timing",
+    "bytes": 1463723,
+    "sha256": "776f0205d851b704d5929896a6fed1e5c10dbc3f16cca91a888dfaa4a76d2bcb"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/HDMI1.4b_Transmitter_v1.0_gate.ts",
+    "bytes": 66,
+    "sha256": "ba0b62538618f3af9838c4d0a7a72e88fcabad5e320bb7a5e1a08fb9a13ea0b2"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/HDMI1.4b_Transmitter_v1.0_rtl.area",
+    "bytes": 9390,
+    "sha256": "6c01ca81724fb2007cc7a6acc6a7863d8ab8d958e71f835125e8ed89a47bedb9"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/HDMI1.4b_Transmitter_v1.0_rtl.db",
+    "bytes": 2136578,
+    "sha256": "21aff027e496bbf37150887aae420db7243064ccf0b2b2d25303f5b66818fd8c"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/run.bat",
+    "bytes": 267,
+    "sha256": "f6c62ee2e39588e6204a964ff86503ff17e89592f7e413c7d91b1529b18e686f"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/run.log",
+    "bytes": 74177,
+    "sha256": "e96e1c03539f4ac703e943e4c1c89e0baca1f40375d7dbd12be93c8284913b3f"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/run.logw",
+    "bytes": 14162,
+    "sha256": "b78242aa0a29ed9831fb5c96f095bbc21d24b8b933a82c41242d46cb3b5a0c84"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/settings.cfg",
+    "bytes": 559,
+    "sha256": "fd6e031f9bb9ccca54b374dd7146b37c991af826662573ce69e1da555e486c48"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/log/ipst.log",
+    "bytes": 231,
+    "sha256": "a7ed2237a3de9afb55908caeb410c67d39557cb89d1ebf796c9eb86b49e24e7d"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/log/td_2026-03-26_14-05-52.log",
+    "bytes": 388,
+    "sha256": "6706638d532398fc1983494d5aa92baea561e96620ea15ae31901d6f65790898"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/log/td_2026-03-26_14-05-52.logw",
+    "bytes": 388,
+    "sha256": "6706638d532398fc1983494d5aa92baea561e96620ea15ae31901d6f65790898"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/log/td_2026-03-31_16-08-13.log",
+    "bytes": 388,
+    "sha256": "9d262c55968393109baaeb14b6a91b74a84a25c8bb5fdf706560381f5e35cc00"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/log/td_2026-03-31_16-08-13.logw",
+    "bytes": 388,
+    "sha256": "9d262c55968393109baaeb14b6a91b74a84a25c8bb5fdf706560381f5e35cc00"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/log/td_2026-04-01_12-57-42.log",
+    "bytes": 388,
+    "sha256": "ca927ed609f0a524f1afb6b1c6706c3425d2c84f6489f9d9b2955254b88bb2ad"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/log/td_2026-04-01_12-57-42.logw",
+    "bytes": 388,
+    "sha256": "ca927ed609f0a524f1afb6b1c6706c3425d2c84f6489f9d9b2955254b88bb2ad"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/log/td_2026-04-03_13-53-26.log",
+    "bytes": 7484,
+    "sha256": "33911c501567b12eb2779d078113f355b47e1f487612c8c89362207c6514dc0c"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/log/td_2026-04-03_13-53-26.logw",
+    "bytes": 388,
+    "sha256": "39b8a0b40d59d71765068b7c8f3354c104542687901254505f3dfbf641f07ac4"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/log/td_2026-04-03_14-14-25.log",
+    "bytes": 388,
+    "sha256": "214e38c7e14df3d0ca212c2f25e20fd8c08ebf76959c9c2502eaff29e2a764bd"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/log/td_2026-04-03_14-14-25.logw",
+    "bytes": 388,
+    "sha256": "214e38c7e14df3d0ca212c2f25e20fd8c08ebf76959c9c2502eaff29e2a764bd"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/log/td_2026-04-03_15-13-49.log",
+    "bytes": 388,
+    "sha256": "e5c03a773fecdf18f59d9ece1b626b9a268c6395d899342366bf1edc000fb97c"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/log/td_2026-04-03_15-13-49.logw",
+    "bytes": 388,
+    "sha256": "e5c03a773fecdf18f59d9ece1b626b9a268c6395d899342366bf1edc000fb97c"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/log/td_2026-04-08_16-11-55.log",
+    "bytes": 388,
+    "sha256": "87feab3f432c33b87cbd9105530753af2d824900b3aef1619755251624b24fcf"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/log/td_2026-04-08_16-11-55.logw",
+    "bytes": 388,
+    "sha256": "87feab3f432c33b87cbd9105530753af2d824900b3aef1619755251624b24fcf"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/log/td_2026-04-09_10-34-08.log",
+    "bytes": 117702,
+    "sha256": "465cbbe0cf24c533894f4c92007c3df8106a6d26c5b6e70ea76abce20088ba7d"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/log/td_2026-04-09_10-34-08.logw",
+    "bytes": 858,
+    "sha256": "f0a7befd92c1d75202a5780890d74f5412136ae41a95baa492db5064a421fd86"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/log/td_2026-04-10_10-57-29.log",
+    "bytes": 99513,
+    "sha256": "e3b3e1f1f8e4f10fef792eafe7f3bea0ca6ebda98fee6adaf484c1d18df658ef"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/log/td_2026-04-10_10-57-29.logw",
+    "bytes": 902,
+    "sha256": "3a886ff52db3a834a208ea7e2e3675ed319edb695639215b954d7582b1847f68"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/log/td_2026-04-13_10-10-20.log",
+    "bytes": 2105,
+    "sha256": "3e7c1808dee6c2800dd3bd26febdfabc633ebc2668b3e426590d0870e62aa222"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/log/td_2026-04-13_10-10-20.logw",
+    "bytes": 388,
+    "sha256": "ed158a0e1e796d4933a0e54395110aa819d15f91b37aac6636e6c65cef811bd8"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/log/td_2026-04-13_12-45-43.log",
+    "bytes": 2107,
+    "sha256": "666c0f8bd4dcb823807311b34c33b9e9024e450d2e90d1ef4cdc8ddad47867e4"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/log/td_2026-04-13_12-45-43.logw",
+    "bytes": 388,
+    "sha256": "acc5ab2159e6982cf068c2d09a8c1f0ca9915e65ccb778ffbd6d52009bb2ceb4"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/log/td_2026-04-13_15-26-47.log",
+    "bytes": 2107,
+    "sha256": "30ad07e7ecfa0f402874a795cb9ab9b5bbdb69f752c1eb13cc2c3ec57c5d4c7a"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/log/td_2026-04-13_15-26-47.logw",
+    "bytes": 388,
+    "sha256": "3f34d6dc77b8505d519200fded7a52b2d7492829337a74f258c8298b577df7e0"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/log/td_2026-04-14_10-54-42.log",
+    "bytes": 2106,
+    "sha256": "f9b871789181160f02d2ff1bbc69f0cda230572b0729ea7271f876b4001f9511"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/log/td_2026-04-14_10-54-42.logw",
+    "bytes": 388,
+    "sha256": "355a8b716a0254d0d684b550ed27e113be5b5e5a733a7f6edefc3e74ddbd8a69"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/log/td_2026-04-14_16-24-06.log",
+    "bytes": 2107,
+    "sha256": "80a63a6f22fa136fc703c7b7fba26fcdf4e64c2ef7b16390c42446ac389476b5"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/log/td_2026-04-14_16-24-06.logw",
+    "bytes": 388,
+    "sha256": "2081eb3f89bd0cefb2acdfe91630b40ab59fe686e36e1e6b327d29ff25684111"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/log/td_2026-04-20_18-35-53.log",
+    "bytes": 147554,
+    "sha256": "ce94bdb22ea8fb34ca805b26334ce5d8d97d83a6c660e3f589cd0d438f3bfeb0"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/log/td_2026-04-20_18-35-53.logw",
+    "bytes": 34322,
+    "sha256": "9c7a3248dd8b9868d6b55406ce249ffacae2dda090e604d8cf5ce24c7ca4208b"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/log/td_2026-04-21_10-20-49.log",
+    "bytes": 247010,
+    "sha256": "2734e027600f0060fdc546ae98eca3e402cfa54023ce991c286fb6268536edef"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/log/td_2026-04-21_10-20-49.logw",
+    "bytes": 6735,
+    "sha256": "6679d5f3ddc8dc0dcd2703289416c1c8d7e61ac79889de7dfc07878c6c3bfb3f"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/log/td_2026-04-24_14-50-39.log",
+    "bytes": 2407,
+    "sha256": "dd13ebb592af805ad4d37e7452b2c6e2a819e7968e733f6d2dfb2c92522fd411"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/log/td_2026-04-24_14-50-39.logw",
+    "bytes": 388,
+    "sha256": "3c839c516998d0a42ab2ba641ff8a828ca0ee8365907ad3c3d55de256735f6cb"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/log/td_2026-04-24_16-08-23.log",
+    "bytes": 226582,
+    "sha256": "8aef2aa96b5fe7357c082258d31e36aa745178c2af70ae116de088e7a0198180"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/log/td_2026-04-24_16-08-23.logw",
+    "bytes": 9438,
+    "sha256": "3ecd2401593e75d650aa0a43ce1d7474fa567d4d7dd86152e11f010f8cab0426"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/log/td_2026-04-27_10-41-29.log",
+    "bytes": 2405,
+    "sha256": "bc24e1b61f6ac5e43fe8816e41db9e3c29c5664232870b3ecdf8d4d353a591af"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/log/td_2026-04-27_10-41-29.logw",
+    "bytes": 388,
+    "sha256": "8f172a84a3b476fbd170a9f1a470dca9b14fba04f032bf4cb6cb092e84a0f9b2"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/log/td_2026-06-04_11-03-05.log",
+    "bytes": 2389,
+    "sha256": "95f72b3f1c3eefac9c06558b2ce06ee1677a8117a5d29f77e5bfeb5c5d99cb9c"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/log/td_2026-06-04_11-03-05.logw",
+    "bytes": 388,
+    "sha256": "b2ab1b84242ad96971b50d30af7c6d91efdd96c39da21f6bc3992b206aeb0bc6"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/log/td_2026-06-05_15-00-17.log",
+    "bytes": 15068,
+    "sha256": "c27629d4883e28b1467981b3794a5cb1f47733556c4313214d70572e643d9fc9"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/log/td_2026-06-05_15-00-17.logw",
+    "bytes": 673,
+    "sha256": "8ea27e171868571b6975a4f9572e1324fd9c4dc800cb10c3232a751f07cec595"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/log/td_2026-06-05_21-13-17.log",
+    "bytes": 34632,
+    "sha256": "53f13aa711cee7228e48859a1dedfc2989baf169a84f390217aefbc4fb586673"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/log/td_2026-06-05_21-13-17.logw",
+    "bytes": 1243,
+    "sha256": "217a004586a1ad5fa0f7f4b075e5f286adaf4a13c81467cd863a650e677d9ae4"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/log/td_2026-06-05_21-59-12.log",
+    "bytes": 2388,
+    "sha256": "dd0b7116a313a897b69a2d6a71026468725580e5c855114dfe50ca5647173401"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/log/td_2026-06-05_21-59-12.logw",
+    "bytes": 388,
+    "sha256": "43296ef46173626e6367307eb0b15139128f1447a79ba67cfd43bbda183d754f"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/log/td_2026-06-06_14-37-23.log",
+    "bytes": 2389,
+    "sha256": "d229e1fa01e3576b2b5be12a1ecf753d1fbc992f75b0d8e10e5880f2bb446ab5"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/td_project/log/td_2026-06-06_14-37-23.logw",
+    "bytes": 388,
+    "sha256": "04e90cf2514a8c5969017cc7ee25cd6a69ca8b6ec599f9781023e2a2daae4ed5"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/user_source/constraints_source/.edid_debug_bak.cwc",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/user_source/constraints_source/edid_debug.cwc",
+    "bytes": 59256,
+    "sha256": "6716411e2346de08976e0ad8ed2e09eb93bdc0f60efc31bf75ba70e6cebe1f95"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/user_source/constraints_source/pin.adc",
+    "bytes": 5445,
+    "sha256": "bfec796ee0ebf506293d5d317fc9e3868197bcdd4c5c376ab9ba1061a4982ec8"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/user_source/constraints_source/timing.sdc",
+    "bytes": 4352,
+    "sha256": "4a6aefbaa2ee7522274402d00f67b230f7b002a6e7def5013e0c234522b192bf"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/user_source/hdl_source/audio_arc_calculate.v",
+    "bytes": 1702,
+    "sha256": "552d8d86afd237666b30ae08f31247808e89eb024efde5efc670b82eb617a7dc"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/user_source/hdl_source/hdmi1.4b_transmitter_core/hdmi_1_4b_transmitter_core_wrapper.enc.v",
+    "bytes": 328975,
+    "sha256": "867e0b0bdd874bc383d00918c9e1be3fe01edf41f343b6a0d73e262776596a63"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/user_source/hdl_source/hdmi_audio_tone_i2s_64fs.v",
+    "bytes": 3589,
+    "sha256": "729cb1635091b7630e5b68306e9f51fff4e3e06bae8ce08cc3d7323b3fb9d5cf"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/user_source/hdl_source/hdmi_audio_tone_pcm_scale.v",
+    "bytes": 2900,
+    "sha256": "0ff1ab2b39e1294c3aae814bf5a252c47c284c2cdb9568adf02d3c6cfd8ddd0b"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/user_source/hdl_source/hdmi_phy_warpper.v",
+    "bytes": 4017,
+    "sha256": "416b082b0987001bdbc0a7e20a557cb8fb1dca34e25dc881e6d28a8cb3cf4300"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/user_source/hdl_source/I2S_receiver.v",
+    "bytes": 4205,
+    "sha256": "08904598b42c2e1a4836cd9fb3293bc6c791ea2f79e35c7663a33127dc97f47b"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/user_source/hdl_source/include/global_def.v",
+    "bytes": 373,
+    "sha256": "04f854d7fe2f7816705b988ec59822fc258e4ed3a13529e36d0b9e6233a2682f"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/user_source/hdl_source/include/sdr_as_ram.enc.v",
+    "bytes": 7538,
+    "sha256": "767dbdfbd83d42223b77dfa7deab42ce8216a8fd6f6cb41b7e7593d9a345ba57"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/user_source/hdl_source/include/sdr_init_ref.enc.v",
+    "bytes": 9059,
+    "sha256": "6da5945f4af793610d0d64c65c7e5d2d1c86ed4c11bc5fdeacd27eb03178b9f6"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/user_source/hdl_source/include/sdr_wrrd.enc.v",
+    "bytes": 15637,
+    "sha256": "c7d7fe07d75f66aa88d9f986b3006319c995162434f104f9990664b374cdfdd2"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/user_source/hdl_source/IP/afifo_16_256.tcl",
+    "bytes": 554,
+    "sha256": "5807155b00f2f749328339e01a85b4bb836f91598286dd167513836b60af33db"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/user_source/hdl_source/IP/afifo_16_256.v",
+    "bytes": 34121,
+    "sha256": "dab43a76a35e21df4064a25edb940699b041427d70bae89cc03c5280b7bf4bf8"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/user_source/hdl_source/IP/afifo_16_256.vhd",
+    "bytes": 1405,
+    "sha256": "50d6d10017b63e1ce5a77bad4a80e9a3de81402909d30ca0818674a1887eb46d"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/user_source/hdl_source/IP/afifo_16_256_sim.v",
+    "bytes": 64027,
+    "sha256": "55b81ab3aa699902b6f11fe766658b852e0740844879a942dca81cd57b40f729"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/user_source/hdl_source/IP/afifo_16_32_256.ipc",
+    "bytes": 856,
+    "sha256": "9df57c0b914f2f6222f88e356528947224fddb866be2468f1391c26d4e60d371"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/user_source/hdl_source/IP/afifo_16_32_256.tcl",
+    "bytes": 554,
+    "sha256": "5807155b00f2f749328339e01a85b4bb836f91598286dd167513836b60af33db"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/user_source/hdl_source/IP/afifo_16_32_256.v",
+    "bytes": 34123,
+    "sha256": "3d29b06655482184a9ad157b9bd71b79032debe3199168d3b4d9570fdac31835"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/user_source/hdl_source/IP/afifo_32_16_256.ipc",
+    "bytes": 857,
+    "sha256": "a74955dc68a02bbfb36780127008c4737ec80e0888a4648e98e6eac9f5d2c349"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/user_source/hdl_source/IP/afifo_32_16_256.tcl",
+    "bytes": 554,
+    "sha256": "5807155b00f2f749328339e01a85b4bb836f91598286dd167513836b60af33db"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/user_source/hdl_source/IP/afifo_32_16_256.v",
+    "bytes": 34123,
+    "sha256": "7c3ee41f30be75ae686c9abff3a840fc5439209cda077e4aa275eac0dab9f564"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/user_source/hdl_source/IP/sdram.ipc",
+    "bytes": 385,
+    "sha256": "c3092876d4a66739dfc52cbda4fe84eab75099218f65db7e7d922c41dee1c201"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/user_source/hdl_source/IP/sdram.v",
+    "bytes": 1108,
+    "sha256": "1487e8583bbf52fe6d079a2854c10ebff2e569a3872a9088c1c9717ba14d17fe"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/user_source/hdl_source/IP/sdram.vhd",
+    "bytes": 1336,
+    "sha256": "853170e99291fb6b2b1bf3f5f20cd1dd0cc723052864147810b674e18cd70705"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/user_source/hdl_source/IP/sys_pll.ipc",
+    "bytes": 1721,
+    "sha256": "5199d4459b3437892ed6be21a62f7528d3ce534bd9b1001a84e42074122266fe"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/user_source/hdl_source/IP/sys_pll.v",
+    "bytes": 2493,
+    "sha256": "ea4ed09b2ff026b7b31eb76f51ef5afa388aa552e538e02d013cc8e7464ba563"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/user_source/hdl_source/IP/sys_pll.vhd",
+    "bytes": 2820,
+    "sha256": "0ba7e030d4e3d459d6e411a037b731700f4cb259be92b2e444b4deba10d301d2"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/user_source/hdl_source/IP/video_pll.ipc",
+    "bytes": 1451,
+    "sha256": "b717f646067025a69b4021ed85adeeb6531fad881bce5a49fcb2171ccf401076"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/user_source/hdl_source/IP/video_pll.v",
+    "bytes": 2315,
+    "sha256": "d5a2b3d3d0618d19619c36af0143f8bf9338415eef2eadd22456510ade9c6092"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/user_source/hdl_source/IP/video_pll.vhd",
+    "bytes": 2619,
+    "sha256": "4c23a8a81b28c81bed4834e1e9a757db01eebd360c7fe3a7066f8f8f7b6a36c4"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/user_source/hdl_source/key_remove_shakes.v",
+    "bytes": 1762,
+    "sha256": "8832f59e7ba94bfb8cf31e4f5a772ef7177d5257a5a2532d53cbfa1d9b7f5cd9"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/user_source/hdl_source/lane_lvds_10_1.v",
+    "bytes": 4421,
+    "sha256": "de9529321354f04837e051d0ec1681cf44783d4be3284703a788e081147500bc"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/user_source/hdl_source/python/1.wav",
+    "bytes": 3096678,
+    "sha256": "0e6f8f626a0215a85dfcc94e431abab32e6828dbcb64249b7d4ff47721e7b2fd"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/user_source/hdl_source/python/audio_1khz_24bit_48deep.mif",
+    "bytes": 690,
+    "sha256": "dcc918e3b442485a933831368567962bb39dc1060b1bcfada16033e050be34ed"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/user_source/hdl_source/python/audio_1khz_24bit_48deep.mif.dath",
+    "bytes": 384,
+    "sha256": "e0f242a837b58f810813e1d6da5495473c4fa16dd6b283c30ec91b608b05ab85"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/user_source/hdl_source/python/audio_sine_24bit_48deep_scale8.mif",
+    "bytes": 700,
+    "sha256": "aa20e68905fc41a094cf37e218489d3745eb6e46c62dabe772547961a7db64cf"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/user_source/hdl_source/python/audio_sine_24bit_48deep_scale8.mif.dath",
+    "bytes": 384,
+    "sha256": "04a6ea5a31be7ffebfdef11a6afb06de17ef367b4b6600ec29c248246d639f02"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/user_source/hdl_source/python/song_48k.mif",
+    "bytes": 12275282,
+    "sha256": "27a4b3b80627ec650d3b6f01b82a21badf7a8508d7a5e75827abf6b2de3579b9"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/user_source/hdl_source/python/song_48k.mif.dath",
+    "bytes": 7225344,
+    "sha256": "34d7db62bc4e6b794f1970bec7ebf2ff504763069437445a095b8cf5da3cff58"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/user_source/hdl_source/python/wav_to_mif.py",
+    "bytes": 2327,
+    "sha256": "70c06ae300bdaaa840f009af002805558fc4f309136db1d46e68285d2bcbd750"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/user_source/hdl_source/rom/i2s_rom_player_single_pll_fix64_rom_ip.v",
+    "bytes": 8375,
+    "sha256": "f8e7c9c56c6a21154580e030dada604572d89a1e75e8945125b2ea0dd4b3094b"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/user_source/hdl_source/SD/ax_debounce.v",
+    "bytes": 2201,
+    "sha256": "93aa6dd38051250cc7f777c88466ac180afe9bcdce7838b9ea506455d8cbc9b8"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/user_source/hdl_source/SD/bmp_read.v",
+    "bytes": 11339,
+    "sha256": "8b81edee7e1ac61e02652c9416c05f6a32768acd5a9639365bc7bf87fa4febaa"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/user_source/hdl_source/SD/color_bar.v",
+    "bytes": 9141,
+    "sha256": "afe1f56714ec58d2477ba1717e5a36c5a0da5fe5c07d70d11aa5ace710c4b152"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/user_source/hdl_source/SD/frame_fifo_read.v",
+    "bytes": 10172,
+    "sha256": "5952075b213ec638f5c9bb238d4d4162685f9e9b5e752674f0e68a92dbec83ac"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/user_source/hdl_source/SD/frame_fifo_write.v",
+    "bytes": 11551,
+    "sha256": "ef0f46443b6f79ebb9fbba8f39b11dca90ee7e9ae4637c1d45786744d964e540"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/user_source/hdl_source/SD/frame_read_write.v",
+    "bytes": 11057,
+    "sha256": "f9d7d04d81a8c8a3e226f855387971cf2308421bdd4c08c0ab465e9e40aa5cbd"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/user_source/hdl_source/SD/sd_card_bmp.v",
+    "bytes": 14969,
+    "sha256": "5319465074e1eb7da1f29d8454b81054bf7e633dd5cc6d7b40f232eeb9c1dadc"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/user_source/hdl_source/SD/sd_card_cmd.v",
+    "bytes": 8550,
+    "sha256": "a1a50502afd4e8b238b0627cd5f204c04738e761d49ab48f33da35e22ba4a5fa"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/user_source/hdl_source/SD/sd_card_sec_read_write.v",
+    "bytes": 5620,
+    "sha256": "c245c07e3b0056808d86e06aad74348494e2a7050d493a3d4141d97ccf115203"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/user_source/hdl_source/SD/sd_card_top.v",
+    "bytes": 7277,
+    "sha256": "d5031b5b809a8df0a2c8cca194a511c5f74236e810cbe5e8436359f9e5f26a39"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/user_source/hdl_source/SD/sdram.v",
+    "bytes": 2412,
+    "sha256": "2d985c2477384e677c25714241e1a50206def8916aa03189a5b313b2d22dfc99"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/user_source/hdl_source/SD/seg_decoder.v",
+    "bytes": 766,
+    "sha256": "4592b6e4d2e9e8b7e4ab5266d850d30e43537ab9c4157d4221e3f8dfd342decd"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/user_source/hdl_source/SD/seg_scan.v",
+    "bytes": 1847,
+    "sha256": "08759c329c33cdb7a6070e0b46773f0a6c9c8052b51652dec29406b9a9dac1e3"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/user_source/hdl_source/SD/spi_master.v",
+    "bytes": 3655,
+    "sha256": "37f7a21144fa5cca3cc5c3b5f68a5ad40b3108336b600e45a1367734ac61403c"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/user_source/hdl_source/SD/video_define.v",
+    "bytes": 21,
+    "sha256": "77748966850a8f5af0d77f2cdb08006088ba5e1a31b98391fba6cc61c5247da2"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/user_source/hdl_source/SD/video_delay.v",
+    "bytes": 1595,
+    "sha256": "f47c4b63f8baa6d8874c87dca5b72dfdadd19f4a107403da98752bce98936433"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/user_source/hdl_source/SD/video_timing_data.v",
+    "bytes": 2432,
+    "sha256": "c6f75501e98dd5995f687aafb40455beffe45b426137b5089a73ac3a036f7282"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/user_source/hdl_source/startup_pulse.v",
+    "bytes": 713,
+    "sha256": "396e1e56febb8028339e646bc2f06b83e07ab11ef840e447422fb941956741c9"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/user_source/hdl_source/test/design_top_i2s_test_pll.v",
+    "bytes": 6443,
+    "sha256": "b6396c3e90c67d7e8aad8c83bfa8a1aa0b826db8f74a26936549cae57e86668c"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/user_source/hdl_source/test/i2s_test_tone_gen_pll.v",
+    "bytes": 3645,
+    "sha256": "7614d4ca84c007a568e798b7c8cbc31eadd8a064bee53101194df13edb71e02f"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/user_source/hdl_source/top_tf_hdmi_audio.v",
+    "bytes": 12329,
+    "sha256": "9dd5befa87d128be39ec7a70eab0f04c78440d11d8a6a18a789ccd535f90f3ab"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/user_source/hdl_source/video_rgb_to_axis_640x480.v",
+    "bytes": 1749,
+    "sha256": "1c8fc26c789f87227036bea034f1ab6fc5633f2ab2684be422c54687a290fb96"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/user_source/hdl_source/video_source_test.v",
+    "bytes": 2983,
+    "sha256": "39cc05c9684a594d4254d11e66e97344053ab75bdb00f3f5a301643fd7aadbfc"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/user_source/ip_source/pll.ipc",
+    "bytes": 2124,
+    "sha256": "5d632bad332785258c35ca41ce2b4a2a550e6bfd75be0b63a3f72403ca2ce11e"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/user_source/ip_source/pll.v",
+    "bytes": 3333,
+    "sha256": "202799f886f12cfc1d837afa932328b636c6c3dee70167be68c084133647b39c"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/src/user_source/ip_source/pll.vhd",
+    "bytes": 3559,
+    "sha256": "a8166865b5aef9caaee525d4633aa1dec4172244a7bbff239e0d658c0ca775e4"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/代码说明.md",
+    "bytes": 4099,
+    "sha256": "960ab04d6f0c8c779e202847bf646abc942326d0ebb32586077aefc88133fcc3"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/演示视频/VID_20260428_143508.mp4",
+    "bytes": 261438503,
+    "sha256": "003bb02976bdf85679e5e20e8c960ec17eff0157ed32f31454e90e6b1e235a87"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/设计参考例程文档.docx",
+    "bytes": 52069,
+    "sha256": "2089a0ed9c4ea250e643612368080ed877d10de38709bfd4eea592c0e23b13a1"
+  },
+  {
+    "relative": "01_baseline/lab_ex5_i2s/设计参考例程文档.md",
+    "bytes": 20331,
+    "sha256": "147cf263abf7d0f4c5758e0330879c8d399c5a8a2d127c8b8ce83085857e43b9"
+  },
+  {
+    "relative": "03_sim/B_frame/sim/modelsim.ini",
+    "bytes": 90107,
+    "sha256": "492a92ffc226a29bd948eaa5c869881ba75bc5faa417c53092ed438939acefc6"
+  },
+  {
+    "relative": "03_sim/B_frame/sim/result.txt",
+    "bytes": 20,
+    "sha256": "2cdf315cccc1ebce1a3853bde619fdeea187743605df0a7969b2ea1bc64d95b7"
+  },
+  {
+    "relative": "03_sim/B_frame/sim/run.do",
+    "bytes": 2008,
+    "sha256": "d374cf1926706baf876be51c93fe545f10b8af1c33f7ebc9ec90198862cbd1b4"
+  },
+  {
+    "relative": "03_sim/B_frame/sim/run_before_rerun_fix_20261006.do",
+    "bytes": 1525,
+    "sha256": "dd6a98be4844fd83c891befba14f80def92fe5490f379cf0b906756968191c4e"
+  },
+  {
+    "relative": "03_sim/B_frame/sim/transcript.log",
+    "bytes": 2850,
+    "sha256": "0bccb6fbc901ed74eb2892cf6e106d3c90ef277ea80c5131609d40eaf4b662a7"
+  },
+  {
+    "relative": "03_sim/B_frame/sim/vish_stacktrace.vstf",
+    "bytes": 12773,
+    "sha256": "3792f1886ed5722298801fffc2dd02e99df04a5dc57d9fe0e11c20a34835c03e"
+  },
+  {
+    "relative": "03_sim/B_frame/sim/vsim.wlf",
+    "bytes": 57344,
+    "sha256": "15d56917012538156af29dd22b4df870c2eee694a01f8a5ee53c33cadae68077"
+  },
+  {
+    "relative": "03_sim/B_frame/sim/work/@_opt/_lib.qdb",
+    "bytes": 49152,
+    "sha256": "34543eda427e38d9de9acb627eb3cf02172fb056b6f97f8298f183804cc0aadd"
+  },
+  {
+    "relative": "03_sim/B_frame/sim/work/@_opt/_lib1_0.qdb",
+    "bytes": 32768,
+    "sha256": "52b8bcf46b77a4ef4ba54c7bd2cac27b13d2f94b0945a2c1b7b1c41f79300ab8"
+  },
+  {
+    "relative": "03_sim/B_frame/sim/work/@_opt/_lib1_0.qpg",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "relative": "03_sim/B_frame/sim/work/@_opt/_lib1_0.qtl",
+    "bytes": 3550,
+    "sha256": "5b2e887d4d61f0c5a9e40dff6d06142215f39d27d2002eca7dc3d3be64191166"
+  },
+  {
+    "relative": "03_sim/B_frame/sim/work/@_opt/_lib2_0.qdb",
+    "bytes": 32768,
+    "sha256": "5d90b576bde8e6eb678465d9b0f9be061760063927a6ca927b55e311c838b7cf"
+  },
+  {
+    "relative": "03_sim/B_frame/sim/work/@_opt/_lib2_0.qpg",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "relative": "03_sim/B_frame/sim/work/@_opt/_lib2_0.qtl",
+    "bytes": 4526,
+    "sha256": "7d93ef52a4deb67d138982b69f774a8c4a6d3d5881b4c3649b570e26867fc02b"
+  },
+  {
+    "relative": "03_sim/B_frame/sim/work/@_opt/_lib3_0.qdb",
+    "bytes": 32768,
+    "sha256": "dadfd7e83bb8e75946ba02647bcc8059544b303ea2a11206a141ff5ea522d80b"
+  },
+  {
+    "relative": "03_sim/B_frame/sim/work/@_opt/_lib3_0.qpg",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "relative": "03_sim/B_frame/sim/work/@_opt/_lib3_0.qtl",
+    "bytes": 2863,
+    "sha256": "58b13b6d5a869e29733cbfb3329831e4d0fc8fae245afd1fd6041df10727620f"
+  },
+  {
+    "relative": "03_sim/B_frame/sim/work/@_opt/_lib4_0.qdb",
+    "bytes": 32768,
+    "sha256": "9b420afc07311595ae85388ea4ab5cd0c40178e522d2f033c79f715c9e154952"
+  },
+  {
+    "relative": "03_sim/B_frame/sim/work/@_opt/_lib4_0.qpg",
+    "bytes": 65536,
+    "sha256": "543dd1a4043fbaec31318354d743c1efff9575e94e5ff60f1ecae27638105aaf"
+  },
+  {
+    "relative": "03_sim/B_frame/sim/work/@_opt/_lib4_0.qtl",
+    "bytes": 10312,
+    "sha256": "9dbc0a93ee42df35cd9b2ef4fa3c3fff6569e056fbde60b73232b13772ef19cf"
+  },
+  {
+    "relative": "03_sim/B_frame/sim/work/_info",
+    "bytes": 996,
+    "sha256": "0a02c5158f34057416a0e2b6e8e2eeb24448ed1e1b6ba6ae0526cfac92490b05"
+  },
+  {
+    "relative": "03_sim/B_frame/sim/work/_lib.qdb",
+    "bytes": 49152,
+    "sha256": "9e124ca42c5fb37bc79279a35d5997d1b9bc2d12db65f76f7f6afbe2ba1f37d5"
+  },
+  {
+    "relative": "03_sim/B_frame/sim/work/_lib1_0.qdb",
+    "bytes": 32768,
+    "sha256": "6a143502e7d0b576ae37b274447332b7310ce9169f68e14a59da8943e10f9e32"
+  },
+  {
+    "relative": "03_sim/B_frame/sim/work/_lib1_0.qpg",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "relative": "03_sim/B_frame/sim/work/_lib1_0.qtl",
+    "bytes": 14858,
+    "sha256": "f2bcfe3f3293f75713b1914243b75e9208b937d8da7da0c5cfc3be02e33a5b6e"
+  },
+  {
+    "relative": "03_sim/B_frame/sim/work/_opt__lock",
+    "bytes": 25,
+    "sha256": "fd4755b53d70d1158b7412f80b6cdec1e78cf0dafda9b328a7aee64d87d5f7ae"
+  },
+  {
+    "relative": "03_sim/B_frame/sim/work/_vmake",
+    "bytes": 29,
+    "sha256": "d287f8a335408d3f94fea840ad628f2cbed3775952c49131049ef8f60fd337c9"
+  },
+  {
+    "relative": "03_sim/B_frame/src/tb_team_frame_latch.v",
+    "bytes": 2990,
+    "sha256": "c51e844fcc11e40c4025c2d2e97a38faa5bcdb9ed32d1fd3ea790c73295f0b64"
+  },
+  {
+    "relative": "03_sim/B_frame/src/team_frame_latch.v",
+    "bytes": 676,
+    "sha256": "4bb75451b2e53c97214162165fc1d152f2253c61e1645acbd32bc74d776189ee"
+  },
+  {
+    "relative": "04_assets/negative_examples/bad_320x480.bmp",
+    "bytes": 460854,
+    "sha256": "a718e05a294769f80e3a66c3ed0be0c38a85f1e52844b9cac22cb9e1b04e3c2c"
+  },
+  {
+    "relative": "04_assets/numbered/01.bmp",
+    "bytes": 921654,
+    "sha256": "f450017ee3638dd9bed55b18a778c540b4d2a857978c3597e30239201c0c73b6"
+  },
+  {
+    "relative": "04_assets/numbered/02.bmp",
+    "bytes": 921654,
+    "sha256": "ffce872f69bdd0f8554e76edca55c6304d37164f5f2ff1802cab131f1fad539a"
+  },
+  {
+    "relative": "04_assets/numbered/03.bmp",
+    "bytes": 921654,
+    "sha256": "866704310770472e7ccd75d9135ff6112874e98e5f11529c8126a97d5847deff"
+  },
+  {
+    "relative": "04_assets/numbered/04.bmp",
+    "bytes": 921654,
+    "sha256": "b7f3cd35ec96b024d8681a30cbf704db332769b9e7876b30c67f7af0bbea8690"
+  },
+  {
+    "relative": "04_assets/official/official_watermelon.bmp",
+    "bytes": 921654,
+    "sha256": "bc7170e5c0d33b07c7f7a1622cd7a58084c2e4c7478d11b5ed29ee4ba8ec4297"
+  },
+  {
+    "relative": "04_assets/official/SOURCE.txt",
+    "bytes": 214,
+    "sha256": "ea419c58037d9d82fb103a43957a0bef72c98b52fc7513c680941ab5d7a16214"
+  },
+  {
+    "relative": "04_assets/tools/check_bmp.py",
+    "bytes": 4349,
+    "sha256": "94c078a051057189ea4702d709cfc695a6e1d21a84065980a9b9ed66ed1284a7"
+  },
+  {
+    "relative": "04_assets/tools/make_numbered_bmp.py",
+    "bytes": 4701,
+    "sha256": "31149e722bd7f5ff2481e30633d06fd018b49194701d577f330cc52481f71d66"
+  },
+  {
+    "relative": "05_records/B_Day1_2026-10-06/正常测试_result.txt",
+    "bytes": 20,
+    "sha256": "2cdf315cccc1ebce1a3853bde619fdeea187743605df0a7969b2ea1bc64d95b7"
+  },
+  {
+    "relative": "05_records/B_Day1_2026-10-06/正常测试_transcript.log",
+    "bytes": 2850,
+    "sha256": "0bccb6fbc901ed74eb2892cf6e106d3c90ef277ea80c5131609d40eaf4b662a7"
+  },
+  {
+    "relative": "05_records/B_Day1_2026-10-06/波形_采纳与保持.png",
+    "bytes": 125504,
+    "sha256": "8b9181887d881de35aeac6b136c50f2c67b5018d5a7979736eea499b6d9e6435"
+  },
+  {
+    "relative": "05_records/B_official_check.json",
+    "bytes": 562,
+    "sha256": "11cfab5986401f50b4622f3feb324a8475981f0abdbcb4c7d33a567b548f91f9"
+  },
+  {
+    "relative": "05_records/B_板上测试表.md",
+    "bytes": 1085,
+    "sha256": "1528f7f460b084d812b83a49e266514579cf9c91283b3edcb5e278c6d610030a"
+  },
+  {
+    "relative": "05_records/bmp_rejection_checks.json",
+    "bytes": 1484,
+    "sha256": "230fa6ccd8067b5f6b8fda8dc9cc2bcac907784df03918e52e63d6c574ae0985"
+  },
+  {
+    "relative": "05_records/modelsim_intentional_fail.log",
+    "bytes": 3377,
+    "sha256": "b1700f729b97f0aaa567f4d8e3619f320b0eea6f7e142fbe2fdd9c83f3706727"
+  },
+  {
+    "relative": "05_records/modelsim_pass.log",
+    "bytes": 3385,
+    "sha256": "f96fadc4cbbf7019f9402a7ba0cabc997b3373ecc787a419c2408e0fa96fc669"
+  },
+  {
+    "relative": "05_records/modelsim_result.txt",
+    "bytes": 20,
+    "sha256": "2cdf315cccc1ebce1a3853bde619fdeea187743605df0a7969b2ea1bc64d95b7"
+  },
+  {
+    "relative": "05_records/offline_bmp_check.json",
+    "bytes": 2990,
+    "sha256": "4065f633ba89cfe0bc45f7b2cdf512cb1de3ced5f6008a574217d8908abb47ce"
+  },
+  {
+    "relative": "05_records/验证状态.md",
+    "bytes": 918,
+    "sha256": "89abbd39005868a23c79056fbf61f694af7f9c16b822ad208c3fb5770b72bdc6"
+  },
+  {
+    "relative": "B前三天执行指南.md",
+    "bytes": 16987,
+    "sha256": "6dc80434249b38398f755dad8eeb2449c87e67469b28a048f70cfe660e2efc19"
+  }
+]

@@ -1,0 +1,18 @@
+# Local simulator state. Keep archived evidence under 05_records tracked.
+03_sim/**/sim/work/
+03_sim/**/sim/modelsim.ini
+03_sim/**/sim/vsim.wlf
+03_sim/**/sim/transcript
+03_sim/**/sim/transcript.log
+03_sim/**/sim/result.txt
+03_sim/**/sim/*.vstf
+**/__pycache__/
+**/*.pyc
+
+# Vendor-supplied TD generated outputs remain on disk; source/IP/ROM stay tracked.
+01_baseline/**/src/td_project/*_Runs/
+01_baseline/**/src/td_project/log/
+01_baseline/**/src/td_project/.recent_user_depot.ini
+02_develop/**/src/td_project/*_Runs/
+02_develop/**/src/td_project/log/
+02_develop/**/src/td_project/.recent_user_depot.ini

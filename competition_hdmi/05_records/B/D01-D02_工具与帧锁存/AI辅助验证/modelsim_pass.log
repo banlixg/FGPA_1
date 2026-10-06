@@ -1,0 +1,77 @@
+# if {[file exists result.txt]} {file delete result.txt}
+# if {![file isdirectory work]} {vlib work}
+# vmap work work
+# Model Technology ModelSim SE-64 vmap 10.4 Lib Mapping Utility 2014.12 Dec  3 2014
+# vmap -modelsim_quiet work work 
+# Modifying modelsim.ini
+# vlog ../src/team_frame_latch.v ../src/tb_team_frame_latch.v
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 17:56:00 on Oct 06,2026
+# vlog ../src/team_frame_latch.v ../src/tb_team_frame_latch.v 
+# -- Compiling module team_frame_latch
+# -- Compiling module tb_team_frame_latch
+# 
+# Top level modules:
+# 	tb_team_frame_latch
+# End time: 17:56:00 on Oct 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# if {[info exists INJECT_FAIL] && $INJECT_FAIL} {
+#     vsim -voptargs=+acc work.tb_team_frame_latch +INJECT_FAIL
+# } else {
+#     vsim -voptargs=+acc work.tb_team_frame_latch
+# }
+# vsim -c -do "cd {C:/Users/banli/Documents/Codex/2026-10-06/new-chat-2/outputs/B_first_3_days/03_sim/B_frame/sim}; do run.do" 
+# Start time: 17:56:00 on Oct 06,2026
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# 
+# //  ModelSim SE-64 10.4 Dec  3 2014 
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# Loading work.tb_team_frame_latch(fast)
+# Loading work.team_frame_latch(fast)
+# log -r /*
+# if {![batch_mode]} {
+#     add wave -radix unsigned sim:/tb_team_frame_latch/clk
+#     add wave -radix unsigned sim:/tb_team_frame_latch/rst_n
+#     add wave -radix unsigned sim:/tb_team_frame_latch/frame_accept
+#     add wave -radix unsigned sim:/tb_team_frame_latch/frame_id_in
+#     add wave -radix unsigned sim:/tb_team_frame_latch/frame_id_out
+#     add wave -radix unsigned sim:/tb_team_frame_latch/frame_valid
+#     add wave -radix unsigned sim:/tb_team_frame_latch/accepted_pulse
+# }
+# run 1100 ns
+# PASS check=1 t=1000 id=0 valid=0 pulse=0
+# PASS check=2 t=51000 id=0 valid=0 pulse=0
+# PASS check=3 t=71000 id=1 valid=1 pulse=1
+# PASS check=4 t=91000 id=1 valid=1 pulse=0
+# PASS check=5 t=111000 id=2 valid=1 pulse=1
+# PASS check=6 t=131000 id=3 valid=1 pulse=1
+# PASS check=7 t=151000 id=3 valid=1 pulse=0
+# PASS check=8 t=156000 id=0 valid=0 pulse=0
+# PASS check=9 t=191000 id=0 valid=1 pulse=1
+# PASS check=10 t=211000 id=0 valid=1 pulse=0
+# ALL_PASS checks=10
+# if {![file exists result.txt]} {abort_run "No result.txt produced"}
+# set result_handle [open result.txt r]
+# file50e81a0
+# set result [read $result_handle]
+# ALL_PASS checks=10
+# 
+# close $result_handle
+# if {![string match "ALL_PASS*" $result]} {abort_run $result}
+# puts "SCRIPT_PASS: $result"
+# if {![batch_mode]} {wave zoom full}
+# if {[batch_mode]} {quit -force -code 0}
+# End time: 17:56:01 on Oct 06,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

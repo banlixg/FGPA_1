@@ -1,0 +1,31 @@
+{
+  "checked_on": "2026-10-06",
+  "workspace": "D:\\FPGA FILE\\FPGA_1\\FGPA_1\\competition_hdmi",
+  "verification": "offline only",
+  "files": [
+    {
+      "status": "FAIL",
+      "errors": [
+        "Width must be 640",
+        "Pixel data must occupy exactly 921600 bytes; truncated/trailing data rejected",
+        "Image-size field must be 0 or 921600"
+      ],
+      "actual_bytes": 460854,
+      "sha256": "a718e05a294769f80e3a66c3ed0be0c38a85f1e52844b9cac22cb9e1b04e3c2c",
+      "signature": "BM",
+      "declared_bytes": 460854,
+      "pixel_offset": 54,
+      "dib_bytes": 40,
+      "width": 320,
+      "height": 480,
+      "planes": 1,
+      "bpp": 24,
+      "compression": 0,
+      "image_bytes": 460800,
+      "expected_stride": 1920,
+      "expected_pixel_bytes": 921600,
+      "verified_source_path": "D:\\FPGA FILE\\competition_hdmi\\04_assets\\negative_examples\\bad_320x480.bmp",
+      "workspace_relative_path": "04_assets/negative_examples/B/D03-D04/bad_320x480.bmp"
+    }
+  ]
+}

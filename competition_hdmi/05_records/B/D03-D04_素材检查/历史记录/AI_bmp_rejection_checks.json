@@ -1,0 +1,69 @@
+[
+  {
+    "case": "wrong_width",
+    "expected": "FAIL",
+    "actual": "FAIL",
+    "errors": [
+      "Width must be 640"
+    ]
+  },
+  {
+    "case": "wrong_depth",
+    "expected": "FAIL",
+    "actual": "FAIL",
+    "errors": [
+      "Bit depth must be 24"
+    ]
+  },
+  {
+    "case": "compressed",
+    "expected": "FAIL",
+    "actual": "FAIL",
+    "errors": [
+      "Compression must be 0 (BI_RGB)"
+    ]
+  },
+  {
+    "case": "top_down",
+    "expected": "FAIL",
+    "actual": "FAIL",
+    "errors": [
+      "Height must be +480; top-down BMP is not supported here"
+    ]
+  },
+  {
+    "case": "wrong_file_length",
+    "expected": "FAIL",
+    "actual": "FAIL",
+    "errors": [
+      "Declared file size differs from actual size"
+    ]
+  },
+  {
+    "case": "truncated",
+    "expected": "FAIL",
+    "actual": "FAIL",
+    "errors": [
+      "Declared file size differs from actual size",
+      "Pixel data must occupy exactly 921600 bytes; truncated/trailing data rejected"
+    ]
+  },
+  {
+    "case": "fake_bmp_signature",
+    "expected": "FAIL",
+    "actual": "FAIL",
+    "errors": [
+      "Signature must be BM; renaming JPG is not conversion"
+    ]
+  },
+  {
+    "case": "valid_320x480_bmp",
+    "expected": "FAIL",
+    "actual": "FAIL",
+    "errors": [
+      "Width must be 640",
+      "Pixel data must occupy exactly 921600 bytes; truncated/trailing data rejected",
+      "Image-size field must be 0 or 921600"
+    ]
+  }
+]

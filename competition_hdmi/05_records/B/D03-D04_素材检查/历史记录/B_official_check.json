@@ -1,0 +1,21 @@
+[
+  {
+    "file": "D:\\FPGA FILE\\competition_hdmi\\04_assets\\official\\official_watermelon.bmp",
+    "status": "OFFLINE_PASS",
+    "errors": [],
+    "actual_bytes": 921654,
+    "sha256": "bc7170e5c0d33b07c7f7a1622cd7a58084c2e4c7478d11b5ed29ee4ba8ec4297",
+    "signature": "BM",
+    "declared_bytes": 921654,
+    "pixel_offset": 54,
+    "dib_bytes": 40,
+    "width": 640,
+    "height": 480,
+    "planes": 1,
+    "bpp": 24,
+    "compression": 0,
+    "image_bytes": 921600,
+    "expected_stride": 1920,
+    "expected_pixel_bytes": 921600
+  }
+]

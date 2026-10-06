@@ -1,0 +1,5 @@
+mode=BATCH
+first_run=PASS
+intentional_error=FAIL
+restored_run=PASS
+same_process_sequence=PASS_FAIL_PASS

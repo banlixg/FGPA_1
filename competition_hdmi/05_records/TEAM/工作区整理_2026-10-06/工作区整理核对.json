@@ -1,0 +1,43 @@
+{
+  "workspace": "D:\\FPGA FILE\\FPGA_1\\FGPA_1\\competition_hdmi",
+  "status": "PASS",
+  "original_inventory_files": 501,
+  "original_files_hash_preserved": 498,
+  "simulator_transient_changes": [
+    {
+      "file": "03_sim/B/D01-D02/B_frame/sim/transcript.log",
+      "reason": "live simulator state flushed on exit"
+    },
+    {
+      "file": "03_sim/B/D01-D02/B_frame/sim/vsim.wlf",
+      "reason": "live simulator state flushed on exit"
+    },
+    {
+      "file": "03_sim/B/D01-D02/B_frame/sim/work/_opt__lock",
+      "reason": "ModelSim removes its runtime lock on exit"
+    }
+  ],
+  "prepared_files_verified": 43,
+  "bmp_statuses": [
+    "OFFLINE_PASS",
+    "OFFLINE_PASS",
+    "OFFLINE_PASS",
+    "OFFLINE_PASS",
+    "OFFLINE_PASS"
+  ],
+  "negative_sample": "FAIL",
+  "td_project_file_references": [
+    {
+      "project": "01_baseline/lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0.al",
+      "missing_file_references": []
+    },
+    {
+      "project": "01_baseline/lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0.al",
+      "missing_file_references": []
+    }
+  ],
+  "record_root_files": [
+    "README.md"
+  ],
+  "failures": []
+}
