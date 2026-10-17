@@ -1,0 +1,67 @@
+============================================================
+   Tang Dynasty, V6.2.168116
+   Copyright (c) 2012-2025 Anlogic Inc.
+   Executable = D:/Tools/Anlogic/TD_6.2/bin/td.exe
+   Built at =   16:32:07 Jun 12 2025
+   Run by =     zbrmyyds
+   Run Date =   Fri Apr 24 16:08:23 2026
+
+   Run on =     LAPTOP-ER898QR8
+============================================================
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in ../user_source/hdl_source/include/sdr_init_ref.enc.v(47)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in ../user_source/hdl_source/include/sdr_wrrd.enc.v(283)
+HDL-8007 ERROR: module 'frame_read_write' does not have a parameter named WRITE_V_FLIP. Modify the design by referring to the parameter defined by the module, or contact customer service for help in ../user_source/hdl_source/top_tf_hdmi_audio.v(227)
+HDL-8007 ERROR: module 'frame_read_write' does not have a parameter named FRAME_WIDTH. Modify the design by referring to the parameter defined by the module, or contact customer service for help in ../user_source/hdl_source/top_tf_hdmi_audio.v(228)
+HDL-8007 ERROR: module 'frame_read_write' does not have a parameter named FRAME_HEIGHT. Modify the design by referring to the parameter defined by the module, or contact customer service for help in ../user_source/hdl_source/top_tf_hdmi_audio.v(229)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in ../user_source/hdl_source/include/sdr_init_ref.enc.v(47)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in ../user_source/hdl_source/include/sdr_wrrd.enc.v(283)
+HDL-8007 ERROR: module 'frame_fifo_write' does not have a parameter named WRITE_V_FLIP. Modify the design by referring to the parameter defined by the module, or contact customer service for help in ../user_source/hdl_source/SD/frame_read_write.v(114)
+HDL-8007 ERROR: module 'frame_fifo_write' does not have a parameter named FRAME_WIDTH. Modify the design by referring to the parameter defined by the module, or contact customer service for help in ../user_source/hdl_source/SD/frame_read_write.v(115)
+HDL-8007 ERROR: module 'frame_fifo_write' does not have a parameter named FRAME_HEIGHT. Modify the design by referring to the parameter defined by the module, or contact customer service for help in ../user_source/hdl_source/SD/frame_read_write.v(116)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in ../user_source/hdl_source/include/sdr_init_ref.enc.v(47)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in ../user_source/hdl_source/include/sdr_wrrd.enc.v(283)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in ../user_source/hdl_source/include/sdr_init_ref.enc.v(47)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in ../user_source/hdl_source/include/sdr_wrrd.enc.v(283)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in ../user_source/hdl_source/include/sdr_init_ref.enc.v(47)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in ../user_source/hdl_source/include/sdr_wrrd.enc.v(283)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in ../user_source/hdl_source/include/sdr_init_ref.enc.v(47)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in ../user_source/hdl_source/include/sdr_wrrd.enc.v(283)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in ../user_source/hdl_source/include/sdr_init_ref.enc.v(47)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in ../user_source/hdl_source/include/sdr_wrrd.enc.v(283)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in ../user_source/hdl_source/include/sdr_init_ref.enc.v(47)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in ../user_source/hdl_source/include/sdr_wrrd.enc.v(283)
+HDL-8007 ERROR: module 'sd_card_bmp' does not have a parameter named BMP_MAX_NUM. Modify the design by referring to the parameter defined by the module, or contact customer service for help in ../user_source/hdl_source/top_tf_hdmi_audio.v(156)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in ../user_source/hdl_source/include/sdr_init_ref.enc.v(47)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in ../user_source/hdl_source/include/sdr_wrrd.enc.v(283)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in ../user_source/hdl_source/include/sdr_init_ref.enc.v(47)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in ../user_source/hdl_source/include/sdr_wrrd.enc.v(283)
+HDL-8007 ERROR: module 'sd_card_bmp' does not have a parameter named BMP_MAX_NUM. Modify the design by referring to the parameter defined by the module, or contact customer service for help in ../user_source/hdl_source/top_tf_hdmi_audio.v(156)
+HDL-8007 ERROR: module 'sd_card_bmp' does not have a parameter named SCAN_STOP_AFTER_FIRST_GAP. Modify the design by referring to the parameter defined by the module, or contact customer service for help in ../user_source/hdl_source/top_tf_hdmi_audio.v(157)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in ../user_source/hdl_source/include/sdr_init_ref.enc.v(47)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in ../user_source/hdl_source/include/sdr_wrrd.enc.v(283)
+HDL-8007 ERROR: module 'bmp_read' does not have a parameter named SCAN_STOP_AFTER_FIRST_GAP. Modify the design by referring to the parameter defined by the module, or contact customer service for help in ../user_source/hdl_source/SD/sd_card_bmp.v(279)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in ../user_source/hdl_source/include/sdr_init_ref.enc.v(47)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in ../user_source/hdl_source/include/sdr_wrrd.enc.v(283)
+PRJ-8001 ERROR: phy_1 exit with code -1073741819. Check the corresponding run log or contact technical support.
+PRJ-5303 WARNING: Run phy_1 failed.
+PRJ-8001 ERROR: phy_1 exit with code -1073741819. Check the corresponding run log or contact technical support.
+PRJ-5303 WARNING: Run phy_1 failed.
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in ../user_source/hdl_source/include/sdr_init_ref.enc.v(47)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in ../user_source/hdl_source/include/sdr_wrrd.enc.v(283)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in ../user_source/hdl_source/include/sdr_init_ref.enc.v(47)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in ../user_source/hdl_source/include/sdr_wrrd.enc.v(283)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in ../user_source/hdl_source/include/sdr_init_ref.enc.v(47)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in ../user_source/hdl_source/include/sdr_wrrd.enc.v(283)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in ../user_source/hdl_source/include/sdr_init_ref.enc.v(47)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in ../user_source/hdl_source/include/sdr_wrrd.enc.v(283)
+HDL-8007 ERROR: module 'bmp_read' does not have a parameter named SCAN_STOP_AFTER_FIRST_GAP. Modify the design by referring to the parameter defined by the module, or contact customer service for help in ../user_source/hdl_source/SD/sd_card_bmp.v(299)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in ../user_source/hdl_source/include/sdr_init_ref.enc.v(47)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in ../user_source/hdl_source/include/sdr_wrrd.enc.v(283)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in ../user_source/hdl_source/include/sdr_init_ref.enc.v(47)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in ../user_source/hdl_source/include/sdr_wrrd.enc.v(283)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in ../user_source/hdl_source/include/sdr_init_ref.enc.v(47)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in ../user_source/hdl_source/include/sdr_wrrd.enc.v(283)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in ../user_source/hdl_source/include/sdr_init_ref.enc.v(47)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in ../user_source/hdl_source/include/sdr_wrrd.enc.v(283)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in ../user_source/hdl_source/include/sdr_init_ref.enc.v(47)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in ../user_source/hdl_source/include/sdr_wrrd.enc.v(283)

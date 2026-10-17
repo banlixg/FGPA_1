@@ -1,0 +1,2 @@
+# Large video files are kept outside regular Git history.
+*.mp4

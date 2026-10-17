@@ -1,0 +1,294 @@
+============================================================
+   Tang Dynasty, V6.2.168116
+   Copyright (c) 2012-2025 Anlogic Inc.
+   Executable = D:/Tools/Anlogic/TD_6.2/bin/td.exe
+   Built at =   16:32:07 Jun 12 2025
+   Run by =     zbrmyyds
+   Run Date =   Mon Apr 20 18:35:53 2026
+
+   Run on =     LAPTOP-ER898QR8
+============================================================
+GUI-6001 WARNING: File ../user_source/hdl_source/design_top_wrapper.v does not exist!
+GUI-6001 WARNING: File C:/Users/zbrmyyds/Desktop/anlu/FPGA_Prj/I2S/transmitor/APUG092_HDMI1.4b_Transmitter_V1.4/src/user_source/hdl_source/design_top_wrapper.v does not exist!
+HDL-8007 ERROR: cannot find port 'Clk' on this module in ../user_source/hdl_source/top_tf_hdmi_audio.v(252)
+HDL-8007 ERROR: cannot find port 'Clk_sft' on this module in ../user_source/hdl_source/top_tf_hdmi_audio.v(253)
+HDL-8007 ERROR: cannot find port 'Rst' on this module in ../user_source/hdl_source/top_tf_hdmi_audio.v(254)
+HDL-8007 ERROR: cannot find port 'Sdr_init_done' on this module in ../user_source/hdl_source/top_tf_hdmi_audio.v(255)
+HDL-8007 ERROR: cannot find port 'Sdr_init_ref_vld' on this module in ../user_source/hdl_source/top_tf_hdmi_audio.v(256)
+HDL-8007 ERROR: cannot find port 'Sdr_busy' on this module in ../user_source/hdl_source/top_tf_hdmi_audio.v(257)
+HDL-8007 ERROR: cannot find port 'App_wr_en' on this module in ../user_source/hdl_source/top_tf_hdmi_audio.v(258)
+HDL-8007 ERROR: cannot find port 'App_wr_addr' on this module in ../user_source/hdl_source/top_tf_hdmi_audio.v(259)
+HDL-8007 ERROR: cannot find port 'App_wr_dm' on this module in ../user_source/hdl_source/top_tf_hdmi_audio.v(260)
+HDL-8007 ERROR: cannot find port 'App_wr_din' on this module in ../user_source/hdl_source/top_tf_hdmi_audio.v(261)
+HDL-8007 ERROR: cannot find port 'App_rd_en' on this module in ../user_source/hdl_source/top_tf_hdmi_audio.v(262)
+HDL-8007 ERROR: cannot find port 'App_rd_addr' on this module in ../user_source/hdl_source/top_tf_hdmi_audio.v(263)
+HDL-8007 ERROR: cannot find port 'Sdr_rd_en' on this module in ../user_source/hdl_source/top_tf_hdmi_audio.v(264)
+HDL-8007 ERROR: cannot find port 'Sdr_rd_dout' on this module in ../user_source/hdl_source/top_tf_hdmi_audio.v(265)
+HDL-8007 ERROR: cannot find port 'Clk' on this module in ../user_source/hdl_source/top_tf_hdmi_audio.v(252)
+HDL-8007 ERROR: cannot find port 'Clk_sft' on this module in ../user_source/hdl_source/top_tf_hdmi_audio.v(253)
+HDL-8007 ERROR: cannot find port 'Rst' on this module in ../user_source/hdl_source/top_tf_hdmi_audio.v(254)
+HDL-8007 ERROR: cannot find port 'Sdr_init_done' on this module in ../user_source/hdl_source/top_tf_hdmi_audio.v(255)
+HDL-8007 ERROR: cannot find port 'Sdr_init_ref_vld' on this module in ../user_source/hdl_source/top_tf_hdmi_audio.v(256)
+HDL-8007 ERROR: cannot find port 'Sdr_busy' on this module in ../user_source/hdl_source/top_tf_hdmi_audio.v(257)
+HDL-8007 ERROR: cannot find port 'App_wr_en' on this module in ../user_source/hdl_source/top_tf_hdmi_audio.v(258)
+HDL-8007 ERROR: cannot find port 'App_wr_addr' on this module in ../user_source/hdl_source/top_tf_hdmi_audio.v(259)
+HDL-8007 ERROR: cannot find port 'App_wr_dm' on this module in ../user_source/hdl_source/top_tf_hdmi_audio.v(260)
+HDL-8007 ERROR: cannot find port 'App_wr_din' on this module in ../user_source/hdl_source/top_tf_hdmi_audio.v(261)
+HDL-8007 ERROR: cannot find port 'App_rd_en' on this module in ../user_source/hdl_source/top_tf_hdmi_audio.v(262)
+HDL-8007 ERROR: cannot find port 'App_rd_addr' on this module in ../user_source/hdl_source/top_tf_hdmi_audio.v(263)
+HDL-8007 ERROR: cannot find port 'Sdr_rd_en' on this module in ../user_source/hdl_source/top_tf_hdmi_audio.v(264)
+HDL-8007 ERROR: cannot find port 'Sdr_rd_dout' on this module in ../user_source/hdl_source/top_tf_hdmi_audio.v(265)
+HDL-8007 ERROR: cannot find port 'Clk' on this module in ../user_source/hdl_source/top_tf_hdmi_audio.v(252)
+HDL-8007 ERROR: cannot find port 'Clk_sft' on this module in ../user_source/hdl_source/top_tf_hdmi_audio.v(253)
+HDL-8007 ERROR: cannot find port 'Rst' on this module in ../user_source/hdl_source/top_tf_hdmi_audio.v(254)
+HDL-8007 ERROR: cannot find port 'Sdr_init_done' on this module in ../user_source/hdl_source/top_tf_hdmi_audio.v(255)
+HDL-8007 ERROR: cannot find port 'Sdr_init_ref_vld' on this module in ../user_source/hdl_source/top_tf_hdmi_audio.v(256)
+HDL-8007 ERROR: cannot find port 'Sdr_busy' on this module in ../user_source/hdl_source/top_tf_hdmi_audio.v(257)
+HDL-8007 ERROR: cannot find port 'App_wr_en' on this module in ../user_source/hdl_source/top_tf_hdmi_audio.v(258)
+HDL-8007 ERROR: cannot find port 'App_wr_addr' on this module in ../user_source/hdl_source/top_tf_hdmi_audio.v(259)
+HDL-8007 ERROR: cannot find port 'App_wr_dm' on this module in ../user_source/hdl_source/top_tf_hdmi_audio.v(260)
+HDL-8007 ERROR: cannot find port 'App_wr_din' on this module in ../user_source/hdl_source/top_tf_hdmi_audio.v(261)
+HDL-8007 ERROR: cannot find port 'App_rd_en' on this module in ../user_source/hdl_source/top_tf_hdmi_audio.v(262)
+HDL-8007 ERROR: cannot find port 'App_rd_addr' on this module in ../user_source/hdl_source/top_tf_hdmi_audio.v(263)
+HDL-8007 ERROR: cannot find port 'Sdr_rd_en' on this module in ../user_source/hdl_source/top_tf_hdmi_audio.v(264)
+HDL-8007 ERROR: cannot find port 'Sdr_rd_dout' on this module in ../user_source/hdl_source/top_tf_hdmi_audio.v(265)
+HDL-8007 ERROR: cannot find port 'Clk' on this module in ../user_source/hdl_source/top_tf_hdmi_audio.v(252)
+HDL-8007 ERROR: cannot find port 'Clk_sft' on this module in ../user_source/hdl_source/top_tf_hdmi_audio.v(253)
+HDL-8007 ERROR: cannot find port 'Rst' on this module in ../user_source/hdl_source/top_tf_hdmi_audio.v(254)
+HDL-8007 ERROR: cannot find port 'Sdr_init_done' on this module in ../user_source/hdl_source/top_tf_hdmi_audio.v(255)
+HDL-8007 ERROR: cannot find port 'Sdr_init_ref_vld' on this module in ../user_source/hdl_source/top_tf_hdmi_audio.v(256)
+HDL-8007 ERROR: cannot find port 'Sdr_busy' on this module in ../user_source/hdl_source/top_tf_hdmi_audio.v(257)
+HDL-8007 ERROR: cannot find port 'App_wr_en' on this module in ../user_source/hdl_source/top_tf_hdmi_audio.v(258)
+HDL-8007 ERROR: cannot find port 'App_wr_addr' on this module in ../user_source/hdl_source/top_tf_hdmi_audio.v(259)
+HDL-8007 ERROR: cannot find port 'App_wr_dm' on this module in ../user_source/hdl_source/top_tf_hdmi_audio.v(260)
+HDL-8007 ERROR: cannot find port 'App_wr_din' on this module in ../user_source/hdl_source/top_tf_hdmi_audio.v(261)
+HDL-8007 ERROR: cannot find port 'App_rd_en' on this module in ../user_source/hdl_source/top_tf_hdmi_audio.v(262)
+HDL-8007 ERROR: cannot find port 'App_rd_addr' on this module in ../user_source/hdl_source/top_tf_hdmi_audio.v(263)
+HDL-8007 ERROR: cannot find port 'Sdr_rd_en' on this module in ../user_source/hdl_source/top_tf_hdmi_audio.v(264)
+HDL-8007 ERROR: cannot find port 'Sdr_rd_dout' on this module in ../user_source/hdl_source/top_tf_hdmi_audio.v(265)
+HDL-8007 ERROR: cannot find port 'Clk' on this module in ../user_source/hdl_source/top_tf_hdmi_audio.v(252)
+HDL-8007 ERROR: cannot find port 'Clk_sft' on this module in ../user_source/hdl_source/top_tf_hdmi_audio.v(253)
+HDL-8007 ERROR: cannot find port 'Rst' on this module in ../user_source/hdl_source/top_tf_hdmi_audio.v(254)
+HDL-8007 ERROR: cannot find port 'Sdr_init_done' on this module in ../user_source/hdl_source/top_tf_hdmi_audio.v(255)
+HDL-8007 ERROR: cannot find port 'Sdr_init_ref_vld' on this module in ../user_source/hdl_source/top_tf_hdmi_audio.v(256)
+HDL-8007 ERROR: cannot find port 'Sdr_busy' on this module in ../user_source/hdl_source/top_tf_hdmi_audio.v(257)
+HDL-8007 ERROR: cannot find port 'App_wr_en' on this module in ../user_source/hdl_source/top_tf_hdmi_audio.v(258)
+HDL-8007 ERROR: cannot find port 'App_wr_addr' on this module in ../user_source/hdl_source/top_tf_hdmi_audio.v(259)
+HDL-8007 ERROR: cannot find port 'App_wr_dm' on this module in ../user_source/hdl_source/top_tf_hdmi_audio.v(260)
+HDL-8007 ERROR: cannot find port 'App_wr_din' on this module in ../user_source/hdl_source/top_tf_hdmi_audio.v(261)
+HDL-8007 ERROR: cannot find port 'App_rd_en' on this module in ../user_source/hdl_source/top_tf_hdmi_audio.v(262)
+HDL-8007 ERROR: cannot find port 'App_rd_addr' on this module in ../user_source/hdl_source/top_tf_hdmi_audio.v(263)
+HDL-8007 ERROR: cannot find port 'Sdr_rd_en' on this module in ../user_source/hdl_source/top_tf_hdmi_audio.v(264)
+HDL-8007 ERROR: cannot find port 'Sdr_rd_dout' on this module in ../user_source/hdl_source/top_tf_hdmi_audio.v(265)
+GUI-8003 ERROR: ../user_source/hdl_source/ip/afifo_16_32_256.v is missing!
+GUI-8003 ERROR: ../user_source/hdl_source/ip/afifo_32_16_256.v is missing!
+GUI-8003 ERROR: ../user_source/hdl_source/ip/sys_pll.v is missing!
+GUI-8003 ERROR: ../user_source/hdl_source/ip/video_pll.v is missing!
+GUI-6001 WARNING: File C:/Users/zbrmyyds/Desktop/anlu/FPGA_Prj/I2S/transmitor/APUG092_HDMI1.4b_Transmitter_V1.4/src/user_source/hdl_source/ip/video_pll.vhd does not exist!
+GUI-6001 WARNING: File C:/Users/zbrmyyds/Desktop/anlu/FPGA_Prj/I2S/transmitor/APUG092_HDMI1.4b_Transmitter_V1.4/src/user_source/hdl_source/ip/video_pll.v does not exist!
+GUI-6001 WARNING: File C:/Users/zbrmyyds/Desktop/anlu/FPGA_Prj/I2S/transmitor/APUG092_HDMI1.4b_Transmitter_V1.4/src/user_source/hdl_source/ip/sys_pll.vhd does not exist!
+GUI-6001 WARNING: File C:/Users/zbrmyyds/Desktop/anlu/FPGA_Prj/I2S/transmitor/APUG092_HDMI1.4b_Transmitter_V1.4/src/user_source/hdl_source/ip/sys_pll.v does not exist!
+GUI-6001 WARNING: File C:/Users/zbrmyyds/Desktop/anlu/FPGA_Prj/I2S/transmitor/APUG092_HDMI1.4b_Transmitter_V1.4/src/user_source/hdl_source/ip/sdram.vhd does not exist!
+GUI-6001 WARNING: File C:/Users/zbrmyyds/Desktop/anlu/FPGA_Prj/I2S/transmitor/APUG092_HDMI1.4b_Transmitter_V1.4/src/user_source/hdl_source/ip/sdram.v does not exist!
+GUI-6001 WARNING: File C:/Users/zbrmyyds/Desktop/anlu/FPGA_Prj/I2S/transmitor/APUG092_HDMI1.4b_Transmitter_V1.4/src/user_source/hdl_source/ip/afifo_32_16_256.v does not exist!
+GUI-6001 WARNING: File C:/Users/zbrmyyds/Desktop/anlu/FPGA_Prj/I2S/transmitor/APUG092_HDMI1.4b_Transmitter_V1.4/src/user_source/hdl_source/ip/afifo_16_32_256.v does not exist!
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/afifo_16_32_256.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/afifo_32_16_256.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/sys_pll.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/video_pll.ipc. 系统找不到指定的路径。.
+GUI-6001 WARNING: File C:/Users/zbrmyyds/Desktop/anlu/FPGA_Prj/I2S/transmitor/APUG092_HDMI1.4b_Transmitter_V1.4/src/user_source/hdl_source/ip/afifo_16_32_256.ipc does not exist!
+GUI-6001 WARNING: File C:/Users/zbrmyyds/Desktop/anlu/FPGA_Prj/I2S/transmitor/APUG092_HDMI1.4b_Transmitter_V1.4/src/user_source/hdl_source/ip/afifo_32_16_256.ipc does not exist!
+GUI-6001 WARNING: File C:/Users/zbrmyyds/Desktop/anlu/FPGA_Prj/I2S/transmitor/APUG092_HDMI1.4b_Transmitter_V1.4/src/user_source/hdl_source/ip/sdram.ipc does not exist!
+GUI-6001 WARNING: File C:/Users/zbrmyyds/Desktop/anlu/FPGA_Prj/I2S/transmitor/APUG092_HDMI1.4b_Transmitter_V1.4/src/user_source/hdl_source/ip/sys_pll.ipc does not exist!
+GUI-6001 WARNING: File C:/Users/zbrmyyds/Desktop/anlu/FPGA_Prj/I2S/transmitor/APUG092_HDMI1.4b_Transmitter_V1.4/src/user_source/hdl_source/ip/video_pll.ipc does not exist!
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/afifo_16_32_256.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/afifo_32_16_256.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/sys_pll.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/video_pll.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/afifo_16_32_256.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/afifo_16_32_256.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/afifo_16_32_256.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/afifo_32_16_256.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/afifo_32_16_256.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/afifo_32_16_256.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/sys_pll.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/sys_pll.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/sys_pll.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/video_pll.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/video_pll.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/video_pll.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/afifo_16_32_256.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/afifo_32_16_256.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/sys_pll.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/video_pll.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/afifo_16_32_256.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/afifo_16_32_256.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/afifo_16_32_256.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/afifo_32_16_256.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/afifo_32_16_256.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/afifo_32_16_256.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/sys_pll.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/sys_pll.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/sys_pll.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/video_pll.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/video_pll.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/video_pll.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/afifo_16_32_256.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/afifo_32_16_256.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/sys_pll.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/video_pll.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/afifo_16_32_256.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/afifo_16_32_256.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/afifo_16_32_256.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/afifo_32_16_256.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/afifo_32_16_256.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/afifo_32_16_256.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/sys_pll.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/sys_pll.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/sys_pll.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/video_pll.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/video_pll.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/video_pll.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/afifo_16_32_256.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/afifo_32_16_256.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/sys_pll.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/video_pll.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/afifo_16_32_256.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/afifo_32_16_256.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/sys_pll.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/video_pll.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/afifo_16_32_256.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/afifo_16_32_256.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/afifo_16_32_256.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/afifo_32_16_256.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/afifo_32_16_256.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/afifo_32_16_256.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/sys_pll.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/sys_pll.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/sys_pll.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/video_pll.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/video_pll.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/video_pll.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/afifo_16_32_256.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/afifo_32_16_256.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/sys_pll.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/video_pll.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/afifo_16_32_256.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/afifo_32_16_256.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/sys_pll.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/video_pll.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/afifo_16_32_256.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/afifo_16_32_256.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/afifo_16_32_256.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/afifo_32_16_256.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/afifo_32_16_256.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/afifo_32_16_256.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/sys_pll.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/sys_pll.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/sys_pll.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/video_pll.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/video_pll.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/video_pll.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/afifo_16_32_256.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/afifo_32_16_256.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/sys_pll.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/video_pll.ipc. 系统找不到指定的路径。.
+GUI-6001 WARNING: File C:/Users/zbrmyyds/Desktop/anlu/FPGA_Prj/I2S/transmitor/APUG092_HDMI1.4b_Transmitter_V1.4/src/user_source/hdl_source/ip/sdram.v does not exist!
+GUI-8003 ERROR: ../user_source/hdl_source/ip/afifo_16_32_256.v is missing!
+GUI-8003 ERROR: ../user_source/hdl_source/ip/afifo_32_16_256.v is missing!
+GUI-8003 ERROR: ../user_source/hdl_source/ip/sys_pll.v is missing!
+GUI-8003 ERROR: ../user_source/hdl_source/ip/video_pll.v is missing!
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/afifo_16_32_256.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/afifo_32_16_256.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/sys_pll.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/video_pll.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/afifo_16_32_256.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/afifo_32_16_256.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/sys_pll.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/video_pll.ipc. 系统找不到指定的路径。.
+GUI-8003 ERROR: ../user_source/hdl_source/ip/afifo_16_32_256.v is missing!
+GUI-8003 ERROR: ../user_source/hdl_source/ip/afifo_32_16_256.v is missing!
+GUI-8003 ERROR: ../user_source/hdl_source/ip/sys_pll.v is missing!
+GUI-8003 ERROR: ../user_source/hdl_source/ip/video_pll.v is missing!
+HDL-8007 ERROR: cannot open include file './src/sdram/enc_file/global_def.v' in ../user_source/hdl_source/SD/sdram.v(1)
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/afifo_16_32_256.ipc. 系统找不到指定的路径。.
+HDL-8007 ERROR: cannot open include file './src/sdram/enc_file/global_def.v' in ../user_source/hdl_source/SD/sdram.v(10)
+HDL-8007 ERROR: use of undefined macro 'ADDR_WIDTH' in ../user_source/hdl_source/SD/sdram.v(33)
+HDL-8007 ERROR: use of undefined macro 'DM_WIDTH' in ../user_source/hdl_source/SD/sdram.v(34)
+HDL-8007 ERROR: use of undefined macro 'DATA_WIDTH' in ../user_source/hdl_source/SD/sdram.v(35)
+HDL-8007 ERROR: use of undefined macro 'BA_WIDTH' in ../user_source/hdl_source/SD/sdram.v(50)
+HDL-8007 ERROR: use of undefined macro 'ROW_WIDTH' in ../user_source/hdl_source/SD/sdram.v(51)
+HDL-8007 ERROR: ignore module module due to previous errors in ../user_source/hdl_source/SD/sdram.v(12)
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/afifo_32_16_256.ipc. 系统找不到指定的路径。.
+HDL-5007 WARNING: The file ../user_source/hdl_source/SD/sdram.v will not be compiled since it is not included by any other files. Set it as 'global include' if it should be compiled.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/sys_pll.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/video_pll.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/afifo_16_32_256.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/afifo_32_16_256.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/sys_pll.ipc. 系统找不到指定的路径。.
+GUI-8002 ERROR: Failed to open file: ../user_source/hdl_source/ip/video_pll.ipc. 系统找不到指定的路径。.
+HDL-8007 ERROR: cannot open include file './src/sdram/enc_file/global_def.v' in ../user_source/hdl_source/SD/sdram.v(1)
+HDL-8007 ERROR: cannot open include file './src/sdram/enc_file/global_def.v' in ../user_source/hdl_source/SD/sdram.v(10)
+HDL-8007 ERROR: use of undefined macro 'ADDR_WIDTH' in ../user_source/hdl_source/SD/sdram.v(33)
+HDL-8007 ERROR: use of undefined macro 'DM_WIDTH' in ../user_source/hdl_source/SD/sdram.v(34)
+HDL-8007 ERROR: use of undefined macro 'DATA_WIDTH' in ../user_source/hdl_source/SD/sdram.v(35)
+HDL-8007 ERROR: use of undefined macro 'BA_WIDTH' in ../user_source/hdl_source/SD/sdram.v(50)
+HDL-8007 ERROR: use of undefined macro 'ROW_WIDTH' in ../user_source/hdl_source/SD/sdram.v(51)
+HDL-8007 ERROR: ignore module module due to previous errors in ../user_source/hdl_source/SD/sdram.v(12)
+HDL-5007 WARNING: The file ../user_source/hdl_source/SD/sdram.v will not be compiled since it is not included by any other files. Set it as 'global include' if it should be compiled.
+GUI-5001 WARNING: Failed to add the file: C:/Users/zbrmyyds/Desktop/anlu/FPGA_Prj/I2S/transmitor/APUG092_HDMI1.4b_Transmitter_V1.4/src/user_source/hdl_source/IP/afifo_16_32_256.ipc
+GUI-5001 WARNING: Failed to add the file: C:/Users/zbrmyyds/Desktop/anlu/FPGA_Prj/I2S/transmitor/APUG092_HDMI1.4b_Transmitter_V1.4/src/user_source/hdl_source/IP/afifo_32_16_256.ipc
+GUI-5001 WARNING: Failed to add the file: C:/Users/zbrmyyds/Desktop/anlu/FPGA_Prj/I2S/transmitor/APUG092_HDMI1.4b_Transmitter_V1.4/src/user_source/hdl_source/IP/sys_pll.ipc
+GUI-5001 WARNING: Failed to add the file: C:/Users/zbrmyyds/Desktop/anlu/FPGA_Prj/I2S/transmitor/APUG092_HDMI1.4b_Transmitter_V1.4/src/user_source/hdl_source/IP/video_pll.ipc
+HDL-8007 ERROR: cannot open include file './src/sdram/enc_file/global_def.v' in ../user_source/hdl_source/SD/sdram.v(1)
+HDL-8007 ERROR: cannot open include file './src/sdram/enc_file/global_def.v' in ../user_source/hdl_source/SD/sdram.v(10)
+HDL-8007 ERROR: use of undefined macro 'ADDR_WIDTH' in ../user_source/hdl_source/SD/sdram.v(33)
+HDL-8007 ERROR: use of undefined macro 'DM_WIDTH' in ../user_source/hdl_source/SD/sdram.v(34)
+HDL-8007 ERROR: use of undefined macro 'DATA_WIDTH' in ../user_source/hdl_source/SD/sdram.v(35)
+HDL-8007 ERROR: use of undefined macro 'BA_WIDTH' in ../user_source/hdl_source/SD/sdram.v(50)
+HDL-8007 ERROR: use of undefined macro 'ROW_WIDTH' in ../user_source/hdl_source/SD/sdram.v(51)
+HDL-8007 ERROR: ignore module module due to previous errors in ../user_source/hdl_source/SD/sdram.v(12)
+HDL-8007 ERROR: cannot find port 'Clk' on this module in ../user_source/hdl_source/top_tf_hdmi_audio.v(252)
+HDL-8007 ERROR: cannot find port 'Clk_sft' on this module in ../user_source/hdl_source/top_tf_hdmi_audio.v(253)
+HDL-8007 ERROR: cannot find port 'Rst' on this module in ../user_source/hdl_source/top_tf_hdmi_audio.v(254)
+HDL-8007 ERROR: cannot find port 'Sdr_init_done' on this module in ../user_source/hdl_source/top_tf_hdmi_audio.v(255)
+HDL-8007 ERROR: cannot find port 'Sdr_init_ref_vld' on this module in ../user_source/hdl_source/top_tf_hdmi_audio.v(256)
+HDL-8007 ERROR: cannot find port 'Sdr_busy' on this module in ../user_source/hdl_source/top_tf_hdmi_audio.v(257)
+HDL-8007 ERROR: cannot find port 'App_wr_en' on this module in ../user_source/hdl_source/top_tf_hdmi_audio.v(258)
+HDL-8007 ERROR: cannot find port 'App_wr_addr' on this module in ../user_source/hdl_source/top_tf_hdmi_audio.v(259)
+HDL-8007 ERROR: cannot find port 'App_wr_dm' on this module in ../user_source/hdl_source/top_tf_hdmi_audio.v(260)
+HDL-8007 ERROR: cannot find port 'App_wr_din' on this module in ../user_source/hdl_source/top_tf_hdmi_audio.v(261)
+HDL-8007 ERROR: cannot find port 'App_rd_en' on this module in ../user_source/hdl_source/top_tf_hdmi_audio.v(262)
+HDL-8007 ERROR: cannot find port 'App_rd_addr' on this module in ../user_source/hdl_source/top_tf_hdmi_audio.v(263)
+HDL-8007 ERROR: cannot find port 'Sdr_rd_en' on this module in ../user_source/hdl_source/top_tf_hdmi_audio.v(264)
+HDL-8007 ERROR: cannot find port 'Sdr_rd_dout' on this module in ../user_source/hdl_source/top_tf_hdmi_audio.v(265)
+HDL-5007 WARNING: The file ../user_source/hdl_source/SD/sdram.v will not be compiled since it is not included by any other files. Set it as 'global include' if it should be compiled.
+HDL-8007 ERROR: cannot open include file './src/sdram/enc_file/global_def.v' in ../user_source/hdl_source/SD/sdram.v(1)
+HDL-8007 ERROR: cannot open include file './src/sdram/enc_file/global_def.v' in ../user_source/hdl_source/SD/sdram.v(10)
+HDL-8007 ERROR: use of undefined macro 'ADDR_WIDTH' in ../user_source/hdl_source/SD/sdram.v(33)
+HDL-8007 ERROR: use of undefined macro 'DM_WIDTH' in ../user_source/hdl_source/SD/sdram.v(34)
+HDL-8007 ERROR: use of undefined macro 'DATA_WIDTH' in ../user_source/hdl_source/SD/sdram.v(35)
+HDL-8007 ERROR: use of undefined macro 'BA_WIDTH' in ../user_source/hdl_source/SD/sdram.v(50)
+HDL-8007 ERROR: use of undefined macro 'ROW_WIDTH' in ../user_source/hdl_source/SD/sdram.v(51)
+HDL-8007 ERROR: ignore module module due to previous errors in ../user_source/hdl_source/SD/sdram.v(12)
+HDL-5007 WARNING: The file ../user_source/hdl_source/SD/sdram.v will not be compiled since it is not included by any other files. Set it as 'global include' if it should be compiled.
+PRJ-8403 ERROR: File(C:/Users/zbrmyyds/Desktop/anlu/FPGA_Prj/I2S/transmitor/APUG092_HDMI1.4b_Transmitter_V1.4/src/user_source/hdl_source/SD/sdram.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: C:/Users/zbrmyyds/Desktop/anlu/FPGA_Prj/I2S/transmitor/APUG092_HDMI1.4b_Transmitter_V1.4/src/user_source/hdl_source/SD/sdram.v
+HDL-8007 ERROR: cannot open include file './src/sdram/enc_file/global_def.v' in ../user_source/hdl_source/SD/sdram.v(1)
+HDL-8007 ERROR: cannot open include file './src/sdram/enc_file/global_def.v' in ../user_source/hdl_source/include/sdr_init_ref.enc.v(1)
+HDL-8007 ERROR: cannot open include file './src/sdram/enc_file/global_def.v' in ../user_source/hdl_source/SD/sdram.v(10)
+HDL-8007 ERROR: use of undefined macro 'ADDR_WIDTH' in ../user_source/hdl_source/SD/sdram.v(33)
+HDL-8007 ERROR: use of undefined macro 'DM_WIDTH' in ../user_source/hdl_source/SD/sdram.v(34)
+HDL-8007 ERROR: use of undefined macro 'DATA_WIDTH' in ../user_source/hdl_source/SD/sdram.v(35)
+HDL-8007 ERROR: use of undefined macro 'BA_WIDTH' in ../user_source/hdl_source/SD/sdram.v(50)
+HDL-8007 ERROR: use of undefined macro 'ROW_WIDTH' in ../user_source/hdl_source/SD/sdram.v(51)
+HDL-8007 ERROR: ignore module module due to previous errors in ../user_source/hdl_source/SD/sdram.v(12)
+HDL-5007 WARNING: The file ../user_source/hdl_source/SD/sdram.v will not be compiled since it is not included by any other files. Set it as 'global include' if it should be compiled.
+HDL-8007 ERROR: cannot open include file './src/sdram/enc_file/global_def.v' in ../user_source/hdl_source/include/sdr_init_ref.enc.v(1)
+HDL-8007 ERROR: cannot open include file './src/sdram/enc_file/global_def.v' in ../user_source/hdl_source/include/sdr_init_ref.enc.v(11)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in ../user_source/hdl_source/include/sdr_init_ref.enc.v(47)
+HDL-8007 ERROR: ignore module module due to previous errors in ../user_source/hdl_source/include/sdr_init_ref.enc.v(13)
+HDL-5007 WARNING: The file ../user_source/hdl_source/include/sdr_init_ref.enc.v will not be compiled since it is not included by any other files. Set it as 'global include' if it should be compiled.
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in ../user_source/hdl_source/include/sdr_init_ref.enc.v(47)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in ../user_source/hdl_source/include/sdr_wrrd.enc.v(283)
+PRJ-5303 WARNING: Run syn_1 failed.

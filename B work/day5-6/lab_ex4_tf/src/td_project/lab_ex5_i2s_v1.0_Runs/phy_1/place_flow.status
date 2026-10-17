@@ -1,0 +1,21 @@
+Location         : D:\FPGA FILE\official_routine\day5-6\lab_ex4_tf\src\td_project\lab_ex5_i2s_v1.0_Runs\phy_1
+Running with     : Tang Dynasty v6.2.168116
+                   Copyright (c) 2012-2025 Anlogic Inc.
+Top Model        : top
+Device           : EG4S20BG256
+Speed            : NA
+
+Timing Mode      : manhattan
+Setup            : WNS -6643ps  TNS  -294560ps  NUM_FEPS    80
+Hold             : WNS   -11ps  TNS     -176ps  NUM_FEPS    16
+
+Flow Statistics  :
+--------------------------------------------------------------------------------------------------
+     command     |  #calls  |  wall time  |  cpu time(s)  |  used memory(mb)  |  peak memory(mb)  
+--------------------------------------------------------------------------------------------------
+      place      |    1     |  10s(100%)  |   21(100%)    |        266        |        266        
+    import_db    |    1     |   0s(0%)    |     0(0%)     |        148        |        148        
+  import_device  |    1     |   0s(0%)    |     0(0%)     |        83         |        83         
+--------------------------------------------------------------------------------------------------
+      total      |    3     |     10s     |      21       |        266        |        266        
+--------------------------------------------------------------------------------------------------

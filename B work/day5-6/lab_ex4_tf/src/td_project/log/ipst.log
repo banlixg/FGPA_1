@@ -1,0 +1,5 @@
+#[INFO] IpTool V2025.07 (APP main), Windows 64bit (Release), Build 168007 2025/07/10, 18:32:53 Jul 10 2025 on WIN10-204
+#[INFO] Run at Thu Apr  9 12:38:18 2026
+
+ipst_gui_select_dialog IP_Status
+ipst_gui_close_dialog IP_Status

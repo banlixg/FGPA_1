@@ -1,0 +1,22 @@
+Location         : C:\Users\zbrmyyds\Desktop\anlu\FPGA_Prj\I2S\transmitor\APUG092_HDMI1.4b_Transmitter_V1.4\src\td_project\HDMI1.4b_Transmitter_v1.0_Runs\phy_1
+Running with     : Tang Dynasty v6.2.168116
+                   Copyright (c) 2012-2025 Anlogic Inc.
+Top Model        : top
+Device           : EG4S20BG256
+Speed            : NA
+
+Timing Mode      : final
+Setup            : WNS -6699ps  TNS  -293216ps  NUM_FEPS    70
+Hold             : WNS     3ps  TNS        0ps  NUM_FEPS     0
+
+Flow Statistics  :
+--------------------------------------------------------------------------------------------------
+     command     |  #calls  |  wall time  |  cpu time(s)  |  used memory(mb)  |  peak memory(mb)  
+--------------------------------------------------------------------------------------------------
+      route      |    2     |  27s(75%)   |    30(63%)    |        646        |        662        
+      place      |    2     |   9s(25%)   |    17(36%)    |        661        |        661        
+    import_db    |    1     |   0s(0%)    |     0(0%)     |        156        |        156        
+  import_device  |    1     |   0s(0%)    |     0(0%)     |        83         |        83         
+--------------------------------------------------------------------------------------------------
+      total      |    6     |     36s     |      47       |        661        |        662        
+--------------------------------------------------------------------------------------------------
