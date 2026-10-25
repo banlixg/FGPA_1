@@ -1,0 +1,2 @@
+TEST_PASS mode=four_images checks=5 writes=2108 slots=f
+tb_team_frame_store.sv:280: $finish called at 112660000 (1ps)

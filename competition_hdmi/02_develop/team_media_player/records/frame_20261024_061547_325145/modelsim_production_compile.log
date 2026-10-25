@@ -1,0 +1,28 @@
+
+Model Technology ModelSim SE-64 vmap 10.4 Lib Mapping Utility 2014.12 Dec  3 2014
+vmap -c 
+Copying D:/modeltech64_10.4/win64/../modelsim.ini to modelsim.ini
+
+Model Technology ModelSim SE-64 vmap 10.4 Lib Mapping Utility 2014.12 Dec  3 2014
+vmap prod_work prod_work 
+Modifying modelsim.ini
+
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+Start time: 06:16:36 on Oct 24,2026
+vlog -work prod_work team_fat32_catalog.v team_fat32_file_reader.v team_fat32_mount.v team_frame_store_writer.v team_image_loader.v team_sector_guard.v team_bmp_parser.v team_frame_commit_bridge.v 
+-- Compiling module team_fat32_catalog
+-- Compiling module team_fat32_file_reader
+-- Compiling module team_fat32_mount
+-- Compiling module team_frame_store_writer
+-- Compiling module team_image_loader
+-- Compiling module team_sector_guard
+-- Compiling module team_bmp_parser
+-- Compiling module team_frame_commit_bridge
+
+Top level modules:
+	team_fat32_catalog
+	team_fat32_mount
+	team_image_loader
+	team_frame_commit_bridge
+End time: 06:16:36 on Oct 24,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

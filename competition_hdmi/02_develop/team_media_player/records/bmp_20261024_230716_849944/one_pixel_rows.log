@@ -1,0 +1,2 @@
+TEST_PASS pixels=4 received=4 error=0 repeats=1 output_stalls=0 input_stalls=1
+tb_team_bmp_parser.sv:61: $finish called at 880000 (1ps)

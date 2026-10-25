@@ -1,0 +1,2 @@
+# Python >= 3.10. Icarus is a separate, existing system/private installation.
+Pillow==12.3.0

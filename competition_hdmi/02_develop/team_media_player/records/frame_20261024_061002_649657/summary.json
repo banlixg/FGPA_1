@@ -1,0 +1,115 @@
+{
+  "status": "PASS",
+  "cases": 20,
+  "results": [
+    {
+      "case": "four_images",
+      "status": "PASS",
+      "marker": "TEST_PASS mode=four_images checks=5 writes=2108 slots=f"
+    },
+    {
+      "case": "late_write_ack",
+      "status": "PASS",
+      "marker": "TEST_PASS mode=late_write_ack checks=5 writes=2108 slots=f"
+    },
+    {
+      "case": "late_file_done",
+      "status": "PASS",
+      "marker": "TEST_PASS mode=late_file_done checks=5 writes=2108 slots=f"
+    },
+    {
+      "case": "zero_latency",
+      "status": "PASS",
+      "marker": "TEST_PASS mode=zero_latency checks=5 writes=2108 slots=f"
+    },
+    {
+      "case": "bad_first_coordinate",
+      "status": "PASS",
+      "marker": "TEST_PASS mode=bad_first_coordinate checks=1 writes=0 slots=0"
+    },
+    {
+      "case": "duplicate_coordinate",
+      "status": "PASS",
+      "marker": "TEST_PASS mode=duplicate_coordinate checks=1 writes=1 slots=0"
+    },
+    {
+      "case": "out_of_range",
+      "status": "PASS",
+      "marker": "TEST_PASS mode=out_of_range checks=1 writes=0 slots=0"
+    },
+    {
+      "case": "early_image_done",
+      "status": "PASS",
+      "marker": "TEST_PASS mode=early_image_done checks=1 writes=1 slots=0"
+    },
+    {
+      "case": "abort_held_request",
+      "status": "PASS",
+      "marker": "TEST_PASS mode=abort_held_request checks=1 writes=1 slots=0"
+    },
+    {
+      "case": "abort_outstanding_response",
+      "status": "PASS",
+      "marker": "TEST_PASS mode=abort_outstanding_response checks=1 writes=1 slots=0"
+    },
+    {
+      "case": "write_error",
+      "status": "PASS",
+      "marker": "TEST_PASS mode=write_error checks=1 writes=2 slots=0"
+    },
+    {
+      "case": "unsolicited_response",
+      "status": "PASS",
+      "marker": "TEST_PASS mode=unsolicited_response checks=1 writes=0 slots=0"
+    },
+    {
+      "case": "late_write_error",
+      "status": "PASS",
+      "marker": "TEST_PASS mode=late_write_error checks=1 writes=527 slots=0"
+    },
+    {
+      "case": "late_file_error",
+      "status": "PASS",
+      "marker": "TEST_PASS mode=late_file_error checks=1 writes=527 slots=0"
+    },
+    {
+      "case": "retry_failed_slot",
+      "status": "PASS",
+      "marker": "TEST_PASS mode=retry_failed_slot checks=2 writes=527 slots=4"
+    },
+    {
+      "case": "reset_pending",
+      "status": "PASS",
+      "marker": "TEST_PASS mode=reset_pending checks=1 writes=527 slots=4"
+    },
+    {
+      "case": "full_resolution",
+      "status": "PASS",
+      "marker": "TEST_PASS mode=full_resolution checks=5 writes=1228800 slots=f"
+    },
+    {
+      "case": "bridge_src_fast",
+      "status": "PASS",
+      "marker": "TEST_PASS bridge src_half=3 video_half=7 checks=132"
+    },
+    {
+      "case": "bridge_video_fast",
+      "status": "PASS",
+      "marker": "TEST_PASS bridge src_half=11 video_half=4 checks=132"
+    },
+    {
+      "case": "bridge_equal_clocks",
+      "status": "PASS",
+      "marker": "TEST_PASS bridge src_half=5 video_half=5 checks=132"
+    }
+  ],
+  "source_sha256": {
+    "rtl\\storage\\team_frame_store_writer.v": "542a120ab61f4ebf05ba0ed6b6d8f2cb466a4cdef9faaabf3c9d35e588aa8d17",
+    "rtl\\video\\team_frame_commit_bridge.v": "2a4976970e6f9638235cff90b4c05b7fcd4e09638be73c3ead53bc3184a9410b",
+    "rtl\\image\\team_bmp_parser.v": "5b61f9cf025e9f363bf19ab9ead70737b4b1aac462c3e6652577a4355cbb5326",
+    "sim\\frame\\tb_team_frame_store.sv": "8df71c2228f3fc4f1cd900d50be089d6a1c592956660fe01cef8e841ab1f5d7b",
+    "sim\\frame\\tb_team_frame_commit.sv": "356daca8635c6992025fd61becedd02fe2e92aded64833bac74fda2a586bab89"
+  },
+  "build_directory": "C:\\Users\\banli\\AppData\\Local\\Temp\\team_frame_ag767zja",
+  "scope": "BMP -> resident slots through acknowledged RAM model; frame-boundary CDC simulation only"
+}

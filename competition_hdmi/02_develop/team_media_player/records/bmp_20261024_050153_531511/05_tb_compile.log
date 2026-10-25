@@ -1,0 +1,9 @@
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+Start time: 05:01:53 on Oct 24,2026
+vlog -sv -work work tb_team_bmp_parser.sv 
+-- Compiling module tb_team_bmp_parser
+
+Top level modules:
+	tb_team_bmp_parser
+End time: 05:01:54 on Oct 24,2026, Elapsed time: 0:00:01
+Errors: 0, Warnings: 0

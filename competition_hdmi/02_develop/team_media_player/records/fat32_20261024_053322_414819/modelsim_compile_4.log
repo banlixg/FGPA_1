@@ -1,0 +1,16 @@
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+Start time: 05:36:32 on Oct 24,2026
+vlog -work work team_sector_guard.v team_fat32_mount.v team_fat32_catalog.v team_fat32_file_reader.v team_bmp_parser.v 
+-- Compiling module team_sector_guard
+-- Compiling module team_fat32_mount
+-- Compiling module team_fat32_catalog
+-- Compiling module team_fat32_file_reader
+-- Compiling module team_bmp_parser
+
+Top level modules:
+	team_fat32_mount
+	team_fat32_catalog
+	team_fat32_file_reader
+	team_bmp_parser
+End time: 05:36:32 on Oct 24,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

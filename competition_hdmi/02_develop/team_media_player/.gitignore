@@ -1,0 +1,8 @@
+.tools/
+__pycache__/
+*.pyc
+work/
+modelsim.ini
+transcript
+*.wlf
+

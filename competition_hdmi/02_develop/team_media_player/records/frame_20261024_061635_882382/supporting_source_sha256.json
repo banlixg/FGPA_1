@@ -1,0 +1,5 @@
+{
+  "tools/run_frame_regression.py": "474d2dece7a9fccaa18e78713c91bb1f464e7bc4433d309995e954ed03dce250",
+  "tools/run_fat32_regression.py": "1eb6fb809ff93f57c4c6a54bc0f63ca6713d6813b00da6080cb550882f9eef5b",
+  "sim/bmp/fixtures/team_03.bmp": "866704310770472e7ccd75d9135ff6112874e98e5f11529c8126a97d5847deff"
+}

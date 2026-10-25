@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "cases": 3,
+  "results": [
+    {
+      "case": "four_images",
+      "status": "PASS",
+      "marker": "TEST_PASS mode=four_images checks=5 writes=2108 slots=f"
+    },
+    {
+      "case": "abort_held_request",
+      "status": "PASS",
+      "marker": "TEST_PASS mode=abort_held_request checks=1 writes=1 slots=0"
+    },
+    {
+      "case": "bridge_src_fast",
+      "status": "PASS",
+      "marker": "TEST_PASS bridge src_half=3 video_half=7 checks=132"
+    }
+  ],
+  "source_sha256": {
+    "rtl\\storage\\team_frame_store_writer.v": "542a120ab61f4ebf05ba0ed6b6d8f2cb466a4cdef9faaabf3c9d35e588aa8d17",
+    "rtl\\video\\team_frame_commit_bridge.v": "2a4976970e6f9638235cff90b4c05b7fcd4e09638be73c3ead53bc3184a9410b",
+    "rtl\\image\\team_bmp_parser.v": "5b61f9cf025e9f363bf19ab9ead70737b4b1aac462c3e6652577a4355cbb5326",
+    "sim\\frame\\tb_team_frame_store.sv": "8df71c2228f3fc4f1cd900d50be089d6a1c592956660fe01cef8e841ab1f5d7b",
+    "sim\\frame\\tb_team_frame_commit.sv": "356daca8635c6992025fd61becedd02fe2e92aded64833bac74fda2a586bab89"
+  },
+  "build_directory": "C:\\Users\\banli\\AppData\\Local\\Temp\\team_frame_7g6sx_lf",
+  "scope": "BMP -> resident slots through acknowledged RAM model; frame-boundary CDC simulation only"
+}

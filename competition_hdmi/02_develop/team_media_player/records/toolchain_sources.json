@@ -1,0 +1,97 @@
+{
+  "primary_project": "https://github.com/steveicarus/iverilog",
+  "distribution": "https://repo.msys2.org/mingw/mingw64/",
+  "version": "Icarus Verilog 13.0 stable",
+  "compiler_package": {
+    "url": "https://repo.msys2.org/mingw/mingw64/mingw-w64-x86_64-iverilog-1~13.0-2-any.pkg.tar.zst",
+    "sha256": "e22c86dad1a0658d5f769362bfbec6533028c0d0bb63059b4fda0cc1084d1406"
+  },
+  "runtime_dependencies": [
+    {
+      "url": "https://repo.msys2.org/mingw/mingw64/mingw-w64-x86_64-bzip2-1.0.8-4-any.pkg.tar.zst",
+      "sha256": "123768f30ae14ba654a6feb70f8526146a331bc85f831a91a549ffb3f6cbffc7",
+      "dlls": [
+        "mingw64/bin/libbz2-1.dll"
+      ]
+    },
+    {
+      "url": "https://repo.msys2.org/mingw/mingw64/mingw-w64-x86_64-readline-8.3.003-1-any.pkg.tar.zst",
+      "sha256": "b943d7e2a61ac6e0304eac11cdcee15370a8c2ccee5b84487f8ad6c1e103d66c",
+      "dlls": [
+        "mingw64/bin/libhistory8.dll",
+        "mingw64/bin/libreadline8.dll"
+      ]
+    },
+    {
+      "url": "https://repo.msys2.org/mingw/mingw64/mingw-w64-x86_64-zlib-1.3.2-3-any.pkg.tar.zst",
+      "sha256": "ffde6f4ed2d879477c93b37ff14c319baf480a2aeafc065edeceafba26b71e90",
+      "dlls": [
+        "mingw64/bin/zlib1.dll"
+      ]
+    },
+    {
+      "url": "https://repo.msys2.org/mingw/mingw64/mingw-w64-x86_64-gcc-libs-16.2.0-6-any.pkg.tar.zst",
+      "sha256": "e65d2da59bb22c13eafc0fb7684b0539f63902bb94a550df1d64531a6c08363a",
+      "dlls": []
+    },
+    {
+      "url": "https://repo.msys2.org/mingw/mingw64/mingw-w64-x86_64-libwinpthread-14.0.0.r532.gdbbc8e99d-1-any.pkg.tar.zst",
+      "sha256": "231511bb8a0e9be168930cec1ce55b2896b3120516cb9d452811dbd335a3c539",
+      "dlls": [
+        "mingw64/bin/libwinpthread-1.dll"
+      ]
+    },
+    {
+      "url": "https://repo.msys2.org/mingw/mingw64/mingw-w64-x86_64-cc-libs-16.2.0-6-any.pkg.tar.zst",
+      "sha256": "0128c6f7fc227e5862351e970e52d42370c72c896db87b8413c2699c6337a13a",
+      "dlls": []
+    },
+    {
+      "url": "https://repo.msys2.org/mingw/mingw64/mingw-w64-x86_64-termcap-1.3.1-8-any.pkg.tar.zst",
+      "sha256": "205ece965d693274f200ff6c15bca8d29a093860951aeb4dbb9660817c255cc0",
+      "dlls": [
+        "mingw64/bin/libtermcap-0.dll"
+      ]
+    },
+    {
+      "url": "https://repo.msys2.org/mingw/mingw64/mingw-w64-x86_64-libatomic-16.2.0-6-any.pkg.tar.zst",
+      "sha256": "9effb04671f51ceeb46f79362f2f221e4bf12ce1ff103bff5f84e58807581e59",
+      "dlls": [
+        "mingw64/bin/libatomic-1.dll"
+      ]
+    },
+    {
+      "url": "https://repo.msys2.org/mingw/mingw64/mingw-w64-x86_64-libgomp-16.2.0-6-any.pkg.tar.zst",
+      "sha256": "2c74bc80f156b9cd3111ee1e773788638b855c1d7e9c9827974f5abd5d01e70f",
+      "dlls": [
+        "mingw64/bin/libgomp-1.dll"
+      ]
+    },
+    {
+      "url": "https://repo.msys2.org/mingw/mingw64/mingw-w64-x86_64-libquadmath-16.2.0-6-any.pkg.tar.zst",
+      "sha256": "4d6aca79ea4e0dcdfb67c1421dce8b064b99a8ca4076b8bfe10a03d6ba039026",
+      "dlls": [
+        "mingw64/bin/libquadmath-0.dll"
+      ]
+    },
+    {
+      "url": "https://repo.msys2.org/mingw/mingw64/mingw-w64-x86_64-libgcc-16.2.0-6-any.pkg.tar.zst",
+      "sha256": "e0815432c4225892b0eef57055fe507fa0b9a036436f046605f6629696bd1b88",
+      "dlls": [
+        "mingw64/bin/libgcc_s_seh-1.dll"
+      ]
+    },
+    {
+      "url": "https://repo.msys2.org/mingw/mingw64/mingw-w64-x86_64-libstdc%2B%2B-16.2.0-6-any.pkg.tar.zst",
+      "sha256": "924b47e8c3e20b6448e29d3333acc638a4f4783c1c45230e09673532f9c4f198",
+      "dlls": [
+        "mingw64/bin/libstdc++-6.dll"
+      ]
+    }
+  ],
+  "installation": "Private local runtime; no registry, PATH or simulator licence changes",
+  "fixture": {
+    "source": "D:\\FPGA FILE\\FPGA_1\\FPGA_1\\competition_hdmi\\04_assets\\numbered\\B\\D03-D04\\03.bmp",
+    "sha256": "866704310770472e7ccd75d9135ff6112874e98e5f11529c8126a97d5847deff"
+  }
+}

@@ -1,0 +1,426 @@
+{
+  "source": "D:\\FPGA FILE\\official_routine\\day5-6\\lab_ex4_tf",
+  "repository_base_commit": "d399d175f5fdc73c04258b98e2fd4a0e6b8e16c1",
+  "files": [
+    {
+      "path": "src/td_project/.lock.f",
+      "repository_path": "B work/day5-6/lab_ex4_tf/src/td_project/.lock.f",
+      "size": 92,
+      "sha256": "d150ba99d18be56e0f309a02140450da6db795361f44e51151a0f131f2c6df8f",
+      "comparison": "line_endings_only"
+    },
+    {
+      "path": "src/td_project/lab_ex5_i2s_v1.0.al",
+      "repository_path": "B work/day5-6/lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0.al",
+      "size": 16229,
+      "sha256": "f5efb41670b20013b20d0c3736bd4f96f9162c61470b70fa3c9dc65518f44b24",
+      "comparison": "line_endings_only"
+    },
+    {
+      "path": "src/td_project/al_ip/PLL.ipc",
+      "repository_path": "B work/day5-6/lab_ex4_tf/src/td_project/al_ip/PLL.ipc",
+      "size": 1511,
+      "sha256": "8cb6df3a1bb99cf2f95f9a535d7f33213b837207b36e336848a6ed0db29ab8b5",
+      "comparison": "exact"
+    },
+    {
+      "path": "src/td_project/al_ip/PLL.v",
+      "repository_path": "B work/day5-6/lab_ex4_tf/src/td_project/al_ip/PLL.v",
+      "size": 2438,
+      "sha256": "4e873eef9499fa93508d8cf2cac90eea0e16c6f649ae29502cdc4c5886cd32aa",
+      "comparison": "line_endings_only"
+    },
+    {
+      "path": "src/td_project/al_ip/PLL.vhd",
+      "repository_path": "B work/day5-6/lab_ex4_tf/src/td_project/al_ip/PLL.vhd",
+      "size": 2688,
+      "sha256": "e46792bb3d2b72621b18b323c472213fd5880eb29e5e85f0b7d50e5117e47494",
+      "comparison": "line_endings_only"
+    },
+    {
+      "path": "src/user_source/constraints_source/.edid_debug_bak.cwc",
+      "repository_path": "B work/day5-6/lab_ex4_tf/src/user_source/constraints_source/.edid_debug_bak.cwc",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "comparison": "exact"
+    },
+    {
+      "path": "src/user_source/constraints_source/edid_debug.cwc",
+      "repository_path": "B work/day5-6/lab_ex4_tf/src/user_source/constraints_source/edid_debug.cwc",
+      "size": 59256,
+      "sha256": "6716411e2346de08976e0ad8ed2e09eb93bdc0f60efc31bf75ba70e6cebe1f95",
+      "comparison": "line_endings_only"
+    },
+    {
+      "path": "src/user_source/constraints_source/pin.adc",
+      "repository_path": "B work/day5-6/lab_ex4_tf/src/user_source/constraints_source/pin.adc",
+      "size": 5437,
+      "sha256": "7da7aa5aff3bc147231d5808e832bc0b90f44d58bcdb51295714991c9acb1651",
+      "comparison": "line_endings_only"
+    },
+    {
+      "path": "src/user_source/constraints_source/timing.sdc",
+      "repository_path": "B work/day5-6/lab_ex4_tf/src/user_source/constraints_source/timing.sdc",
+      "size": 3760,
+      "sha256": "49bacc6ae83e9f8a2c88cfaa4703827f4bc9991a033d832fac4287178bc79968",
+      "comparison": "line_endings_only"
+    },
+    {
+      "path": "src/user_source/hdl_source/hdmi_phy_warpper.v",
+      "repository_path": "B work/day5-6/lab_ex4_tf/src/user_source/hdl_source/hdmi_phy_warpper.v",
+      "size": 4017,
+      "sha256": "416b082b0987001bdbc0a7e20a557cb8fb1dca34e25dc881e6d28a8cb3cf4300",
+      "comparison": "line_endings_only"
+    },
+    {
+      "path": "src/user_source/hdl_source/key_remove_shakes.v",
+      "repository_path": "B work/day5-6/lab_ex4_tf/src/user_source/hdl_source/key_remove_shakes.v",
+      "size": 1762,
+      "sha256": "8832f59e7ba94bfb8cf31e4f5a772ef7177d5257a5a2532d53cbfa1d9b7f5cd9",
+      "comparison": "line_endings_only"
+    },
+    {
+      "path": "src/user_source/hdl_source/lane_lvds_10_1.v",
+      "repository_path": "B work/day5-6/lab_ex4_tf/src/user_source/hdl_source/lane_lvds_10_1.v",
+      "size": 4421,
+      "sha256": "de9529321354f04837e051d0ec1681cf44783d4be3284703a788e081147500bc",
+      "comparison": "line_endings_only"
+    },
+    {
+      "path": "src/user_source/hdl_source/startup_pulse.v",
+      "repository_path": "B work/day5-6/lab_ex4_tf/src/user_source/hdl_source/startup_pulse.v",
+      "size": 713,
+      "sha256": "396e1e56febb8028339e646bc2f06b83e07ab11ef840e447422fb941956741c9",
+      "comparison": "line_endings_only"
+    },
+    {
+      "path": "src/user_source/hdl_source/top_tf_hdmi_audio.v",
+      "repository_path": "B work/day5-6/lab_ex4_tf/src/user_source/hdl_source/top_tf_hdmi_audio.v",
+      "size": 11475,
+      "sha256": "2262cc3cb4de26173b789ddcdc54956b6b9db77a9e863f470dd05ec431c2471f",
+      "comparison": "line_endings_only"
+    },
+    {
+      "path": "src/user_source/hdl_source/video_rgb_to_axis_640x480.v",
+      "repository_path": "B work/day5-6/lab_ex4_tf/src/user_source/hdl_source/video_rgb_to_axis_640x480.v",
+      "size": 1749,
+      "sha256": "1c8fc26c789f87227036bea034f1ab6fc5633f2ab2684be422c54687a290fb96",
+      "comparison": "line_endings_only"
+    },
+    {
+      "path": "src/user_source/hdl_source/video_source_test.v",
+      "repository_path": "B work/day5-6/lab_ex4_tf/src/user_source/hdl_source/video_source_test.v",
+      "size": 2983,
+      "sha256": "39cc05c9684a594d4254d11e66e97344053ab75bdb00f3f5a301643fd7aadbfc",
+      "comparison": "line_endings_only"
+    },
+    {
+      "path": "src/user_source/ip_source/pll.ipc",
+      "repository_path": "B work/day5-6/lab_ex4_tf/src/user_source/ip_source/pll.ipc",
+      "size": 2124,
+      "sha256": "5d632bad332785258c35ca41ce2b4a2a550e6bfd75be0b63a3f72403ca2ce11e",
+      "comparison": "exact"
+    },
+    {
+      "path": "src/user_source/ip_source/pll.v",
+      "repository_path": "B work/day5-6/lab_ex4_tf/src/user_source/ip_source/pll.v",
+      "size": 3333,
+      "sha256": "202799f886f12cfc1d837afa932328b636c6c3dee70167be68c084133647b39c",
+      "comparison": "line_endings_only"
+    },
+    {
+      "path": "src/user_source/ip_source/pll.vhd",
+      "repository_path": "B work/day5-6/lab_ex4_tf/src/user_source/ip_source/pll.vhd",
+      "size": 3559,
+      "sha256": "a8166865b5aef9caaee525d4633aa1dec4172244a7bbff239e0d658c0ca775e4",
+      "comparison": "line_endings_only"
+    },
+    {
+      "path": "src/user_source/hdl_source/hdmi1.4b_transmitter_core/hdmi_1_4b_transmitter_core_wrapper.enc.v",
+      "repository_path": "B work/day5-6/lab_ex4_tf/src/user_source/hdl_source/hdmi1.4b_transmitter_core/hdmi_1_4b_transmitter_core_wrapper.enc.v",
+      "size": 328975,
+      "sha256": "867e0b0bdd874bc383d00918c9e1be3fe01edf41f343b6a0d73e262776596a63",
+      "comparison": "line_endings_only"
+    },
+    {
+      "path": "src/user_source/hdl_source/include/global_def.v",
+      "repository_path": "B work/day5-6/lab_ex4_tf/src/user_source/hdl_source/include/global_def.v",
+      "size": 373,
+      "sha256": "04f854d7fe2f7816705b988ec59822fc258e4ed3a13529e36d0b9e6233a2682f",
+      "comparison": "line_endings_only"
+    },
+    {
+      "path": "src/user_source/hdl_source/include/sdr_as_ram.enc.v",
+      "repository_path": "B work/day5-6/lab_ex4_tf/src/user_source/hdl_source/include/sdr_as_ram.enc.v",
+      "size": 7538,
+      "sha256": "767dbdfbd83d42223b77dfa7deab42ce8216a8fd6f6cb41b7e7593d9a345ba57",
+      "comparison": "line_endings_only"
+    },
+    {
+      "path": "src/user_source/hdl_source/include/sdr_init_ref.enc.v",
+      "repository_path": "B work/day5-6/lab_ex4_tf/src/user_source/hdl_source/include/sdr_init_ref.enc.v",
+      "size": 9059,
+      "sha256": "6da5945f4af793610d0d64c65c7e5d2d1c86ed4c11bc5fdeacd27eb03178b9f6",
+      "comparison": "line_endings_only"
+    },
+    {
+      "path": "src/user_source/hdl_source/include/sdr_wrrd.enc.v",
+      "repository_path": "B work/day5-6/lab_ex4_tf/src/user_source/hdl_source/include/sdr_wrrd.enc.v",
+      "size": 15637,
+      "sha256": "c7d7fe07d75f66aa88d9f986b3006319c995162434f104f9990664b374cdfdd2",
+      "comparison": "line_endings_only"
+    },
+    {
+      "path": "src/user_source/hdl_source/IP/afifo_16_256.tcl",
+      "repository_path": "B work/day5-6/lab_ex4_tf/src/user_source/hdl_source/IP/afifo_16_256.tcl",
+      "size": 554,
+      "sha256": "5807155b00f2f749328339e01a85b4bb836f91598286dd167513836b60af33db",
+      "comparison": "line_endings_only"
+    },
+    {
+      "path": "src/user_source/hdl_source/IP/afifo_16_256.v",
+      "repository_path": "B work/day5-6/lab_ex4_tf/src/user_source/hdl_source/IP/afifo_16_256.v",
+      "size": 34121,
+      "sha256": "dab43a76a35e21df4064a25edb940699b041427d70bae89cc03c5280b7bf4bf8",
+      "comparison": "line_endings_only"
+    },
+    {
+      "path": "src/user_source/hdl_source/IP/afifo_16_256.vhd",
+      "repository_path": "B work/day5-6/lab_ex4_tf/src/user_source/hdl_source/IP/afifo_16_256.vhd",
+      "size": 1405,
+      "sha256": "50d6d10017b63e1ce5a77bad4a80e9a3de81402909d30ca0818674a1887eb46d",
+      "comparison": "line_endings_only"
+    },
+    {
+      "path": "src/user_source/hdl_source/IP/afifo_16_256_sim.v",
+      "repository_path": "B work/day5-6/lab_ex4_tf/src/user_source/hdl_source/IP/afifo_16_256_sim.v",
+      "size": 64027,
+      "sha256": "55b81ab3aa699902b6f11fe766658b852e0740844879a942dca81cd57b40f729",
+      "comparison": "line_endings_only"
+    },
+    {
+      "path": "src/user_source/hdl_source/IP/afifo_16_32_256.ipc",
+      "repository_path": "B work/day5-6/lab_ex4_tf/src/user_source/hdl_source/IP/afifo_16_32_256.ipc",
+      "size": 856,
+      "sha256": "9df57c0b914f2f6222f88e356528947224fddb866be2468f1391c26d4e60d371",
+      "comparison": "exact"
+    },
+    {
+      "path": "src/user_source/hdl_source/IP/afifo_16_32_256.tcl",
+      "repository_path": "B work/day5-6/lab_ex4_tf/src/user_source/hdl_source/IP/afifo_16_32_256.tcl",
+      "size": 554,
+      "sha256": "5807155b00f2f749328339e01a85b4bb836f91598286dd167513836b60af33db",
+      "comparison": "line_endings_only"
+    },
+    {
+      "path": "src/user_source/hdl_source/IP/afifo_16_32_256.v",
+      "repository_path": "B work/day5-6/lab_ex4_tf/src/user_source/hdl_source/IP/afifo_16_32_256.v",
+      "size": 34123,
+      "sha256": "3d29b06655482184a9ad157b9bd71b79032debe3199168d3b4d9570fdac31835",
+      "comparison": "line_endings_only"
+    },
+    {
+      "path": "src/user_source/hdl_source/IP/afifo_32_16_256.ipc",
+      "repository_path": "B work/day5-6/lab_ex4_tf/src/user_source/hdl_source/IP/afifo_32_16_256.ipc",
+      "size": 857,
+      "sha256": "a74955dc68a02bbfb36780127008c4737ec80e0888a4648e98e6eac9f5d2c349",
+      "comparison": "exact"
+    },
+    {
+      "path": "src/user_source/hdl_source/IP/afifo_32_16_256.tcl",
+      "repository_path": "B work/day5-6/lab_ex4_tf/src/user_source/hdl_source/IP/afifo_32_16_256.tcl",
+      "size": 554,
+      "sha256": "5807155b00f2f749328339e01a85b4bb836f91598286dd167513836b60af33db",
+      "comparison": "line_endings_only"
+    },
+    {
+      "path": "src/user_source/hdl_source/IP/afifo_32_16_256.v",
+      "repository_path": "B work/day5-6/lab_ex4_tf/src/user_source/hdl_source/IP/afifo_32_16_256.v",
+      "size": 34123,
+      "sha256": "7c3ee41f30be75ae686c9abff3a840fc5439209cda077e4aa275eac0dab9f564",
+      "comparison": "line_endings_only"
+    },
+    {
+      "path": "src/user_source/hdl_source/IP/sdram.ipc",
+      "repository_path": "B work/day5-6/lab_ex4_tf/src/user_source/hdl_source/IP/sdram.ipc",
+      "size": 385,
+      "sha256": "c3092876d4a66739dfc52cbda4fe84eab75099218f65db7e7d922c41dee1c201",
+      "comparison": "exact"
+    },
+    {
+      "path": "src/user_source/hdl_source/IP/sdram.v",
+      "repository_path": "B work/day5-6/lab_ex4_tf/src/user_source/hdl_source/IP/sdram.v",
+      "size": 1108,
+      "sha256": "1487e8583bbf52fe6d079a2854c10ebff2e569a3872a9088c1c9717ba14d17fe",
+      "comparison": "line_endings_only"
+    },
+    {
+      "path": "src/user_source/hdl_source/IP/sdram.vhd",
+      "repository_path": "B work/day5-6/lab_ex4_tf/src/user_source/hdl_source/IP/sdram.vhd",
+      "size": 1336,
+      "sha256": "853170e99291fb6b2b1bf3f5f20cd1dd0cc723052864147810b674e18cd70705",
+      "comparison": "line_endings_only"
+    },
+    {
+      "path": "src/user_source/hdl_source/IP/sys_pll.ipc",
+      "repository_path": "B work/day5-6/lab_ex4_tf/src/user_source/hdl_source/IP/sys_pll.ipc",
+      "size": 1721,
+      "sha256": "5199d4459b3437892ed6be21a62f7528d3ce534bd9b1001a84e42074122266fe",
+      "comparison": "exact"
+    },
+    {
+      "path": "src/user_source/hdl_source/IP/sys_pll.v",
+      "repository_path": "B work/day5-6/lab_ex4_tf/src/user_source/hdl_source/IP/sys_pll.v",
+      "size": 2527,
+      "sha256": "02da17afa1b3f23c880254924437b9529ef7ab872b888073fce43d3dce07a4f6",
+      "comparison": "line_endings_only"
+    },
+    {
+      "path": "src/user_source/hdl_source/IP/sys_pll.vhd",
+      "repository_path": "B work/day5-6/lab_ex4_tf/src/user_source/hdl_source/IP/sys_pll.vhd",
+      "size": 2820,
+      "sha256": "0ba7e030d4e3d459d6e411a037b731700f4cb259be92b2e444b4deba10d301d2",
+      "comparison": "line_endings_only"
+    },
+    {
+      "path": "src/user_source/hdl_source/IP/video_pll.ipc",
+      "repository_path": "B work/day5-6/lab_ex4_tf/src/user_source/hdl_source/IP/video_pll.ipc",
+      "size": 1451,
+      "sha256": "b717f646067025a69b4021ed85adeeb6531fad881bce5a49fcb2171ccf401076",
+      "comparison": "exact"
+    },
+    {
+      "path": "src/user_source/hdl_source/IP/video_pll.v",
+      "repository_path": "B work/day5-6/lab_ex4_tf/src/user_source/hdl_source/IP/video_pll.v",
+      "size": 2349,
+      "sha256": "57e45a062814673e97773cf6c58ff1629fa45895e30de9d2c2b6bdd30bd9bb13",
+      "comparison": "line_endings_only"
+    },
+    {
+      "path": "src/user_source/hdl_source/IP/video_pll.vhd",
+      "repository_path": "B work/day5-6/lab_ex4_tf/src/user_source/hdl_source/IP/video_pll.vhd",
+      "size": 2619,
+      "sha256": "4c23a8a81b28c81bed4834e1e9a757db01eebd360c7fe3a7066f8f8f7b6a36c4",
+      "comparison": "line_endings_only"
+    },
+    {
+      "path": "src/user_source/hdl_source/SD/ax_debounce.v",
+      "repository_path": "B work/day5-6/lab_ex4_tf/src/user_source/hdl_source/SD/ax_debounce.v",
+      "size": 2201,
+      "sha256": "93aa6dd38051250cc7f777c88466ac180afe9bcdce7838b9ea506455d8cbc9b8",
+      "comparison": "line_endings_only"
+    },
+    {
+      "path": "src/user_source/hdl_source/SD/bmp_read.v",
+      "repository_path": "B work/day5-6/lab_ex4_tf/src/user_source/hdl_source/SD/bmp_read.v",
+      "size": 11388,
+      "sha256": "ca3f998fc71b06c9409d2f21f47136bb2dcfe9bf56dcb033da63b431fcbe68f1",
+      "comparison": "line_endings_only"
+    },
+    {
+      "path": "src/user_source/hdl_source/SD/color_bar.v",
+      "repository_path": "B work/day5-6/lab_ex4_tf/src/user_source/hdl_source/SD/color_bar.v",
+      "size": 9141,
+      "sha256": "afe1f56714ec58d2477ba1717e5a36c5a0da5fe5c07d70d11aa5ace710c4b152",
+      "comparison": "exact"
+    },
+    {
+      "path": "src/user_source/hdl_source/SD/frame_fifo_read.v",
+      "repository_path": "B work/day5-6/lab_ex4_tf/src/user_source/hdl_source/SD/frame_fifo_read.v",
+      "size": 10172,
+      "sha256": "5952075b213ec638f5c9bb238d4d4162685f9e9b5e752674f0e68a92dbec83ac",
+      "comparison": "line_endings_only"
+    },
+    {
+      "path": "src/user_source/hdl_source/SD/frame_fifo_write.v",
+      "repository_path": "B work/day5-6/lab_ex4_tf/src/user_source/hdl_source/SD/frame_fifo_write.v",
+      "size": 11551,
+      "sha256": "ef0f46443b6f79ebb9fbba8f39b11dca90ee7e9ae4637c1d45786744d964e540",
+      "comparison": "line_endings_only"
+    },
+    {
+      "path": "src/user_source/hdl_source/SD/frame_read_write.v",
+      "repository_path": "B work/day5-6/lab_ex4_tf/src/user_source/hdl_source/SD/frame_read_write.v",
+      "size": 11057,
+      "sha256": "f9d7d04d81a8c8a3e226f855387971cf2308421bdd4c08c0ab465e9e40aa5cbd",
+      "comparison": "line_endings_only"
+    },
+    {
+      "path": "src/user_source/hdl_source/SD/sdram.v",
+      "repository_path": "B work/day5-6/lab_ex4_tf/src/user_source/hdl_source/SD/sdram.v",
+      "size": 2412,
+      "sha256": "2d985c2477384e677c25714241e1a50206def8916aa03189a5b313b2d22dfc99",
+      "comparison": "line_endings_only"
+    },
+    {
+      "path": "src/user_source/hdl_source/SD/sd_card_bmp.v",
+      "repository_path": "B work/day5-6/lab_ex4_tf/src/user_source/hdl_source/SD/sd_card_bmp.v",
+      "size": 16622,
+      "sha256": "fdb06f8ec0126fdac0e5ae3311d9c1a1faede133342b0b10abc1f0ff4b71649b",
+      "comparison": "line_endings_only"
+    },
+    {
+      "path": "src/user_source/hdl_source/SD/sd_card_cmd.v",
+      "repository_path": "B work/day5-6/lab_ex4_tf/src/user_source/hdl_source/SD/sd_card_cmd.v",
+      "size": 8550,
+      "sha256": "a1a50502afd4e8b238b0627cd5f204c04738e761d49ab48f33da35e22ba4a5fa",
+      "comparison": "exact"
+    },
+    {
+      "path": "src/user_source/hdl_source/SD/sd_card_sec_read_write.v",
+      "repository_path": "B work/day5-6/lab_ex4_tf/src/user_source/hdl_source/SD/sd_card_sec_read_write.v",
+      "size": 5620,
+      "sha256": "c245c07e3b0056808d86e06aad74348494e2a7050d493a3d4141d97ccf115203",
+      "comparison": "exact"
+    },
+    {
+      "path": "src/user_source/hdl_source/SD/sd_card_top.v",
+      "repository_path": "B work/day5-6/lab_ex4_tf/src/user_source/hdl_source/SD/sd_card_top.v",
+      "size": 7277,
+      "sha256": "d5031b5b809a8df0a2c8cca194a511c5f74236e810cbe5e8436359f9e5f26a39",
+      "comparison": "exact"
+    },
+    {
+      "path": "src/user_source/hdl_source/SD/seg_decoder.v",
+      "repository_path": "B work/day5-6/lab_ex4_tf/src/user_source/hdl_source/SD/seg_decoder.v",
+      "size": 681,
+      "sha256": "62a2664be7db6d0dace31fc97a8faef0c43f44b639b1d5a6a2c49773812a3b5e",
+      "comparison": "exact"
+    },
+    {
+      "path": "src/user_source/hdl_source/SD/seg_scan.v",
+      "repository_path": "B work/day5-6/lab_ex4_tf/src/user_source/hdl_source/SD/seg_scan.v",
+      "size": 1517,
+      "sha256": "c61d6b6808e06dd0edc6db2d8f214426a1fb96d546556ecd1f74ea9ca6889f52",
+      "comparison": "exact"
+    },
+    {
+      "path": "src/user_source/hdl_source/SD/spi_master.v",
+      "repository_path": "B work/day5-6/lab_ex4_tf/src/user_source/hdl_source/SD/spi_master.v",
+      "size": 3655,
+      "sha256": "37f7a21144fa5cca3cc5c3b5f68a5ad40b3108336b600e45a1367734ac61403c",
+      "comparison": "exact"
+    },
+    {
+      "path": "src/user_source/hdl_source/SD/video_define.v",
+      "repository_path": "B work/day5-6/lab_ex4_tf/src/user_source/hdl_source/SD/video_define.v",
+      "size": 21,
+      "sha256": "77748966850a8f5af0d77f2cdb08006088ba5e1a31b98391fba6cc61c5247da2",
+      "comparison": "exact"
+    },
+    {
+      "path": "src/user_source/hdl_source/SD/video_delay.v",
+      "repository_path": "B work/day5-6/lab_ex4_tf/src/user_source/hdl_source/SD/video_delay.v",
+      "size": 1595,
+      "sha256": "f47c4b63f8baa6d8874c87dca5b72dfdadd19f4a107403da98752bce98936433",
+      "comparison": "line_endings_only"
+    },
+    {
+      "path": "src/user_source/hdl_source/SD/video_timing_data.v",
+      "repository_path": "B work/day5-6/lab_ex4_tf/src/user_source/hdl_source/SD/video_timing_data.v",
+      "size": 2432,
+      "sha256": "c6f75501e98dd5995f687aafb40455beffe45b426137b5089a73ac3a036f7282",
+      "comparison": "line_endings_only"
+    }
+  ]
+}

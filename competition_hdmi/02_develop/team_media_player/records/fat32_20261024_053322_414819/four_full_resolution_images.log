@@ -1,0 +1,2 @@
+TEST_PASS stage=complete files=4 pixels=1228800 sector_requests=8116
+tb_team_fat32.sv:101: $finish called at 56931980000 (1ps)

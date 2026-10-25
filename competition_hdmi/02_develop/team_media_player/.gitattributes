@@ -1,0 +1,3 @@
+# Evidence contains SHA-256 of exact source bytes. Preserve bytes on all OSes.
+* -text
+*.bmp binary

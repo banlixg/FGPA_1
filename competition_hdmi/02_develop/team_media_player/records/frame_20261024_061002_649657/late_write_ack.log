@@ -1,0 +1,2 @@
+TEST_PASS mode=late_write_ack checks=5 writes=2108 slots=f
+tb_team_frame_store.sv:280: $finish called at 112740000 (1ps)

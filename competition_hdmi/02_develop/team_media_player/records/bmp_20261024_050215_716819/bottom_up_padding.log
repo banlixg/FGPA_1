@@ -1,0 +1,4 @@
+Unable to checkout a license.  Vsim is closing.
+** Fatal: Invalid license environment. Application closing.
+Unable to checkout a license. Make sure your license file environment variable (e.g., LM_LICENSE_FILE)
+is set correctly and then run 'lmutil lmdiag' to diagnose the problem.

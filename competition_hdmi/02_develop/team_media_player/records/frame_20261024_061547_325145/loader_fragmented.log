@@ -1,0 +1,2 @@
+TEST_PASS mode=loader_fragmented files=4 resident=4 checks=4 writes=2108 sector_requests=28
+tb_team_image_loader.sv:130: $finish called at 195880000 (1ps)

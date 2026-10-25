@@ -1,0 +1,2 @@
+TEST_PASS mode=late_file_error checks=1 writes=527 slots=0
+tb_team_frame_store.sv:280: $finish called at 25140000 (1ps)
