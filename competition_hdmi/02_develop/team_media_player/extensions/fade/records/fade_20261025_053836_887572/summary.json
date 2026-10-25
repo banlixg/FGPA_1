@@ -1,0 +1,174 @@
+{
+  "status": "PASS",
+  "cases": 30,
+  "results": [
+    {
+      "case": "rgb_exhaustive",
+      "status": "PASS",
+      "marker": "TEST_PASS rgb exhaustive_gains=512 channel_values=256 checks=135181"
+    },
+    {
+      "case": "ctrl_normal_step8",
+      "status": "PASS",
+      "marker": "TEST_PASS ctrl mode=normal_step8 checks=724 accepted=1 fade_out_steps=32 fade_in_steps=32"
+    },
+    {
+      "case": "ctrl_normal_step7",
+      "status": "PASS",
+      "marker": "TEST_PASS ctrl mode=normal_step7 checks=834 accepted=1 fade_out_steps=37 fade_in_steps=37"
+    },
+    {
+      "case": "ctrl_normal_step1",
+      "status": "PASS",
+      "marker": "TEST_PASS ctrl mode=normal_step1 checks=5652 accepted=1 fade_out_steps=256 fade_in_steps=256"
+    },
+    {
+      "case": "ctrl_normal_step0",
+      "status": "PASS",
+      "marker": "TEST_PASS ctrl mode=normal_step0 checks=724 accepted=1 fade_out_steps=32 fade_in_steps=32"
+    },
+    {
+      "case": "ctrl_normal_step256",
+      "status": "PASS",
+      "marker": "TEST_PASS ctrl mode=normal_step256 checks=42 accepted=1 fade_out_steps=1 fade_in_steps=1"
+    },
+    {
+      "case": "ctrl_normal_step511",
+      "status": "PASS",
+      "marker": "TEST_PASS ctrl mode=normal_step511 checks=42 accepted=1 fade_out_steps=1 fade_in_steps=1"
+    },
+    {
+      "case": "ctrl_disabled",
+      "status": "PASS",
+      "marker": "TEST_PASS ctrl mode=disabled checks=31 accepted=1 fade_out_steps=0 fade_in_steps=0"
+    },
+    {
+      "case": "ctrl_latched_config",
+      "status": "PASS",
+      "marker": "TEST_PASS ctrl mode=latched_config checks=724 accepted=1 fade_out_steps=32 fade_in_steps=32"
+    },
+    {
+      "case": "ctrl_immediate_reply",
+      "status": "PASS",
+      "marker": "TEST_PASS ctrl mode=immediate_reply checks=724 accepted=1 fade_out_steps=32 fade_in_steps=32"
+    },
+    {
+      "case": "ctrl_stale_reply_then_correct",
+      "status": "PASS",
+      "marker": "TEST_PASS ctrl mode=stale_reply_then_correct checks=768 accepted=1 fade_out_steps=32 fade_in_steps=32"
+    },
+    {
+      "case": "ctrl_delayed_reply",
+      "status": "PASS",
+      "marker": "TEST_PASS ctrl mode=delayed_reply checks=812 accepted=1 fade_out_steps=32 fade_in_steps=32"
+    },
+    {
+      "case": "ctrl_repeat_two",
+      "status": "PASS",
+      "marker": "TEST_PASS ctrl mode=repeat_two checks=1593 accepted=2 fade_out_steps=69 fade_in_steps=69"
+    },
+    {
+      "case": "ctrl_queued_request",
+      "status": "PASS",
+      "marker": "TEST_PASS ctrl mode=queued_request checks=1098 accepted=2 fade_out_steps=48 fade_in_steps=48"
+    },
+    {
+      "case": "ctrl_invalid_target",
+      "status": "PASS",
+      "marker": "TEST_PASS ctrl mode=invalid_target checks=5 accepted=0 fade_out_steps=0 fade_in_steps=0"
+    },
+    {
+      "case": "ctrl_request_timeout",
+      "status": "PASS",
+      "marker": "TEST_PASS ctrl mode=request_timeout checks=777 accepted=0 fade_out_steps=32 fade_in_steps=0"
+    },
+    {
+      "case": "ctrl_missing_frame_tick",
+      "status": "PASS",
+      "marker": "TEST_PASS ctrl mode=missing_frame_tick checks=420 accepted=0 fade_out_steps=0 fade_in_steps=0"
+    },
+    {
+      "case": "ctrl_reply_timeout",
+      "status": "PASS",
+      "marker": "TEST_PASS ctrl mode=reply_timeout checks=795 accepted=1 fade_out_steps=32 fade_in_steps=0"
+    },
+    {
+      "case": "ctrl_fault_recovery",
+      "status": "PASS",
+      "marker": "TEST_PASS ctrl mode=fault_recovery checks=1140 accepted=1 fade_out_steps=32 fade_in_steps=32"
+    },
+    {
+      "case": "ctrl_reply_error",
+      "status": "PASS",
+      "marker": "TEST_PASS ctrl mode=reply_error checks=397 accepted=1 fade_out_steps=32 fade_in_steps=0"
+    },
+    {
+      "case": "ctrl_wrong_slot",
+      "status": "PASS",
+      "marker": "TEST_PASS ctrl mode=wrong_slot checks=397 accepted=1 fade_out_steps=32 fade_in_steps=0"
+    },
+    {
+      "case": "ctrl_missing_frame_after_reply",
+      "status": "PASS",
+      "marker": "TEST_PASS ctrl mode=missing_frame_after_reply checks=797 accepted=1 fade_out_steps=32 fade_in_steps=0"
+    },
+    {
+      "case": "ctrl_abort_out",
+      "status": "PASS",
+      "marker": "TEST_PASS ctrl mode=abort_out checks=27 accepted=0 fade_out_steps=1 fade_in_steps=0"
+    },
+    {
+      "case": "ctrl_abort_issue",
+      "status": "PASS",
+      "marker": "TEST_PASS ctrl mode=abort_issue checks=379 accepted=0 fade_out_steps=32 fade_in_steps=0"
+    },
+    {
+      "case": "ctrl_abort_wait",
+      "status": "PASS",
+      "marker": "TEST_PASS ctrl mode=abort_wait checks=397 accepted=1 fade_out_steps=32 fade_in_steps=0"
+    },
+    {
+      "case": "ctrl_abort_in",
+      "status": "PASS",
+      "marker": "TEST_PASS ctrl mode=abort_in checks=401 accepted=1 fade_out_steps=32 fade_in_steps=1"
+    },
+    {
+      "case": "ctrl_reset_out",
+      "status": "PASS",
+      "marker": "TEST_PASS ctrl mode=reset_out checks=379 accepted=1 fade_out_steps=16 fade_in_steps=16"
+    },
+    {
+      "case": "ctrl_reset_wait",
+      "status": "PASS",
+      "marker": "TEST_PASS ctrl mode=reset_wait checks=753 accepted=1 fade_out_steps=16 fade_in_steps=16"
+    },
+    {
+      "case": "video_640x480",
+      "status": "PASS",
+      "marker": "TEST_PASS integrated width=640 height=480 frames=12 visible_pixels=3686400 checks=5040005"
+    },
+    {
+      "case": "rtl_preview",
+      "status": "PASS",
+      "marker": "TEST_PASS integrated width=160 height=120 frames=75 visible_pixels=1440000 checks=1562405"
+    }
+  ],
+  "source_sha256": {
+    "rtl/team_fade_ctrl.v": "73898f4e7b4f214feaa6081ab22f27ac06a9f4255af84b974089a78778434787",
+    "rtl/team_fade_effect.v": "e134a97b746f21cbf0b86ef5c7eadfd2cdbc89116595b8f91fc19dff66cc3828",
+    "rtl/team_fade_rgb.v": "d700df59138cbacff9f6371da8254cbf3d99aca886f1b0787302c9121a465a07",
+    "sim/tb_team_fade_ctrl.sv": "475ae681aba9efaa197fb3099ec138c1dc02179e88f47226d3ec5e03df35ca01",
+    "sim/tb_team_fade_effect.sv": "b8663766f6ec2d1b5a12a6f3baf3254910e9bdcc8b89b6bf876132e10a820b4e",
+    "sim/tb_team_fade_rgb.sv": "53aa08dffc8a371b96c4b9505a43bafe46b1975970ea165c0219fbce76f9ad9a"
+  },
+  "preview": {
+    "frames": 75,
+    "width": 160,
+    "height": 120,
+    "raw_sha256": "e9c940c60561898bf80a53790c00e0a9d1e6185acd62bcb804c10af65917feab",
+    "gif_sha256": "cfe1dda178cef571a5a7ccd6fb477ebc6ce5aa583baedb68546714028aca1cbf",
+    "scope": "RGB from RTL simulation; display at nominal 60fps; not board capture"
+  },
+  "build_directory": "C:\\Users\\banli\\AppData\\Local\\Temp\\team_fade_k3bmuc2n",
+  "scope": "Independent RTL simulation only; no TD timing or physical display evidence"
+}

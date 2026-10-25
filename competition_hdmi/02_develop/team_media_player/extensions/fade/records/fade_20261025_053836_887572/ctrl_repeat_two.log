@@ -1,0 +1,2 @@
+TEST_PASS ctrl mode=repeat_two checks=1593 accepted=2 fade_out_steps=69 fade_in_steps=69
+tb_team_fade_ctrl.sv:214: $finish called at 15980000 (1ps)

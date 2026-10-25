@@ -1,0 +1,20 @@
+
+Model Technology ModelSim SE-64 vmap 10.4 Lib Mapping Utility 2014.12 Dec  3 2014
+vmap -c 
+Copying D:/modeltech64_10.4/win64/../modelsim.ini to modelsim.ini
+
+Model Technology ModelSim SE-64 vmap 10.4 Lib Mapping Utility 2014.12 Dec  3 2014
+vmap fade_work fade_work 
+Modifying modelsim.ini
+
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+Start time: 05:34:34 on Oct 25,2026
+vlog -work fade_work team_fade_rgb.v team_fade_ctrl.v team_fade_effect.v 
+-- Compiling module team_fade_rgb
+-- Compiling module team_fade_ctrl
+-- Compiling module team_fade_effect
+
+Top level modules:
+	team_fade_effect
+End time: 05:34:35 on Oct 25,2026, Elapsed time: 0:00:01
+Errors: 0, Warnings: 0

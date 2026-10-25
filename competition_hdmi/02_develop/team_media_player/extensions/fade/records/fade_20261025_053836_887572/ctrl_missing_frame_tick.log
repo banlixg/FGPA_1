@@ -1,0 +1,2 @@
+TEST_PASS ctrl mode=missing_frame_tick checks=420 accepted=0 fade_out_steps=0 fade_in_steps=0
+tb_team_fade_ctrl.sv:214: $finish called at 4250000 (1ps)

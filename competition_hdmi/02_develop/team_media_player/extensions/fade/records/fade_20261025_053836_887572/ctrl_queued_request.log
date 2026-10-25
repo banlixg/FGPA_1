@@ -1,0 +1,2 @@
+TEST_PASS ctrl mode=queued_request checks=1098 accepted=2 fade_out_steps=48 fade_in_steps=48
+tb_team_fade_ctrl.sv:214: $finish called at 11030000 (1ps)
