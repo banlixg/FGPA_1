@@ -1,0 +1,2 @@
+TEST_PASS ctrl mode=request_timeout checks=777 accepted=0 fade_out_steps=32 fade_in_steps=0
+tb_team_fade_ctrl.sv:214: $finish called at 7820000 (1ps)

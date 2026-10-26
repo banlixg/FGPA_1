@@ -1,0 +1,2 @@
+TEST_PASS mode=sdhc bytes=1024 reads=2 CCS=1
+tb_sd_spi.sv:115: $finish called at 558335000 (1ps)

@@ -1,0 +1,29 @@
+[
+  {
+    "file": "IMG0001.BMP",
+    "bytes": 921654,
+    "sha256": "ee4b7e7002fbf6915e54a96c98123d26dbaba7b39e72f052a270eaadb29c74b8"
+  },
+  {
+    "file": "IMG0002.BMP",
+    "bytes": 921654,
+    "sha256": "8bbf08c7dfcc2091f3120d5d0ae5c099be7e6ee6d0d2b3b5a00650b3c1186fe2"
+  },
+  {
+    "file": "IMG0003.BMP",
+    "bytes": 921654,
+    "sha256": "b20b70529897d7cba5b4c135e1161e5b66d53df565893f6fe8ede21cf23d3d5c"
+  },
+  {
+    "file": "IMG0004.BMP",
+    "bytes": 921654,
+    "sha256": "6dcf53c1620d0ea3b9b809b8497b2b7fb78cf4b32e07fa03904ac0990e2f8e4f"
+  },
+  {
+    "file": "AUDIO.WAV",
+    "bytes": 768044,
+    "sha256": "9e3f8a6da2cf73e0cf35ec71afdd2df244d27de4e92e9a6274de195d1ca94c77",
+    "format": "PCM1 stereo signed16 48000 Hz",
+    "seconds": 4
+  }
+]

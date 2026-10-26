@@ -1,0 +1,2 @@
+TEST_PASS core frames=573 boot_writes=2108 video_pixels=285984 PCM_samples=1200 sectors=80 fade_switches=3 underruns=0
+tb_core.sv:94: $finish called at 26425560000 (1ps)

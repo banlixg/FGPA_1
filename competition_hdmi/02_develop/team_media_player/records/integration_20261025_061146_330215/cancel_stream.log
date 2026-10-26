@@ -1,0 +1,2 @@
+TEST_PASS mode=cancel_stream bytes=529 reads=2 CCS=1
+tb_sd_spi.sv:115: $finish called at 480935000 (1ps)

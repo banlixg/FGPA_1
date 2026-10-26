@@ -1,0 +1,2 @@
+TEST_PASS integrated width=160 height=120 frames=75 visible_pixels=1440000 checks=1562405
+tb_team_fade_effect.sv:117: $finish called at 15624090000 (1ps)

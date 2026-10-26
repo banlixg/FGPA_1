@@ -1,0 +1,106 @@
+standard
+***Report Model: team_top Device: EG4S20BG256***
+
+IO Statistics
+#IO                        29   out of    188   15.43%
+  #input                    6
+  #output                  22
+  #inout                    1
+
+LUT Statistics
+#Total_luts             10068
+  #lut4                  8352
+  #lut5                  1716
+  #lut6                     0
+  #lut5_mx41                0
+  #lut4_alu1b               0
+
+Utilization Statistics
+#lut                    19082   out of  19600   97.36%
+#reg                     6608   out of  19600   33.71%
+#bram                      24   out of     64   37.50%
+  #bram9k                  24
+  #fifo9k                   0
+#bram32k                    0   out of     16    0.00%
+#dsp                        4   out of     29   13.79%
+#pad                       33   out of    188   17.55%
+  #ireg                     4
+  #oreg                    21
+  #treg                     1
+#pll                        2   out of      4   50.00%
+#gclk                       2   out of     16   12.50%
+
+Report Hierarchy Area:
++---------------------------------------------------------------------------------------------------------------------------+
+|Instance                                  |Module                             |lut     |ripple  |seq     |bram    |dsp     |
++---------------------------------------------------------------------------------------------------------------------------+
+|top                                       |team_top                           |17161   |1921    |6634    |24      |4       |
+|  card                                    |team_sd_spi_reader                 |1046    |68      |227     |0       |0       |
+|    spi                                   |team_spi_byte                      |51      |11      |29      |0       |0       |
+|  display                                 |team_status_display                |78      |5       |55      |0       |0       |
+|  hdmi                                    |hdmi_1_4b_transmitter_core_wrapper |1346    |226     |1470    |16      |0       |
+|    u0_reset_sync                         |hdmi_1_4b_tx_reset_sync            |0       |0       |2       |0       |0       |
+|    u_hdmi_edid_wrapper                   |hdmi_edid_wrapper                  |216     |26      |155     |2       |0       |
+|      u_hdmi_edid_read_controller         |hdmi_edid_read_controller          |8       |6       |11      |0       |0       |
+|      u_iic_master_wrapper                |iic_master_wrapper                 |208     |20      |144     |2       |0       |
+|        u_iic_bit_transmitter             |iic_bit_transmitter                |74      |10      |31      |0       |0       |
+|        u_iic_transmitter_controller      |iic_transmitter_controller         |134     |10      |113     |2       |0       |
+|          u_iic_w11_d1024_fifo            |iic_w11_d1024_fifo                 |30      |0       |55      |2       |0       |
+|    u_hdmi_tx_controller_wrapper          |hdmi_tx_controller_wrapper         |1129    |200     |1313    |14      |0       |
+|      u0_hdmi_tmds_encode                 |hdmi_tmds_encode                   |130     |30      |160     |0       |0       |
+|      u1_hdmi_tmds_encode                 |hdmi_tmds_encode                   |125     |30      |108     |0       |0       |
+|      u2_hdmi_tmds_encode                 |hdmi_tmds_encode                   |129     |30      |108     |0       |0       |
+|      u_hdmi_data_distribution            |hdmi_data_distribution             |2       |0       |43      |0       |0       |
+|      u_hdmi_island_data_assemble         |hdmi_island_data_assemble          |276     |0       |417     |0       |0       |
+|      u_hdmi_island_data_gen              |hdmi_island_data_gen               |267     |5       |320     |11      |0       |
+|        U_audio_sample_packet_2_channel   |audio_sample_packet_2_channel      |134     |5       |203     |11      |0       |
+|          u_w96_d1024_fifo                |w96_d1024_fifo                     |24      |0       |55      |11      |0       |
+|          u_BCH_32_24_encode              |BCH_32_24_encode                   |0       |0       |1       |0       |0       |
+|          u_BCH_64_56_encode              |BCH_64_56_encode                   |0       |0       |8       |0       |0       |
+|        u_audio_clock_regeneration_packet |audio_clock_regeneration_packet    |6       |0       |9       |0       |0       |
+|          u_BCH_64_56_encode              |BCH_64_56_encode                   |0       |0       |1       |0       |0       |
+|      u_hdmi_video_data_assemble          |hdmi_video_data_assemble           |0       |0       |40      |0       |0       |
+|      u_hdmi_video_source                 |hdmi_video_source                  |132     |95      |38      |0       |0       |
+|      u_video_axi_stream_receiver         |video_axi_stream_receiver          |68      |10      |79      |3       |0       |
+|        u_w24_d1024_fifo                  |w24_d1024_fifo                     |47      |3       |76      |3       |0       |
+|  memory                                  |team_board_sdram                   |93      |5       |422     |0       |0       |
+|    u2_ram                                |sdr_as_ram                         |93      |5       |422     |0       |0       |
+|      u1_init_ref                         |sdr_init_ref                       |21      |5       |81      |0       |0       |
+|      u2_wrrd                             |sdr_wrrd                           |72      |0       |341     |0       |0       |
+|  phy                                     |hdmi_phy_wrapper                   |34      |0       |47      |0       |0       |
+|    u0_lane_lvds_8_1                      |lane_lvds_10_1                     |12      |0       |18      |0       |0       |
+|    u1_lane_lvds_8_1                      |lane_lvds_10_1                     |10      |0       |12      |0       |0       |
+|    u2_lane_lvds_8_1                      |lane_lvds_10_1                     |10      |0       |12      |0       |0       |
+|    u3_lane_lvds_8_1                      |lane_lvds_10_1                     |2       |0       |5       |0       |0       |
+|  player                                  |team_player_core                   |14374   |1605    |4287    |8       |4       |
+|    audio_out                             |team_pcm_hdmi                      |103     |34      |94      |0       |0       |
+|    audio_source                          |team_audio_file                    |1967    |386     |871     |0       |1       |
+|      file_reader                         |team_fat32_file_reader             |863     |193     |347     |0       |0       |
+|        guard                             |team_sector_guard                  |134     |31      |77      |0       |0       |
+|      parser                              |team_wav_parser                    |1090    |193     |518     |0       |1       |
+|    boot                                  |team_boot_loader                   |4775    |977     |2610    |0       |1       |
+|      catalog                             |team_fat32_catalog                 |1228    |273     |598     |0       |0       |
+|        guard                             |team_sector_guard                  |132     |31      |79      |0       |0       |
+|      loader                              |team_image_loader                  |1877    |387     |900     |0       |1       |
+|        parser                            |team_bmp_parser                    |647     |143     |422     |0       |0       |
+|        reader                            |team_fat32_file_reader             |969     |185     |348     |0       |0       |
+|          guard                           |team_sector_guard                  |135     |31      |77      |0       |0       |
+|        writer                            |team_frame_store_writer            |255     |59      |125     |0       |1       |
+|      mount                               |team_fat32_mount                   |1408    |299     |1016    |0       |0       |
+|        guard                             |team_sector_guard                  |134     |31      |79      |0       |0       |
+|    control                               |team_player_control                |134     |52      |77      |0       |0       |
+|      ka                                  |team_key_event                     |34      |14      |21      |0       |0       |
+|      kn                                  |team_key_event                     |34      |14      |21      |0       |0       |
+|      kp                                  |team_key_event                     |34      |14      |21      |0       |0       |
+|    fade                                  |team_fade_effect                   |237     |58      |164     |0       |2       |
+|      controller                          |team_fade_ctrl                     |189     |39      |81      |0       |0       |
+|      pixels                              |team_fade_rgb                      |48      |19      |83      |0       |2       |
+|    fifo                                  |team_pcm_fifo                      |50      |12      |94      |8       |0       |
+|    memory_port                           |team_sdram_port                    |257     |54      |145     |0       |0       |
+|    scanout                               |team_line_scanout                  |6850    |32      |223     |0       |0       |
+|  sys_pll_m0                              |sys_pll                            |0       |0       |0       |0       |0       |
+|  video_pll_m0                            |video_pll                          |0       |0       |0       |0       |0       |
+|  rc                                      |team_reset_sync                    |0       |0       |3       |0       |0       |
+|  rm                                      |team_reset_sync                    |0       |0       |3       |0       |0       |
+|  rv                                      |team_reset_sync                    |0       |0       |3       |0       |0       |
++---------------------------------------------------------------------------------------------------------------------------+

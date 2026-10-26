@@ -1,0 +1,103 @@
+standard
+***Report Model: team_top Device: EG4S20BG256***
+
+IO Statistics
+#IO                        29
+  #input                    6
+  #output                  22
+  #inout                    1
+
+Gate Statistics
+#Basic gates            18726
+  #and                   4738
+  #nand                     0
+  #or                    3711
+  #nor                      0
+  #xor                     79
+  #xnor                     0
+  #buf                      0
+  #not                    757
+  #bufif1                  33
+  #MX21                  2982
+  #FADD                     0
+  #DFF                   6426
+  #LATCH                    0
+#MACRO_ADD                360
+#MACRO_EQ                 295
+#MACRO_MULT                 6
+#MACRO_MUX               3451
+#MACRO_OTHERS              15
+
+Report Hierarchy Area:
++------------------------------------------------------------------------------------------------------+
+|Instance                                  |Module                             |gates  |seq    |macros |
++------------------------------------------------------------------------------------------------------+
+|top                                       |team_top                           |12300  |6426   |676    |
+|  card                                    |team_sd_spi_reader                 |532    |228    |38     |
+|    spi                                   |team_spi_byte                      |20     |29     |4      |
+|  display                                 |team_status_display                |37     |68     |3      |
+|  hdmi                                    |hdmi_1_4b_transmitter_core_wrapper |520    |1289   |231    |
+|    u0_reset_sync                         |hdmi_1_4b_tx_reset_sync            |0      |2      |0      |
+|    u_hdmi_edid_wrapper                   |hdmi_edid_wrapper                  |164    |102    |47     |
+|      u_hdmi_edid_read_controller         |hdmi_edid_read_controller          |10     |11     |5      |
+|      u_iic_master_wrapper                |iic_master_wrapper                 |154    |91     |42     |
+|        u_iic_bit_transmitter             |iic_bit_transmitter                |67     |33     |14     |
+|        u_iic_transmitter_controller      |iic_transmitter_controller         |85     |58     |28     |
+|          u_iic_w11_d1024_fifo            |iic_w11_d1024_fifo                 |0      |0      |1      |
+|    u_hdmi_tx_controller_wrapper          |hdmi_tx_controller_wrapper         |354    |1185   |184    |
+|      u0_hdmi_tmds_encode                 |hdmi_tmds_encode                   |95     |161    |41     |
+|      u1_hdmi_tmds_encode                 |hdmi_tmds_encode                   |49     |109    |38     |
+|      u2_hdmi_tmds_encode                 |hdmi_tmds_encode                   |52     |109    |38     |
+|      u_hdmi_data_distribution            |hdmi_data_distribution             |0      |43     |0      |
+|      u_hdmi_island_data_assemble         |hdmi_island_data_assemble          |4      |417    |2      |
+|      u_hdmi_island_data_gen              |hdmi_island_data_gen               |124    |265    |39     |
+|        U_audio_sample_packet_2_channel   |audio_sample_packet_2_channel      |13     |148    |37     |
+|          u_w96_d1024_fifo                |w96_d1024_fifo                     |0      |0      |1      |
+|          u_BCH_32_24_encode              |BCH_32_24_encode                   |0      |1      |0      |
+|          u_BCH_64_56_encode              |BCH_64_56_encode                   |0      |8      |0      |
+|        u_audio_clock_regeneration_packet |audio_clock_regeneration_packet    |2      |9      |0      |
+|          u_BCH_64_56_encode              |BCH_64_56_encode                   |0      |1      |0      |
+|      u_hdmi_video_data_assemble          |hdmi_video_data_assemble           |0      |40     |0      |
+|      u_hdmi_video_source                 |hdmi_video_source                  |20     |38     |24     |
+|      u_video_axi_stream_receiver         |video_axi_stream_receiver          |10     |3      |2      |
+|        u_w24_d1024_fifo                  |w24_d1024_fifo                     |0      |0      |1      |
+|  memory                                  |team_board_sdram                   |99     |463    |6      |
+|    u2_ram                                |sdr_as_ram                         |99     |463    |6      |
+|      u1_init_ref                         |sdr_init_ref                       |19     |81     |1      |
+|      u2_wrrd                             |sdr_wrrd                           |80     |382    |5      |
+|  phy                                     |hdmi_phy_wrapper                   |2      |47     |4      |
+|    u0_lane_lvds_8_1                      |lane_lvds_10_1                     |2      |18     |1      |
+|    u1_lane_lvds_8_1                      |lane_lvds_10_1                     |0      |12     |1      |
+|    u2_lane_lvds_8_1                      |lane_lvds_10_1                     |0      |12     |1      |
+|    u3_lane_lvds_8_1                      |lane_lvds_10_1                     |0      |5      |1      |
+|  player                                  |team_player_core                   |11048  |4306   |382    |
+|    audio_out                             |team_pcm_hdmi                      |42     |94     |7      |
+|    audio_source                          |team_audio_file                    |1845   |871    |84     |
+|      file_reader                         |team_fat32_file_reader             |1023   |347    |31     |
+|        guard                             |team_sector_guard                  |136    |77     |4      |
+|      parser                              |team_wav_parser                    |804    |518    |49     |
+|    boot                                  |team_boot_loader                   |7104   |2615   |232    |
+|      catalog                             |team_fat32_catalog                 |4705   |604    |50     |
+|        guard                             |team_sector_guard                  |137    |79     |4      |
+|      loader                              |team_image_loader                  |1502   |900    |74     |
+|        parser                            |team_bmp_parser                    |401    |422    |24     |
+|        reader                            |team_fat32_file_reader             |1007   |348    |29     |
+|          guard                           |team_sector_guard                  |136    |77     |4      |
+|        writer                            |team_frame_store_writer            |69     |125    |21     |
+|      mount                               |team_fat32_mount                   |829    |1015   |91     |
+|        guard                             |team_sector_guard                  |205    |79     |4      |
+|    control                               |team_player_control                |121    |80     |10     |
+|      ka                                  |team_key_event                     |25     |22     |2      |
+|      kn                                  |team_key_event                     |25     |22     |2      |
+|      kp                                  |team_key_event                     |25     |22     |2      |
+|    fade                                  |team_fade_effect                   |532    |182    |16     |
+|      controller                          |team_fade_ctrl                     |532    |81     |9      |
+|      pixels                              |team_fade_rgb                      |0      |101    |7      |
+|    fifo                                  |team_pcm_fifo                      |39     |94     |6      |
+|    memory_port                           |team_sdram_port                    |1277   |145    |9      |
+|    scanout                               |team_line_scanout                  |75     |216    |18     |
+|  sys_pll_m0                              |team_mem_pll                       |0      |0      |2      |
+|  video_pll_m0                            |team_video_pll                     |0      |0      |1      |
+|  rm                                      |team_reset_sync                    |0      |3      |0      |
+|  rv                                      |team_reset_sync                    |0      |3      |0      |
++------------------------------------------------------------------------------------------------------+

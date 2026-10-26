@@ -1,0 +1,39 @@
+{
+  "version": "2026-10-26_candidate_01",
+  "progress": 90,
+  "board_verified": false,
+  "implementation_verified": true,
+  "source_build": "records\\td_20261026_234126_845428",
+  "bit_sha256": "4a89f61f15492fdf9dde9bc7063b1c192598753171c1135f78c370ad424e05fa",
+  "setup_wns_ns": 0.81,
+  "hold_wns_ns": 0.022,
+  "regression_cases": 138,
+  "suites": [
+    {
+      "name": "BMP",
+      "cases": 22,
+      "summary": "records/bmp_20261025_064207_055210/summary.json"
+    },
+    {
+      "name": "FAT32",
+      "cases": 29,
+      "summary": "records/fat32_20261025_064207_041765/summary.json"
+    },
+    {
+      "name": "Frames",
+      "cases": 25,
+      "summary": "records/frame_20261025_064207_050759/summary.json"
+    },
+    {
+      "name": "Fade",
+      "cases": 30,
+      "summary": "extensions/fade/records/fade_20261025_064207_116977/summary.json"
+    },
+    {
+      "name": "Integration",
+      "cases": 32,
+      "summary": "records/integration_20261026_230512_357096/summary.json"
+    }
+  ],
+  "scope": "Model regressions and TD under supplied constraints; physical board and external I/O acceptance pending"
+}

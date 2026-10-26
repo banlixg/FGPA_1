@@ -1,0 +1,2 @@
+TEST_PASS mode=loader_bad_bmp_retry files=4 resident=3 checks=4 writes=1581 sector_requests=22
+tb_team_image_loader.sv:130: $finish called at 152100000 (1ps)

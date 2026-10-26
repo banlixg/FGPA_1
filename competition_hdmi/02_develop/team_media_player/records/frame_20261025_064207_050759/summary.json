@@ -1,0 +1,150 @@
+{
+  "status": "PASS",
+  "cases": 25,
+  "results": [
+    {
+      "case": "four_images",
+      "status": "PASS",
+      "marker": "TEST_PASS mode=four_images checks=5 writes=2108 slots=f"
+    },
+    {
+      "case": "late_write_ack",
+      "status": "PASS",
+      "marker": "TEST_PASS mode=late_write_ack checks=5 writes=2108 slots=f"
+    },
+    {
+      "case": "late_file_done",
+      "status": "PASS",
+      "marker": "TEST_PASS mode=late_file_done checks=5 writes=2108 slots=f"
+    },
+    {
+      "case": "zero_latency",
+      "status": "PASS",
+      "marker": "TEST_PASS mode=zero_latency checks=5 writes=2108 slots=f"
+    },
+    {
+      "case": "bad_first_coordinate",
+      "status": "PASS",
+      "marker": "TEST_PASS mode=bad_first_coordinate checks=1 writes=0 slots=0"
+    },
+    {
+      "case": "duplicate_coordinate",
+      "status": "PASS",
+      "marker": "TEST_PASS mode=duplicate_coordinate checks=1 writes=1 slots=0"
+    },
+    {
+      "case": "out_of_range",
+      "status": "PASS",
+      "marker": "TEST_PASS mode=out_of_range checks=1 writes=0 slots=0"
+    },
+    {
+      "case": "early_image_done",
+      "status": "PASS",
+      "marker": "TEST_PASS mode=early_image_done checks=1 writes=1 slots=0"
+    },
+    {
+      "case": "abort_held_request",
+      "status": "PASS",
+      "marker": "TEST_PASS mode=abort_held_request checks=1 writes=1 slots=0"
+    },
+    {
+      "case": "abort_outstanding_response",
+      "status": "PASS",
+      "marker": "TEST_PASS mode=abort_outstanding_response checks=1 writes=1 slots=0"
+    },
+    {
+      "case": "write_error",
+      "status": "PASS",
+      "marker": "TEST_PASS mode=write_error checks=1 writes=2 slots=0"
+    },
+    {
+      "case": "unsolicited_response",
+      "status": "PASS",
+      "marker": "TEST_PASS mode=unsolicited_response checks=1 writes=0 slots=0"
+    },
+    {
+      "case": "late_write_error",
+      "status": "PASS",
+      "marker": "TEST_PASS mode=late_write_error checks=1 writes=527 slots=0"
+    },
+    {
+      "case": "late_file_error",
+      "status": "PASS",
+      "marker": "TEST_PASS mode=late_file_error checks=1 writes=527 slots=0"
+    },
+    {
+      "case": "retry_failed_slot",
+      "status": "PASS",
+      "marker": "TEST_PASS mode=retry_failed_slot checks=2 writes=527 slots=4"
+    },
+    {
+      "case": "reset_pending",
+      "status": "PASS",
+      "marker": "TEST_PASS mode=reset_pending checks=1 writes=527 slots=4"
+    },
+    {
+      "case": "full_resolution",
+      "status": "PASS",
+      "marker": "TEST_PASS mode=full_resolution checks=5 writes=1228800 slots=f"
+    },
+    {
+      "case": "bridge_src_fast",
+      "status": "PASS",
+      "marker": "TEST_PASS bridge src_half=3 video_half=7 checks=132"
+    },
+    {
+      "case": "bridge_video_fast",
+      "status": "PASS",
+      "marker": "TEST_PASS bridge src_half=11 video_half=4 checks=132"
+    },
+    {
+      "case": "bridge_equal_clocks",
+      "status": "PASS",
+      "marker": "TEST_PASS bridge src_half=5 video_half=5 checks=132"
+    },
+    {
+      "case": "loader_fragmented",
+      "status": "PASS",
+      "marker": "TEST_PASS mode=loader_fragmented files=4 resident=4 checks=4 writes=2108 sector_requests=28"
+    },
+    {
+      "case": "loader_drain_error_retry",
+      "status": "PASS",
+      "marker": "TEST_PASS mode=loader_drain_error_retry files=4 resident=3 checks=4 writes=2108 sector_requests=28"
+    },
+    {
+      "case": "loader_bad_bmp_retry",
+      "status": "PASS",
+      "marker": "TEST_PASS mode=loader_bad_bmp_retry files=4 resident=3 checks=4 writes=1581 sector_requests=22"
+    },
+    {
+      "case": "loader_memory_error_retry",
+      "status": "PASS",
+      "marker": "TEST_PASS mode=loader_memory_error_retry files=4 resident=3 checks=4 writes=1584 sector_requests=22"
+    },
+    {
+      "case": "loader_full_resolution",
+      "status": "PASS",
+      "marker": "TEST_PASS mode=loader_full_resolution files=4 resident=4 checks=4 writes=1228800 sector_requests=8104"
+    }
+  ],
+  "source_sha256": {
+    "rtl\\storage\\team_boot_loader.v": "58dbbada64b611afe707d35de0cb40a36dcb20f74d02d57dc34b70a056770b53",
+    "rtl\\storage\\team_fat32_catalog.v": "c8f0c10d39aaff9bf0118daa006576b08bae866a424c549946d0a96036318b66",
+    "rtl\\storage\\team_fat32_file_reader.v": "9e59b65448c4940ae7e9776ddca2832eedea43a149e8117303df4facbcb0af23",
+    "rtl\\storage\\team_fat32_mount.v": "29bb57c92aa356b80864b4f2fc39920a5af68d9268ed2be1df2416da9c11006a",
+    "rtl\\storage\\team_frame_store_writer.v": "542a120ab61f4ebf05ba0ed6b6d8f2cb466a4cdef9faaabf3c9d35e588aa8d17",
+    "rtl\\storage\\team_image_loader.v": "c65d326062afe9b2d5fb78c8c885da90f86bf8a25c7f4891b27e07594d6a8f07",
+    "rtl\\storage\\team_sd_spi_reader.v": "fbd030fd00556d8b07be5a6c9ee4bbedfcbf8df12491f5df92ed3c70fa022f25",
+    "rtl\\storage\\team_sdram_port.v": "fef96c62d6bf40bd5315e28f9fd92a311153eb464850cf0345f736006ac3accb",
+    "rtl\\storage\\team_sector_guard.v": "70481582876253eef003a6fe584e5fef5abbed16fbafe8c2c08c3bb5a768684b",
+    "rtl\\storage\\team_spi_byte.v": "ae076629cb41b0196fdc17670726d44036e584767c05a2f0dfb3fdf0c467e119",
+    "rtl\\video\\team_frame_commit_bridge.v": "2a4976970e6f9638235cff90b4c05b7fcd4e09638be73c3ead53bc3184a9410b",
+    "rtl\\image\\team_bmp_parser.v": "5b61f9cf025e9f363bf19ab9ead70737b4b1aac462c3e6652577a4355cbb5326",
+    "sim\\frame\\tb_team_frame_store.sv": "8df71c2228f3fc4f1cd900d50be089d6a1c592956660fe01cef8e841ab1f5d7b",
+    "sim\\frame\\tb_team_frame_commit.sv": "356daca8635c6992025fd61becedd02fe2e92aded64833bac74fda2a586bab89",
+    "sim\\frame\\tb_team_image_loader.sv": "d7dd95bf4381d7b1d4ac196b5829251c88a8ac775ad51f0462869e7c2787b240"
+  },
+  "build_directory": "C:\\Users\\banli\\AppData\\Local\\Temp\\team_frame_un262qk_",
+  "scope": "BMP -> resident slots through acknowledged RAM model; frame-boundary CDC simulation only"
+}

@@ -1,0 +1,2 @@
+TEST_PASS mode=reset_pending checks=1 writes=527 slots=4
+tb_team_frame_store.sv:280: $finish called at 27960000 (1ps)

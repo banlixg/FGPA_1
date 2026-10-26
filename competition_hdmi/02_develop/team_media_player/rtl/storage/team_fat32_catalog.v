@@ -3,7 +3,10 @@
 module team_fat32_catalog #(
     parameter integer WAIT_LIMIT=1000000,
     parameter integer MAX_CANDIDATES=32,
-    parameter integer MAX_DIR_CLUSTERS=1024
+    parameter integer MAX_DIR_CLUSTERS=1024,
+    parameter [23:0] EXTENSION="BMP",
+    parameter integer MIN_FILE_SIZE=54,
+    parameter integer INCLUDE_WAV=0
 )(
     input wire clk, rst_n, start,
     input wire [31:0] fat_lba, data_lba, cluster_count,
@@ -53,9 +56,12 @@ module team_fat32_catalog #(
     reg [87:0] entry_name;
     reg [31:0] entry_cluster, entry_size;
     wire [27:0] next_cluster=fat_value[27:0];
-    wire bmp_extension=((entry_name[23:16]=="B") || (entry_name[23:16]=="b")) &&
-                       ((entry_name[15:8]=="M") || (entry_name[15:8]=="m")) &&
-                       ((entry_name[7:0]=="P") || (entry_name[7:0]=="p"));
+    function [7:0] uppercase;
+        input [7:0] ch;
+        begin uppercase=(ch>="a"&&ch<="z")?ch-8'd32:ch;end
+    endfunction
+    wire [23:0] extension_upper={uppercase(entry_name[23:16]),uppercase(entry_name[15:8]),uppercase(entry_name[7:0])};
+    wire bmp_extension=(extension_upper==EXTENSION)||(INCLUDE_WAV&&extension_upper=="WAV");
     function [2:0] log_spc;
         input [7:0] value;
         begin case(value)
@@ -116,7 +122,7 @@ module team_fat32_catalog #(
                                    entry_attr!=8'h0f && (entry_attr & 8'h18)==0 &&
                                    bmp_extension && entry_cluster[27:0]>=2 &&
                                    entry_cluster[27:0]<=cluster_count+1 &&
-                                   {byte_data,entry_size[23:0]}>=54) begin
+                                   {byte_data,entry_size[23:0]}>=MIN_FILE_SIZE) begin
                                     candidate_name<=entry_name;
                                     candidate_cluster<=entry_cluster[27:0];
                                     candidate_size<={byte_data,entry_size[23:0]};

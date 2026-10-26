@@ -1,0 +1,2 @@
+TEST_PASS WAV bytes=36 samples=0 expected_error=5
+tb_wav.sv:34: $finish called at 815000 (1ps)

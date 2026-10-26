@@ -1,0 +1,2 @@
+FATAL: tb_boot.sv:43: boot result count=4 rejected=0 stage=5 error=0
+       Time: 170750000  Scope: tb_boot
