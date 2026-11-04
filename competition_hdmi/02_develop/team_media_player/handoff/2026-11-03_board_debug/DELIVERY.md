@@ -191,6 +191,8 @@ handoff/2026-11-03_board_debug/
 ├── DELIVERY.md                      本文件（交付说明）
 ├── ANALYSIS.md                      根因分析详解（时序/门控/单笔事务）
 ├── README.md                        3 步快速验证
+├── ACCEPTANCE.md                    验收目标（给持板队友：5 步通过标准 + 证据要求）
+├── NEXT_FOR_BOARD_OWNER.md          持板队友操作速查（烧写命令/数码管解码/SDRAM 修复路径）
 ├── patches/
 │   ├── ALL_CHANGES.diff             全部改动（patch -p1 可用）
 │   └── *.diff                       逐文件补丁
@@ -201,6 +203,7 @@ handoff/2026-11-03_board_debug/
 │   └── sdram_self_test/             独立 SDRAM 自检设计（源码 + bit + 构建脚本 + 构建日志）
 └── records/
     ├── README.md                    板测记录（含 TF 卡准备、下载日志、观察项）
+    ├── BOARD_TEST_RECORD_TEMPLATE.md  板测记录填写模板（复制后填写）
     ├── program_sram.log             JTAG 下载日志（证明"报 OK 但不生效"）
     ├── program_sram_after_card_insert.log
     └── build_summary.log            重编时序/资源摘要
