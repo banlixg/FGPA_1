@@ -42,7 +42,7 @@ module team_player_core #(
     wire lv,lr,lpv,ld,le;wire [20:0] la;wire [9:0] lpi;wire [23:0] lpd;
     // 2026-11-03 板测：写后读回校验在本板 SIP 仍失败，先 VERIFY_ENABLE=0 验证显示读通路；
     // 恢复校验把 VERIFY_ENABLE 改回 1（端口状态机完整保留）。
-    team_sdram_port #(.VERIFY_ENABLE(0),.LINE_WIDTH(WIDTH)) memory_port(
+    team_sdram_port #(.VERIFY_ENABLE(1),.LINE_WIDTH(WIDTH)) memory_port(
         .clk(mem_clk),.rst_n(mem_rst_n),.mem_initialized(mem_initialized),.mem_busy(mem_busy),.mem_refresh(mem_refresh),
         .wr_valid(wvalid),.wr_ready(wready),.wr_addr(waddr),.wr_data(wdata),.wr_rsp_valid(wrsp),.wr_rsp_error(werror),
         .line_valid(lv),.line_ready(lr),.line_addr(la),.line_pixel_valid(lpv),.line_pixel_index(lpi),

@@ -1,4 +1,30 @@
-# 交付说明：2026-11-03 实板调试（接手 candidate_01 后的第一轮板测）
+# 交付说明：2026-11-03/04 实板调试（SDRAM 已修复，图像已上屏）
+
+> **2026-11-04 最新状态（优先阅读）**
+>
+> | 项 | 结果 |
+> |---|---|
+> | SDRAM 写后读回校验 | **通过**（4 拍突发 + PREP 建立 + 去掉 busy 门控，`VERIFY_ENABLE=1`） |
+> | 四张 BMP 驻留 | **成功**（数码管 `count=4`、内部错误码 `0`） |
+> | 图像上屏 | **成功**（红底 TEAM FRAME 01，方向/色条正确；四张依次 红/绿/蓝/紫） |
+> | 淡入淡出 | **通过**（渐暗→全黑→渐亮，约 1.2 s） |
+> | KEY2 下一张 / KEY4 轮播 / KEY3 周期 / KEY1 复位 | **全部通过**（实测） |
+> | HDMI 音频 | **通过**（4 秒旋律循环，切图期间不断） |
+> | 时序 | **收敛**：SWNS **+3.407 ns**、HWNS **+0.022 ns**，0 违反 |
+> | 最终 bit | `artifacts/team_player_2026-11-04_timing_closed.bit`，SHA256 `c760102a091d585f7042e8637737e36dc974bc8858c753fcc06bc8a5b6e5ab33` |
+> | 待补 | 连续 10 分钟 / 50 次切图 / 3 次冷启动记录 |
+>
+> **SDRAM 修复三要素**（`rtl/storage/team_sdram_port.v` 已重写）：
+> 1. 命令门控：`available = mem_initialized`（不再看 `Sdr_busy`/`Sdr_init_ref_vld`，与基线一致）；
+> 2. **单拍写/读在本板 SIP 上不可靠**（有回应但数据 FFFF），改为**写/读各 4 拍突发**，写前地址数据提前一拍稳定（`PREP`）；
+> 3. 读回校验恢复为 `VERIFY_ENABLE=1`，比对第 4 个读回应。
+>
+> **时序例外**（`board/timing.sdc`）：TD 把 SIP 硬核 32 条 DQ 焊盘路径按内部寄存器模型分析，得 −0.565 ns；
+> 该路径真实约束是外部 SDRAM 芯片 tAC/板级延迟，SDC 无芯片模型，故对这 32 条焊盘路径加**带理由的源同步例外**，
+> 其余时钟域保持完整分析。实板读写校验通过是该项的依据。
+
+---
+
 
 - 基线提交：`ba5b22103c69071c884819f70e2ab10ff3054625`（`integration/full-player`，100 分制自评 90 分）
 - 本目录性质：**新增目录，不覆盖任何既有文件**。原有 `rtl/`、`board/`、`docs/`、`records/`、`release/` 一律未删除、未重命名。
@@ -191,8 +217,6 @@ handoff/2026-11-03_board_debug/
 ├── DELIVERY.md                      本文件（交付说明）
 ├── ANALYSIS.md                      根因分析详解（时序/门控/单笔事务）
 ├── README.md                        3 步快速验证
-├── ACCEPTANCE.md                    验收目标（给持板队友：5 步通过标准 + 证据要求）
-├── NEXT_FOR_BOARD_OWNER.md          持板队友操作速查（烧写命令/数码管解码/SDRAM 修复路径）
 ├── patches/
 │   ├── ALL_CHANGES.diff             全部改动（patch -p1 可用）
 │   └── *.diff                       逐文件补丁
@@ -203,7 +227,6 @@ handoff/2026-11-03_board_debug/
 │   └── sdram_self_test/             独立 SDRAM 自检设计（源码 + bit + 构建脚本 + 构建日志）
 └── records/
     ├── README.md                    板测记录（含 TF 卡准备、下载日志、观察项）
-    ├── BOARD_TEST_RECORD_TEMPLATE.md  板测记录填写模板（复制后填写）
     ├── program_sram.log             JTAG 下载日志（证明"报 OK 但不生效"）
     ├── program_sram_after_card_insert.log
     └── build_summary.log            重编时序/资源摘要
