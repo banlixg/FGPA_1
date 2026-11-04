@@ -10,6 +10,7 @@ module team_boot_loader #(
     output reg finished,failed,
     output reg [3:0] stage,error_code,
     output reg [15:0] rejected_count,
+    output reg [3:0] last_image_error,   // 最近一次装图的内部错误码（诊断用）
     output wire [31:0] fat_lba,data_lba,cluster_count,
     output wire [7:0] spc,
     output reg audio_found,output reg [27:0] audio_cluster,output reg [31:0] audio_size,
@@ -77,7 +78,7 @@ module team_boot_loader #(
         if(!rst_n) begin
             stage<=IDLE;error_code<=0;finished<=0;failed<=0;image_count<=0;
             stored<=0;index<=0;rejected_count<=0;mount_start<=0;cat_start<=0;
-            audio_found<=0;audio_cluster<=0;audio_size<=0;
+            audio_found<=0;audio_cluster<=0;audio_size<=0;last_image_error<=0;
         end else begin
             mount_start<=0;cat_start<=0;
             if(stage==CATALOG && cvalid && stored<MAX_CANDIDATES) begin
@@ -101,7 +102,7 @@ module team_boot_loader #(
                 end else if(lready) stage<=LOAD;
                 LOAD:if(ldone || lfailed) begin
                     if(ldone) image_count<=image_count+1'b1;
-                    else rejected_count<=rejected_count+1'b1;
+                    else begin rejected_count<=rejected_count+1'b1;last_image_error<=lcode;end
                     index<=index+1'b1;stage<=ISSUE;
                 end
                 default:begin end

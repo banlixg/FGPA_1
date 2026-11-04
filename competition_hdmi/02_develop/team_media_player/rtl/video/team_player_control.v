@@ -1,4 +1,9 @@
-// KEY2 next, KEY4 auto on/off, KEY3 cycles 2/5/10 seconds (frame periods).
+// 2026-11-04 按键重新分配（按需求）：
+//   KEY2 (next_key_n)  : 下一张
+//   KEY3 (period_key_n): **自动轮播开/关**
+//   KEY4 (auto_key_n)  : **切换轮播间隔 2s / 5s**，仅当自动轮播开启时有效
+//   KEY1               : 整机复位（顶层）
+// 说明：端口名沿用原设计（auto_key_n/period_key_n），只是交换了功能含义。
 // One coalesced manual request while busy; long holds produce one event only.
 module team_key_event #(parameter STABLE_CYCLES=250000)(
     input wire clk,rst_n,key_n,output reg pressed
@@ -41,8 +46,17 @@ module team_player_control #(parameter DEBOUNCE_CYCLES=250000)(
         else begin
             if(request_valid&&request_ready)begin pending<=0;elapsed<=0;end
             if(next_event&&active_valid)pending<=1;
-            if(auto_event)begin auto_play<=!auto_play;elapsed<=0;end
-            if(period_event)begin period_setting<=(period_setting==2)?0:period_setting+1'b1;elapsed<=0;end
+            // KEY3：自动轮播开关；开启时若当前是 10s 档则回到 5s 档
+            if(period_event)begin
+                auto_play<=!auto_play;
+                elapsed<=0;
+                if(!auto_play && period_setting==2'd2) period_setting<=2'd1;
+            end
+            // KEY4：仅在自动轮播开启时有效，在 2s(0) / 5s(1) 之间切换
+            if(auto_event&&auto_play)begin
+                period_setting<=(period_setting==2'd0)?2'd1:2'd0;
+                elapsed<=0;
+            end
             if(frame_tick&&active_valid&&auto_play&&!auto_event&&!period_event)begin
                 if(elapsed+1>=period_frames)begin elapsed<=0;pending<=1;end
                 else elapsed<=elapsed+1'b1;

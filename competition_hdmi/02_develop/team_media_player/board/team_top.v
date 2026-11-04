@@ -1,10 +1,14 @@
 // HX4S20C physical shell. Application is team_player_core, not the reference top.
 module team_top(
     input wire clk,rst_n,key1,key2,key_period,
+    // 音量拨码：SW1(C8) +1 / SW2(C7) -1
+    input wire sw1,sw2,
     output wire [5:0] seg_sel,output wire [7:0] seg_data,
     output wire HDMI_CLK_P,HDMI_D2_P,HDMI_D1_P,HDMI_D0_P,
     output wire HDMI_DDC_SCL,inout wire HDMI_DDC_SDA,
-    output wire sd_ncs,sd_dclk,sd_mosi,input wire sd_miso
+    output wire sd_ncs,sd_dclk,sd_mosi,input wire sd_miso,
+    // 诊断灯（低电平点亮）：[0]心跳 [1]sys_lock [2]video_lock [3]设计已出复位
+    output wire [3:0] led
 );
     wire mem_clk,mem_shift,unused_clk,video_clk,serial_clk,sys_lock,video_lock;
     team_mem_pll sys_pll_m0(.refclk(clk),.reset(1'b0),.extlock(sys_lock),
@@ -28,7 +32,7 @@ module team_top(
         .App_wr_dm(4'd0),.App_wr_din(wd),.App_rd_en(ar),.App_rd_addr(ra),.Sdr_rd_en(rdv),.Sdr_rd_dout(rd));
     wire [23:0] rgb;wire hs,vs,de;wire [15:0] x,y;
     wire av,acr;wire [23:0] al,art;wire [19:0] n,cts;
-    wire [3:0] bs,be,as,ae;wire [2:0] count;wire bdone,bfailed;
+    wire [3:0] bs,be,as,ae;wire [2:0] count;wire bdone,bfailed;wire [3:0] dcode;
     wire [1:0] slot,period;wire visible,auto_play,fault;wire [31:0] vu,au;
     team_player_core player(.mem_clk(mem_clk),.mem_rst_n(mrst_n),.video_clk(video_clk),.video_rst_n(vrst_n),
         .sd_initialized(sd_initialized),.sd_failed(sd_failed),.next_key_n(key1),.auto_key_n(key2),.period_key_n(key_period),
@@ -38,8 +42,9 @@ module team_top(
         .app_rd_en(ar),.app_rd_addr(ra),.mem_rd_valid(rdv),.mem_rd_data(rd),
         .rgb(rgb),.hs(hs),.vs(vs),.de(de),.x(x),.y(y),.audio_valid(av),.audio_left(al),.audio_right(art),
         .acr_valid(acr),.acr_n(n),.acr_cts(cts),.boot_stage(bs),.boot_error(be),.audio_stage(as),.audio_error(ae),
-        .image_count(count),.boot_done(bdone),.boot_failed(bfailed),.active_slot(slot),.active_valid(visible),
-        .auto_play(auto_play),.period_setting(period),.fade_fault(fault),.video_underruns(vu),.audio_underruns(au));
+        .image_count(count),.boot_done(bdone),.boot_failed(bfailed),.boot_detail(dcode),.active_slot(slot),.active_valid(visible),
+        .auto_play(auto_play),.period_setting(period),.fade_fault(fault),.video_underruns(vu),.audio_underruns(au),
+        .boot_phase(),.boot_wdog(),.vol_sw1(sw1),.vol_sw2(sw2));
     wire [9:0] ch0,ch1,ch2,chclk;wire axis_ready;
     reg [19:0] edid_count;reg edid_pulse;
     always @(posedge video_clk or negedge vrst_n)
@@ -64,8 +69,20 @@ module team_top(
         if(!vrst_n)axis_fault<=0;else if(visible&&de&&!axis_ready)axis_fault<=1;
     wire [3:0] err=sd_failed?sd_code:fault?4'he:(vu!=0)?4'hd:(au!=0)?4'hc:axis_fault?4'hb:be;
     team_status_display display(.clk(mem_clk),.rst_n(mrst_n),
-        .digits({bs,{1'b0,count},{2'd0,slot}+4'd1,{2'd0,auto_play,visible},as,err}),
+        // 左起: err | as | 装图内部错误码 | slot+1 | count | bs
+            .digits({bs,{1'b0,count},{2'd0,slot}+4'd1,dcode,as,err}),
         .seg_sel(seg_sel),.seg_data(seg_data));
+    //--------------------------------------------------------------------------
+    // 诊断灯（低电平点亮）：用原始 50MHz 参考时钟做心跳，不依赖任何 PLL；
+    // [0]心跳 [1]sys_lock [2]video_lock [3]设计已出复位（亮=正常）
+    //--------------------------------------------------------------------------
+    reg [23:0] hb_cnt;
+    always @(posedge clk or negedge raw_rst_n) begin
+        if (!raw_rst_n) hb_cnt <= 24'd0;
+        else            hb_cnt <= hb_cnt + 24'd1;
+    end
+    assign led = ~{raw_rst_n, video_lock, sys_lock, hb_cnt[22]};
+
 endmodule
 
 module team_reset_sync(input wire clk,raw_rst_n,output wire rst_n);
@@ -93,4 +110,6 @@ module team_status_display(input wire clk,rst_n,input wire [23:0] digits,
             seg_sel<=~(6'b000001<<digit);seg_data<=glyph((sync>>(digit*4))&15);
         end
     end
+
+
 endmodule
