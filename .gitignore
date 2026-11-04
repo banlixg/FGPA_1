@@ -1,0 +1,7 @@
+records/
+__pycache__/
+board/*_Runs/
+board/*.log
+board/*.db
+board/*.bit
+board/.lock.f
