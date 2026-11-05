@@ -1,0 +1,2 @@
+TEST_PASS controls bounce long_hold coalesce sparse_slots period auto_start_stop requests=3
+tb_control.sv:28: $finish called at 21390000 (1ps)

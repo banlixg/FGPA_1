@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "cases": 4,
+  "results": [
+    {
+      "case": "rgb_exhaustive",
+      "status": "PASS",
+      "marker": "TEST_PASS rgb exhaustive_gains=512 channel_values=256 checks=135181"
+    },
+    {
+      "case": "ctrl_normal_step8",
+      "status": "PASS",
+      "marker": "TEST_PASS ctrl mode=normal_step8 checks=724 accepted=1 fade_out_steps=32 fade_in_steps=32"
+    },
+    {
+      "case": "ctrl_queued_request",
+      "status": "PASS",
+      "marker": "TEST_PASS ctrl mode=queued_request checks=1098 accepted=2 fade_out_steps=48 fade_in_steps=48"
+    },
+    {
+      "case": "ctrl_fault_recovery",
+      "status": "PASS",
+      "marker": "TEST_PASS ctrl mode=fault_recovery checks=1140 accepted=1 fade_out_steps=32 fade_in_steps=32"
+    }
+  ],
+  "source_sha256": {
+    "rtl/team_fade_ctrl.v": "73898f4e7b4f214feaa6081ab22f27ac06a9f4255af84b974089a78778434787",
+    "rtl/team_fade_effect.v": "e134a97b746f21cbf0b86ef5c7eadfd2cdbc89116595b8f91fc19dff66cc3828",
+    "rtl/team_fade_rgb.v": "d700df59138cbacff9f6371da8254cbf3d99aca886f1b0787302c9121a465a07",
+    "sim/tb_team_fade_ctrl.sv": "c3743730565846fad2d74daa3665cf2c4cfdb54277c2d54eb7ff01d36c6759ae",
+    "sim/tb_team_fade_effect.sv": "b8663766f6ec2d1b5a12a6f3baf3254910e9bdcc8b89b6bf876132e10a820b4e",
+    "sim/tb_team_fade_rgb.sv": "53aa08dffc8a371b96c4b9505a43bafe46b1975970ea165c0219fbce76f9ad9a"
+  },
+  "preview": null,
+  "build_directory": "C:\\Users\\banli\\AppData\\Local\\Temp\\team_fade_hhbgfdqm",
+  "scope": "Independent RTL simulation only; no TD timing or physical display evidence"
+}

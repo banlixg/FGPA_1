@@ -1,0 +1,2 @@
+TEST_PASS mode=sdsc bytes=1024 reads=2 CCS=0
+tb_sd_spi.sv:115: $finish called at 560245000 (1ps)

@@ -1,0 +1,2 @@
+TEST_PASS mode=loader_full_resolution files=4 resident=4 checks=4 writes=1228800 sector_requests=8104
+tb_team_image_loader.sv:130: $finish called at 65683430000 (1ps)

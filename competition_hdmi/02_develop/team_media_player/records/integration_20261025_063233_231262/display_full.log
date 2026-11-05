@@ -1,0 +1,2 @@
+TEST_PASS scanout_pixels=5529600 changes=4 refresh_windows=76238 underruns=0
+tb_display.sv:57: $finish called at 317760160000 (1ps)

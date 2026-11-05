@@ -1,0 +1,121 @@
+{
+  "status": "PASS",
+  "engine": "icarus",
+  "cases": 22,
+  "results": [
+    {
+      "case": "bottom_up_padding",
+      "status": "PASS",
+      "marker": "TEST_PASS pixels=6 received=6 error=0 repeats=3 output_stalls=2 input_stalls=1"
+    },
+    {
+      "case": "top_down_offset",
+      "status": "PASS",
+      "marker": "TEST_PASS pixels=6 received=6 error=0 repeats=1 output_stalls=11 input_stalls=11"
+    },
+    {
+      "case": "extended_dib",
+      "status": "PASS",
+      "marker": "TEST_PASS pixels=6 received=6 error=0 repeats=1 output_stalls=1 input_stalls=2"
+    },
+    {
+      "case": "trailing_metadata",
+      "status": "PASS",
+      "marker": "TEST_PASS pixels=6 received=6 error=0 repeats=1 output_stalls=7 input_stalls=6"
+    },
+    {
+      "case": "one_pixel_rows",
+      "status": "PASS",
+      "marker": "TEST_PASS pixels=4 received=4 error=0 repeats=1 output_stalls=0 input_stalls=1"
+    },
+    {
+      "case": "no_row_padding",
+      "status": "PASS",
+      "marker": "TEST_PASS pixels=12 received=12 error=0 repeats=1 output_stalls=12 input_stalls=12"
+    },
+    {
+      "case": "bad_signature",
+      "status": "PASS",
+      "marker": "TEST_PASS pixels=6 received=0 error=3 repeats=1 output_stalls=0 input_stalls=1"
+    },
+    {
+      "case": "bad_dib",
+      "status": "PASS",
+      "marker": "TEST_PASS pixels=6 received=0 error=4 repeats=1 output_stalls=0 input_stalls=1"
+    },
+    {
+      "case": "bad_offset",
+      "status": "PASS",
+      "marker": "TEST_PASS pixels=6 received=0 error=4 repeats=1 output_stalls=0 input_stalls=1"
+    },
+    {
+      "case": "wrong_width",
+      "status": "PASS",
+      "marker": "TEST_PASS pixels=6 received=0 error=5 repeats=1 output_stalls=0 input_stalls=1"
+    },
+    {
+      "case": "wrong_height",
+      "status": "PASS",
+      "marker": "TEST_PASS pixels=6 received=0 error=5 repeats=1 output_stalls=0 input_stalls=1"
+    },
+    {
+      "case": "wrong_depth",
+      "status": "PASS",
+      "marker": "TEST_PASS pixels=6 received=0 error=6 repeats=1 output_stalls=0 input_stalls=1"
+    },
+    {
+      "case": "wrong_planes",
+      "status": "PASS",
+      "marker": "TEST_PASS pixels=6 received=0 error=6 repeats=1 output_stalls=0 input_stalls=1"
+    },
+    {
+      "case": "compressed",
+      "status": "PASS",
+      "marker": "TEST_PASS pixels=6 received=0 error=7 repeats=1 output_stalls=0 input_stalls=1"
+    },
+    {
+      "case": "declared_too_large",
+      "status": "PASS",
+      "marker": "TEST_PASS pixels=6 received=0 error=8 repeats=1 output_stalls=0 input_stalls=1"
+    },
+    {
+      "case": "declared_too_small",
+      "status": "PASS",
+      "marker": "TEST_PASS pixels=6 received=0 error=8 repeats=1 output_stalls=0 input_stalls=1"
+    },
+    {
+      "case": "offset_overflow",
+      "status": "PASS",
+      "marker": "TEST_PASS pixels=6 received=0 error=8 repeats=1 output_stalls=0 input_stalls=1"
+    },
+    {
+      "case": "truncated_header",
+      "status": "PASS",
+      "marker": "TEST_PASS pixels=6 received=0 error=2 repeats=1 output_stalls=0 input_stalls=0"
+    },
+    {
+      "case": "truncated_pixel_stream",
+      "status": "PASS",
+      "marker": "TEST_PASS pixels=6 received=3 error=2 repeats=1 output_stalls=1 input_stalls=2"
+    },
+    {
+      "case": "transport_abort",
+      "status": "PASS",
+      "marker": "TEST_PASS pixels=6 received=2 error=1 repeats=1 output_stalls=1 input_stalls=2"
+    },
+    {
+      "case": "full_640x480",
+      "status": "PASS",
+      "marker": "TEST_PASS pixels=307200 received=307200 error=0 repeats=1 output_stalls=230260 input_stalls=222463"
+    },
+    {
+      "case": "real_team_bmp",
+      "status": "PASS",
+      "marker": "TEST_PASS pixels=307200 received=307200 error=0 repeats=1 output_stalls=230260 input_stalls=222463"
+    }
+  ],
+  "build_directory": "C:\\Users\\banli\\AppData\\Local\\Temp\\team_bmp_q_awp13o",
+  "real_fixture": "C:\\Users\\banli\\Desktop\\大学学习资料\\FPGA\\Competition\\github_handoff_publish\\competition_hdmi\\02_develop\\team_media_player\\sim\\bmp\\fixtures\\team_03.bmp",
+  "rtl_sha256": "5b61f9cf025e9f363bf19ab9ead70737b4b1aac462c3e6652577a4355cbb5326",
+  "scope": "Standalone RTL simulation; no TD synthesis or board verification"
+}

@@ -1,0 +1,37 @@
+============================================================
+   Tang Dynasty, V6.2.168116
+   Copyright (c) 2012-2025 Anlogic Inc.
+   Executable = D:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/bin/td_commands_prompt.exe
+   Built at =   16:32:07 Jun 12 2025
+   Run by =     CodexSandboxOffline
+   Run Date =   Sun Oct 25 06:26:06 2026
+
+   Run on =     BLXG
+============================================================
+RUN-1002 : start command "import_device eagle_s20.db -package EG4S20BG256"
+RUN-1001 : Using default speed grade: NA
+ARC-1001 : Device Initialization.
+ARC-1001 : ------------------------------------------------------------------
+ARC-1001 :            OPTION            |          IO          |   SETTING   
+ARC-1001 : ------------------------------------------------------------------
+ARC-1001 :   cso_b/cclk/mosi/miso/dout  |  T3/R11/T10/P10/S11  |    gpio    
+ARC-1001 :             done             |         P13          |    gpio    
+ARC-1001 :           program_b          |          T2          |  dedicate  
+ARC-1001 :        tdi/tms/tck/tdo       |   C12/A15/C14/E14    |  dedicate  
+ARC-1001 : ------------------------------------------------------------------
+ARC-1004 : Device setting, marked 5 dedicate IOs in total.
+RUN-1002 : start command "read_verilog -file ../rtl/audio/team_audio_file.v -include_dir vendor"
+HDL-1007 : analyze verilog file ../rtl/audio/team_audio_file.v
+HDL-1007 : elaborate module team_audio_file in ../rtl/audio/team_audio_file.v(3)
+HDL-7144 CRITICAL-WARNING: instantiate unknown module team_fat32_mount in ../rtl/audio/team_audio_file.v(23)
+HDL-7144 CRITICAL-WARNING: instantiate unknown module team_fat32_catalog in ../rtl/audio/team_audio_file.v(29)
+HDL-7144 CRITICAL-WARNING: instantiate unknown module team_fat32_file_reader in ../rtl/audio/team_audio_file.v(37)
+HDL-7144 CRITICAL-WARNING: instantiate unknown module team_wav_parser in ../rtl/audio/team_audio_file.v(45)
+HDL-1007 : elaborate module team_pcm_hdmi in ../rtl/audio/team_audio_file.v(75)
+HDL-5001 WARNING: Contains anonymous inst(s) and/or net(s) that have not been renamed
+HDL-8007 ERROR: team_fat32_mount(WAIT_LIMIT=25000000) is a black box in ../rtl/audio/team_audio_file.v(23)
+HDL-8007 ERROR: team_fat32_catalog(WAIT_LIMIT=25000000,MAX_CANDIDATES=8,EXTENSION="WAV",MIN_FILE_SIZE=44) is a black box in ../rtl/audio/team_audio_file.v(29)
+HDL-8007 ERROR: team_fat32_file_reader(WAIT_LIMIT=25000000) is a black box in ../rtl/audio/team_audio_file.v(37)
+HDL-8007 ERROR: team_wav_parser is a black box in ../rtl/audio/team_audio_file.v(45)
+
+td > 

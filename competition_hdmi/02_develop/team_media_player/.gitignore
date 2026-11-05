@@ -5,4 +5,11 @@ work/
 modelsim.ini
 transcript
 *.wlf
+/td_*.log
+/td_*.logw
+/board/*.db
+/board/*.log
+/board/*.logw
+/board/*_Runs/
+/board/.lock.f
 

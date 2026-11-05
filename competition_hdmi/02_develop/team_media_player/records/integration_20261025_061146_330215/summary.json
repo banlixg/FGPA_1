@@ -1,0 +1,97 @@
+{
+  "status": "PASS",
+  "cases": 15,
+  "results": [
+    {
+      "case": "sdhc",
+      "status": "PASS",
+      "marker": "TEST_PASS mode=sdhc bytes=1024 reads=2 CCS=1"
+    },
+    {
+      "case": "sdsc",
+      "status": "PASS",
+      "marker": "TEST_PASS mode=sdsc bytes=1024 reads=2 CCS=0"
+    },
+    {
+      "case": "bad_r7",
+      "status": "PASS",
+      "marker": "TEST_PASS mode=bad_r7 init_rejected=1"
+    },
+    {
+      "case": "no_response",
+      "status": "PASS",
+      "marker": "TEST_PASS mode=no_response init_rejected=1"
+    },
+    {
+      "case": "crc_error",
+      "status": "PASS",
+      "marker": "TEST_PASS mode=crc_error bytes=512 reads=2 CCS=1"
+    },
+    {
+      "case": "r1_error",
+      "status": "PASS",
+      "marker": "TEST_PASS mode=r1_error bytes=512 reads=2 CCS=1"
+    },
+    {
+      "case": "token_error",
+      "status": "PASS",
+      "marker": "TEST_PASS mode=token_error bytes=512 reads=2 CCS=1"
+    },
+    {
+      "case": "token_timeout",
+      "status": "PASS",
+      "marker": "TEST_PASS mode=token_timeout bytes=512 reads=2 CCS=1"
+    },
+    {
+      "case": "cancel_physical",
+      "status": "PASS",
+      "marker": "TEST_PASS mode=cancel_physical bytes=512 reads=2 CCS=1"
+    },
+    {
+      "case": "cancel_stream",
+      "status": "PASS",
+      "marker": "TEST_PASS mode=cancel_stream bytes=529 reads=2 CCS=1"
+    },
+    {
+      "case": "boot_four",
+      "status": "PASS",
+      "marker": "TEST_PASS frames=4 rejected=0 writes=2108 sectors=33"
+    },
+    {
+      "case": "boot_skip_bad",
+      "status": "PASS",
+      "marker": "TEST_PASS frames=4 rejected=2 writes=2108 sectors=35"
+    },
+    {
+      "case": "boot_insufficient",
+      "status": "PASS",
+      "marker": "TEST_PASS frames=2 rejected=0 writes=1054 sectors=19"
+    },
+    {
+      "case": "boot_empty",
+      "status": "PASS",
+      "marker": "TEST_PASS frames=0 rejected=0 writes=0 sectors=3"
+    },
+    {
+      "case": "boot_full",
+      "status": "PASS",
+      "marker": "TEST_PASS frames=4 rejected=0 writes=1228800 sectors=8116"
+    }
+  ],
+  "source_sha256": {
+    "rtl\\storage\\team_boot_loader.v": "7e7df8cb4d4b995fa4e75636aa51f4ee79b5d33f9c3f846b12374431996859b0",
+    "rtl\\storage\\team_fat32_catalog.v": "b8b2d8a70df4df66247b7794064fc06ba828be31cb909fc81978fabb01209e74",
+    "rtl\\storage\\team_fat32_file_reader.v": "9e59b65448c4940ae7e9776ddca2832eedea43a149e8117303df4facbcb0af23",
+    "rtl\\storage\\team_fat32_mount.v": "29bb57c92aa356b80864b4f2fc39920a5af68d9268ed2be1df2416da9c11006a",
+    "rtl\\storage\\team_frame_store_writer.v": "542a120ab61f4ebf05ba0ed6b6d8f2cb466a4cdef9faaabf3c9d35e588aa8d17",
+    "rtl\\storage\\team_image_loader.v": "c65d326062afe9b2d5fb78c8c885da90f86bf8a25c7f4891b27e07594d6a8f07",
+    "rtl\\storage\\team_sd_spi_reader.v": "7f172fbc4c1f6af33989a9ec1f92533ba63015e72a5000bd716f7d93009a7e97",
+    "rtl\\storage\\team_sector_guard.v": "70481582876253eef003a6fe584e5fef5abbed16fbafe8c2c08c3bb5a768684b",
+    "rtl\\storage\\team_spi_byte.v": "ae076629cb41b0196fdc17670726d44036e584767c05a2f0dfb3fdf0c467e119",
+    "rtl\\image\\team_bmp_parser.v": "5b61f9cf025e9f363bf19ab9ead70737b4b1aac462c3e6652577a4355cbb5326",
+    "sim\\integration\\tb_boot.sv": "17e6dfaf2e33efb45069a0d3990abfafa76d4dc491df262a970b11f8c195f938",
+    "sim\\integration\\tb_sd_spi.sv": "f36f050ff9d19c2217b654c78b0ff76e546c5825126175e4142984da98d11590"
+  },
+  "scope": "Digital SPI card model and sector/RAM boot model; not board verification",
+  "build_directory": "C:\\Users\\banli\\AppData\\Local\\Temp\\team_integrate_kcm0zo_i"
+}

@@ -1,0 +1,2 @@
+TEST_PASS PCM samples=5000 ACR=104 underruns=0
+tb_pcm.sv:22: $finish called at 104169040000 (1ps)

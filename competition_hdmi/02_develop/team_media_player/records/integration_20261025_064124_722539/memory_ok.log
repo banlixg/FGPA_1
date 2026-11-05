@@ -1,0 +1,2 @@
+internal error: 14vvp_fun_concat: recv_string(memory_ok) not implemented
+Assertion failed: 0, file ../../iverilog-13_0/vvp/vvp_net.cc, line 3353

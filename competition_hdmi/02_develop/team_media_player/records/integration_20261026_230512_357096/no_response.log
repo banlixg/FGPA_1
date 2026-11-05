@@ -1,0 +1,2 @@
+TEST_PASS mode=no_response init_rejected=1
+tb_sd_spi.sv:98: $finish called at 21420000 (1ps)

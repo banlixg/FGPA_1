@@ -1,0 +1,711 @@
+Table of Contents
+-----------------
+1. checking no clock(0) (HIGH)
+2. checking clock definition(0) (HIGH)
+3. checking dummy node(3) (HIGH)
+4. checking invalid constraint(0) (HIGH)
+5. checking pll/clock buffer clock constraints(0) (HIGH)
+6. checking combinational loops(0) (HIGH)
+7. checking soft fifo timing exception constraints(0) (HIGH)
+8. checking no path constraints(0) (MEDIUM)
+9. checking shadowed/ignored timing exception constraints(0) (MEDIUM)
+10. checking no input delay(6) (MEDIUM)
+11. checking no output delay(23) (MEDIUM)
+12. checking partial input delay(0) (MEDIUM)
+13. checking partial output delay(0) (MEDIUM)
+14. checking abnormal input delay(0) (MEDIUM)
+
+
+1. checking nets with no clock driven. (HIGH)
+---------------------------------------------
+2. checking clock definition problems. (HIGH)
+---------------------------------------------
+2.1 There are 0 leaf clock pins driven by multiple clocks. (HIGH)
+
+
+2.2 There are 0 clocks created on internal clock network. (HIGH)
+
+
+2.3 There are 0 unexpandable clock sets. (HIGH)
+
+
+2.4 There are 0 local clocks. (HIGH)
+
+
+2.5 There are 0 generated clocks that are not connected to their master clocks. (HIGH)
+
+
+3. checking dummy nodes. (HIGH)
+---------------------------------------------
+There are 3 nodes are dangling. (HIGH)
+
+DummyNode in Model: EG_PHY_LSLICE
+	card/stream_index_reg[0]_syn_34.mi[1]
+	card/stream_index_reg[0]_syn_40.mi[1]
+	card/stream_index_reg[0]_syn_38.mi[1]
+	card/stream_index_reg[0]_syn_30.mi[1]
+	player/audio_source/parser/busy_reg_syn_784.mi[0]
+	card/stream_index_reg[0]_syn_44.mi[1]
+	card/stream_index_reg[0]_syn_26.mi[0]
+	card/stream_index_reg[1]_syn_25.mi[1]
+	card/stream_index_reg[0]_syn_24.mi[0]
+	card/stream_index_reg[0]_syn_30.mi[0]
+	card/stream_index_reg[1]_syn_23.mi[1]
+	card/stream_index_reg[0]_syn_41.mi[0]
+	card/stream_index_reg[0]_syn_42.mi[0]
+	card/stream_index_reg[0]_syn_45.mi[0]
+	card/stream_index_reg[0]_syn_46.mi[0]
+	card/stream_index_reg[2]_syn_27.mi[1]
+	card/stream_index_reg[1]_syn_25.mi[0]
+	card/stream_index_reg[4]_syn_14.mi[0]
+	card/stream_index_reg[2]_syn_34.mi[1]
+	card/stream_index_reg[2]_syn_25.mi[1]
+	card/stream_index_reg[5]_syn_21.mi[0]
+	card/stream_index_reg[3]_syn_34.mi[0]
+	card/stream_index_reg[2]_syn_34.mi[0]
+	card/stream_index_reg[2]_syn_25.mi[0]
+	card/stream_index_reg[5]_syn_27.mi[0]
+	card/stream_index_reg[4]_syn_10.mi[1]
+	card/stream_index_reg[5]_syn_21.mi[1]
+	card/stream_index_reg[4]_syn_10.mi[0]
+	card/stream_index_reg[5]_syn_27.b[1]
+	card/stream_index_reg[5]_syn_27.a[1]
+	card/stream_index_reg[5]_syn_27.b[0]
+	card/stream_index_reg[5]_syn_27.a[0]
+	card/stream_index_reg[0]_syn_45.b[0]
+	card/stream_index_reg[0]_syn_46.b[0]
+	card/stream_index_reg[0]_syn_45.b[1]
+	card/stream_index_reg[0]_syn_46.b[1]
+	card/stream_index_reg[0]_syn_45.a[0]
+	card/stream_index_reg[0]_syn_46.a[0]
+	card/stream_index_reg[0]_syn_45.a[1]
+	card/stream_index_reg[0]_syn_46.a[1]
+	player/audio_source/parser/busy_reg_syn_1092.a[1]
+	player/audio_source/parser/busy_reg_syn_1092.b[1]
+	player/audio_source/parser/busy_reg_syn_1092.b[0]
+	player/audio_source/parser/busy_reg_syn_1092.d[0]
+	card/stream_index_reg[0]_syn_41.a[0]
+	card/stream_index_reg[0]_syn_42.a[0]
+	card/stream_index_reg[0]_syn_41.b[0]
+	card/stream_index_reg[0]_syn_42.b[0]
+	card/stream_index_reg[0]_syn_41.a[1]
+	card/stream_index_reg[0]_syn_42.a[1]
+	card/stream_index_reg[0]_syn_41.b[1]
+	card/stream_index_reg[0]_syn_42.b[1]
+	card/stream_index_reg[4]_syn_17.c[1]
+	card/stream_index_reg[4]_syn_18.c[1]
+	player/audio_source/parser/busy_reg_syn_1092.c[0]
+	card/stream_index_reg[0]_syn_41.d[1]
+	card/stream_index_reg[0]_syn_41.d[0]
+	card/stream_index_reg[0]_syn_42.d[1]
+	card/stream_index_reg[0]_syn_42.d[0]
+	card/stream_index_reg[0]_syn_46.d[0]
+	player/audio_source/parser/busy_reg_syn_1092.d[1]
+	card/stream_index_reg[0]_syn_45.d[1]
+	card/stream_index_reg[0]_syn_45.d[0]
+	card/stream_index_reg[0]_syn_46.d[1]
+	card/stream_index_reg[5]_syn_27.d[1]
+	card/stream_index_reg[5]_syn_27.d[0]
+	card/stream_index_reg[0]_syn_46.c[0]
+	card/stream_index_reg[0]_syn_46.c[1]
+	card/stream_index_reg[0]_syn_45.c[0]
+	card/stream_index_reg[0]_syn_45.c[1]
+	card/stream_index_reg[5]_syn_27.c[1]
+	card/stream_index_reg[5]_syn_27.c[0]
+	card/stream_index_reg[4]_syn_17.d[1]
+	card/stream_index_reg[4]_syn_18.d[1]
+	hdmi/u_hdmi_tx_controller_wrapper/u_video_axi_stream_receiver/u_w24_d1024_fifo/u_logic_ramfifo[0]__4_syn_4.c[0]
+	hdmi/u0_reset_sync/O_sync_reset_reg_syn_48.mi[0]
+	hdmi/u_hdmi_tx_controller_wrapper/u_video_axi_stream_receiver/u_w24_d1024_fifo/u_logic_ramfifo[0]__4_syn_4.d[0]
+	hdmi/u_hdmi_tx_controller_wrapper/u_hdmi_data_distribution/O_ch2_island_data_reg[3]_syn_3.mi[0]
+	hdmi/u_hdmi_tx_controller_wrapper/u_hdmi_island_data_assemble/S_island_packet_req_2d_reg_syn_22.mi[0]
+	hdmi/u_hdmi_tx_controller_wrapper/u_hdmi_video_data_assemble/O_video_data_ch1_reg[5]_syn_4.c[0]
+	player/boot/catalog/current_cluster_reg[19]_syn_4.c[1]
+	player/boot/loader/reader/left_shift1_syn_642.c[0]
+	player/boot/loader/reader/left_shift1_syn_644.c[0]
+	player/boot/loader/reader/left_shift1_syn_646.c[0]
+	player/boot/loader/reader/left_shift1_syn_648.c[0]
+	player/boot/loader/reader/left_shift1_syn_650.c[0]
+	player/boot/loader/reader/left_shift1_syn_652.c[0]
+	player/audio_source/file_reader/left_shift0_syn_434.mi[0]
+	hdmi/u_hdmi_tx_controller_wrapper/u_hdmi_video_data_assemble/O_video_data_ch1_reg[5]_syn_4.b[0]
+	player/boot/catalog/current_cluster_reg[19]_syn_4.b[1]
+	player/boot/loader/reader/left_shift1_syn_642.b[0]
+	player/boot/loader/reader/left_shift1_syn_644.b[0]
+	player/boot/loader/reader/left_shift1_syn_646.b[0]
+	player/boot/loader/reader/left_shift1_syn_648.b[0]
+	player/boot/loader/reader/left_shift1_syn_650.b[0]
+	player/boot/loader/reader/left_shift1_syn_652.b[0]
+	hdmi/u_hdmi_tx_controller_wrapper/u_hdmi_video_data_assemble/O_video_data_ch1_reg[5]_syn_4.d[0]
+	player/boot/catalog/current_cluster_reg[19]_syn_4.d[1]
+	player/boot/loader/reader/left_shift1_syn_642.d[0]
+	player/boot/loader/reader/left_shift1_syn_644.d[0]
+	player/boot/loader/reader/left_shift1_syn_646.d[0]
+	player/boot/loader/reader/left_shift1_syn_648.d[0]
+	player/boot/loader/reader/left_shift1_syn_650.d[0]
+	player/boot/loader/reader/left_shift1_syn_652.d[0]
+	player/audio_source/file_reader/state_reg[6]_syn_15.mi[0]
+	player/audio_source/file_reader/mux105_syn_59.mi[0]
+	player/audio_source/file_reader/sector_lba_b1[28]_syn_6.d[1]
+	player/audio_source/file_reader/sector_lba_b1[28]_syn_7.d[1]
+	player/audio_source/file_reader/sector_lba_b1[28]_syn_8.d[1]
+	player/audio_source/file_reader/sector_lba_b1[30]_syn_10.d[1]
+	player/audio_source/file_reader/sector_lba_b1[30]_syn_7.d[1]
+	player/audio_source/file_reader/sector_lba_b1[30]_syn_8.d[1]
+	player/audio_source/file_reader/sector_lba_b1[30]_syn_10.b[1]
+	player/audio_source/file_reader/sector_lba_b1[30]_syn_7.b[1]
+	player/audio_source/file_reader/sector_lba_b1[30]_syn_8.b[1]
+	player/audio_source/file_reader/sector_lba_b1[28]_syn_6.b[1]
+	player/audio_source/file_reader/sector_lba_b1[28]_syn_7.b[1]
+	player/audio_source/file_reader/sector_lba_b1[28]_syn_8.b[1]
+	player/audio_source/file_reader/sector_lba_b1[30]_syn_10.c[1]
+	player/audio_source/file_reader/sector_lba_b1[30]_syn_7.c[1]
+	player/audio_source/file_reader/sector_lba_b1[30]_syn_8.c[1]
+	player/audio_source/file_reader/sector_lba_b1[28]_syn_6.c[1]
+	player/audio_source/file_reader/sector_lba_b1[28]_syn_7.c[1]
+	player/audio_source/file_reader/sector_lba_b1[28]_syn_8.c[1]
+	player/boot/loader/reader/left_shift1_syn_518.e[1]
+	player/boot/catalog/fat_value_reg[19]_syn_4.e[0]
+	player/boot/catalog/current_cluster_reg[13]_syn_4.e[0]
+	player/boot/catalog/current_cluster_reg[4]_syn_4.e[0]
+	player/boot/loader/reader/left_shift1_syn_522.e[1]
+	player/boot/loader/reader/left_shift1_syn_508.e[0]
+	player/boot/catalog/current_cluster_reg[8]_syn_4.e[0]
+	player/boot/loader/reader/left_shift1_syn_508.e[1]
+	player/boot/catalog/left_shift1_syn_455.e[0]
+	player/boot/catalog/current_cluster_reg[13]_syn_4.e[1]
+	player/boot/catalog/current_cluster_reg[8]_syn_4.e[1]
+	player/boot/loader/reader/left_shift1_syn_518.d[1]
+	player/boot/catalog/fat_value_reg[19]_syn_4.d[0]
+	player/boot/catalog/current_cluster_reg[13]_syn_4.d[0]
+	player/boot/catalog/current_cluster_reg[4]_syn_4.d[0]
+	player/boot/loader/reader/left_shift1_syn_522.d[1]
+	player/boot/loader/reader/left_shift1_syn_508.d[0]
+	player/boot/catalog/current_cluster_reg[8]_syn_4.d[0]
+	player/boot/loader/reader/left_shift1_syn_508.d[1]
+	player/boot/catalog/left_shift1_syn_455.d[0]
+	player/boot/catalog/current_cluster_reg[13]_syn_4.d[1]
+	player/boot/catalog/current_cluster_reg[8]_syn_4.d[1]
+	player/boot/loader/reader/left_shift1_syn_518.c[1]
+	player/boot/catalog/fat_value_reg[19]_syn_4.c[0]
+	player/boot/catalog/current_cluster_reg[13]_syn_4.c[0]
+	player/boot/catalog/current_cluster_reg[4]_syn_4.c[0]
+	player/boot/loader/reader/left_shift1_syn_522.c[1]
+	player/boot/loader/reader/left_shift1_syn_508.c[0]
+	player/boot/catalog/current_cluster_reg[8]_syn_4.c[0]
+	player/boot/loader/reader/left_shift1_syn_508.c[1]
+	player/boot/catalog/left_shift1_syn_455.c[0]
+	player/boot/catalog/current_cluster_reg[13]_syn_4.c[1]
+	player/boot/catalog/current_cluster_reg[8]_syn_4.c[1]
+	player/audio_source/file_reader/sector_lba_b1[28]_syn_6.a[1]
+	player/audio_source/file_reader/sector_lba_b1[28]_syn_7.a[1]
+	player/audio_source/file_reader/sector_lba_b1[28]_syn_8.a[1]
+	player/audio_source/file_reader/sector_lba_b1[30]_syn_10.a[1]
+	player/audio_source/file_reader/sector_lba_b1[30]_syn_7.a[1]
+	player/audio_source/file_reader/sector_lba_b1[30]_syn_8.a[1]
+	player/audio_source/parser/busy_reg_syn_1092.c[1]
+	card/stream_index_reg[0]_syn_41.c[0]
+	card/stream_index_reg[0]_syn_42.c[0]
+	card/stream_index_reg[0]_syn_41.c[1]
+	card/stream_index_reg[0]_syn_42.c[1]
+	player/boot/mount/fat32_reg[28]_syn_10.d[0]
+	player/boot/mount/fat32_reg[28]_syn_9.d[0]
+	player/boot/mount/fat32_reg[28]_syn_5.d[1]
+	player/boot/mount/fat32_reg[28]_syn_6.d[1]
+	player/boot/mount/fat32_reg[28]_syn_7.d[1]
+	player/boot/mount/fat32_reg[25]_syn_5.d[0]
+	player/boot/mount/fat32_reg[25]_syn_6.d[0]
+	player/boot/mount/fat32_reg[25]_syn_7.d[0]
+	player/boot/mount/fat32_reg[25]_syn_8.d[0]
+	player/boot/mount/fat32_reg[24]_syn_9.d[0]
+	player/boot/mount/fat32_reg[24]_syn_6.d[0]
+	player/boot/mount/fat32_reg[24]_syn_7.d[0]
+	player/boot/mount/fat32_reg[24]_syn_8.d[0]
+	player/boot/mount/fat32_reg[25]_syn_12.d[1]
+	player/boot/mount/fat32_reg[25]_syn_10.d[1]
+	player/boot/mount/fat32_reg[25]_syn_11.d[1]
+	player/audio_source/parser/state_b[2]_syn_26.mi[0]
+	player/audio_source/parser/mux201_syn_76.mi[0]
+	player/boot/loader/reader/busy_reg_syn_248.c[1]
+	player/boot/loader/reader/busy_reg_syn_249.c[1]
+	player/boot/loader/reader/busy_reg_syn_248.d[1]
+	player/boot/loader/reader/busy_reg_syn_249.d[1]
+	player/boot/loader/reader/busy_reg_syn_248.b[1]
+	player/boot/loader/reader/busy_reg_syn_249.b[1]
+	player/boot/index_reg[0]_syn_12.mi[1]
+	player/boot/index_reg[1]_syn_6.mi[1]
+	player/boot/loader/reader/busy_reg_syn_248.a[1]
+	player/boot/loader/reader/busy_reg_syn_249.a[1]
+	player/boot/catalog/mux139_syn_78.b[0]
+	player/boot/mux3_syn_133.d[0]
+	player/boot/catalog/candidate_valid_reg_syn_108.d[0]
+	player/boot/catalog/entry_cluster_b1[23]_syn_19.d[1]
+	player/boot/catalog/candidate_size_reg[25]_syn_4.b[0]
+	player/boot/catalog/entry_name_reg[7]_syn_4.b[0]
+	player/boot/catalog/candidate_name_reg[1]_syn_4.b[0]
+	player/boot/catalog/candidate_size_reg[25]_syn_5.b[0]
+	player/boot/catalog/candidate_size_reg[25]_syn_6.b[0]
+	player/boot/catalog/candidate_size_reg[25]_syn_7.b[0]
+	player/boot/catalog/candidate_size_reg[25]_syn_4.a[0]
+	player/boot/mux3_syn_129.b[0]
+	player/boot/catalog/candidate_valid_reg_syn_86.b[0]
+	player/boot/catalog/entry_name_reg[7]_syn_4.a[0]
+	player/boot/catalog/candidate_valid_reg_syn_86.b[1]
+	player/boot/mux3_syn_127.b[0]
+	player/boot/catalog/entry_name_reg[7]_syn_4.b[1]
+	player/boot/catalog/candidate_name_reg[1]_syn_4.a[0]
+	player/boot/catalog/candidate_size_reg[25]_syn_5.a[0]
+	player/boot/catalog/candidate_size_reg[25]_syn_6.a[0]
+	player/boot/catalog/candidate_size_reg[25]_syn_7.a[0]
+	player/boot/catalog/mux130_syn_1387.d[1]
+	player/boot/catalog/mux130_syn_1388.d[1]
+	player/boot/mux3_syn_129.e[0]
+	player/boot/catalog/candidate_valid_reg_syn_86.e[0]
+	player/boot/catalog/entry_name_reg[7]_syn_4.e[1]
+	player/boot/catalog/candidate_valid_reg_syn_86.e[1]
+	player/boot/mux3_syn_127.e[0]
+	player/boot/mux3_syn_129.c[0]
+	player/boot/catalog/candidate_valid_reg_syn_86.c[0]
+	player/boot/catalog/entry_name_reg[7]_syn_4.c[1]
+	player/boot/catalog/candidate_valid_reg_syn_86.c[1]
+	player/boot/mux3_syn_127.c[0]
+	player/boot/mux3_syn_129.d[0]
+	player/boot/catalog/candidate_valid_reg_syn_86.d[0]
+	player/boot/catalog/entry_name_reg[7]_syn_4.d[1]
+	player/boot/catalog/candidate_valid_reg_syn_86.d[1]
+	player/boot/mux3_syn_127.d[0]
+	player/boot/mux3_syn_129.a[0]
+	player/boot/catalog/candidate_valid_reg_syn_86.a[0]
+	player/boot/catalog/entry_name_reg[7]_syn_4.a[1]
+	player/boot/catalog/candidate_valid_reg_syn_86.a[1]
+	player/boot/mux3_syn_127.a[0]
+	player/boot/catalog/mux130_syn_1387.b[1]
+	player/boot/catalog/mux130_syn_1388.b[1]
+	player/boot/mount/root32_reg[12]_syn_5.b[1]
+	player/boot/mount/root32_reg[12]_syn_6.b[1]
+	player/boot/mount/root32_reg[12]_syn_5.c[1]
+	player/boot/mount/root32_reg[12]_syn_6.c[1]
+	player/boot/catalog/mux139_syn_78.d[0]
+	player/boot/catalog/error_code_reg[3]_syn_15.mi[0]
+	player/boot/catalog/state_reg[6]_syn_14.mi[0]
+	player/boot/catalog/mux139_syn_78.c[0]
+	player/boot/catalog/mux130_syn_1387.c[1]
+	player/boot/catalog/mux130_syn_1388.c[1]
+	player/boot/mux3_syn_133.c[0]
+	player/boot/catalog/candidate_valid_reg_syn_108.c[0]
+	player/boot/catalog/entry_cluster_b1[23]_syn_19.c[1]
+	player/boot/loader/reader/left_shift1_syn_642.mi[0]
+	player/boot/loader/reader/left_shift1_syn_644.mi[0]
+	player/boot/loader/reader/left_shift1_syn_646.mi[0]
+	player/boot/loader/reader/left_shift1_syn_648.mi[0]
+	player/boot/loader/reader/left_shift1_syn_650.mi[0]
+	player/boot/loader/reader/left_shift1_syn_652.mi[0]
+	player/boot/catalog/candidate_size_reg[25]_syn_4.e[0]
+	player/boot/catalog/entry_name_reg[7]_syn_4.e[0]
+	player/boot/catalog/candidate_name_reg[1]_syn_4.e[0]
+	player/boot/catalog/candidate_size_reg[25]_syn_5.e[0]
+	player/boot/catalog/candidate_size_reg[25]_syn_6.e[0]
+	player/boot/catalog/candidate_size_reg[25]_syn_7.e[0]
+	player/boot/catalog/candidate_size_reg[25]_syn_4.d[0]
+	player/boot/catalog/entry_name_reg[7]_syn_4.d[0]
+	player/boot/catalog/candidate_name_reg[1]_syn_4.d[0]
+	player/boot/catalog/candidate_size_reg[25]_syn_5.d[0]
+	player/boot/catalog/candidate_size_reg[25]_syn_6.d[0]
+	player/boot/catalog/candidate_size_reg[25]_syn_7.d[0]
+	player/boot/catalog/candidate_size_reg[25]_syn_4.c[0]
+	player/boot/catalog/entry_name_reg[7]_syn_4.c[0]
+	player/boot/catalog/candidate_name_reg[1]_syn_4.c[0]
+	player/boot/catalog/candidate_size_reg[25]_syn_5.c[0]
+	player/boot/catalog/candidate_size_reg[25]_syn_6.c[0]
+	player/boot/catalog/candidate_size_reg[25]_syn_7.c[0]
+	player/boot/catalog/candidate_size_reg[25]_syn_5.mi[0]
+	player/boot/catalog/candidate_size_reg[25]_syn_6.mi[0]
+	player/boot/catalog/candidate_size_reg[25]_syn_7.mi[0]
+	player/boot/catalog/mux130_syn_1387.mi[0]
+	player/boot/catalog/mux130_syn_1388.mi[0]
+	player/boot/catalog/candidate_size_reg[25]_syn_5.mi[1]
+	player/boot/catalog/candidate_size_reg[25]_syn_6.mi[1]
+	player/boot/catalog/candidate_size_reg[25]_syn_7.mi[1]
+	player/boot/loader/parser/pixel_valid_n_syn_136.c[1]
+	player/boot/loader/parser/pixel_valid_n_syn_136.d[1]
+	player/boot/loader/parser/declared_size_reg[7]_syn_4.c[0]
+	player/boot/loader/parser/pixel_valid_n_syn_136.a[1]
+	player/boot/loader/parser/pixel_valid_n_syn_136.b[1]
+	player/boot/loader/parser/declared_size_reg[7]_syn_4.d[0]
+	player/audio_source/file_reader/current_cluster_reg[21]_syn_4.c[1]
+	player/boot/loader/reader/left_shift1_syn_581.c[1]
+	player/audio_source/file_reader/current_cluster_reg[21]_syn_4.d[1]
+	player/boot/loader/reader/left_shift1_syn_581.d[1]
+	player/boot/catalog/current_cluster_reg[8]_syn_4.b[0]
+	player/boot/loader/reader/left_shift1_syn_508.b[0]
+	player/boot/catalog/left_shift1_syn_455.b[0]
+	player/boot/catalog/current_cluster_reg[13]_syn_4.b[0]
+	player/boot/catalog/current_cluster_reg[8]_syn_4.b[1]
+	player/boot/loader/reader/left_shift1_syn_518.b[1]
+	player/boot/catalog/fat_value_reg[19]_syn_4.b[0]
+	player/boot/catalog/current_cluster_reg[13]_syn_4.a[0]
+	player/boot/catalog/current_cluster_reg[4]_syn_4.b[0]
+	player/boot/loader/reader/left_shift1_syn_522.b[1]
+	player/boot/loader/reader/left_shift1_syn_508.a[0]
+	player/boot/catalog/current_cluster_reg[8]_syn_4.a[0]
+	player/boot/loader/reader/left_shift1_syn_508.b[1]
+	player/boot/catalog/left_shift1_syn_455.a[0]
+	player/boot/catalog/current_cluster_reg[13]_syn_4.b[1]
+	player/boot/catalog/current_cluster_reg[8]_syn_4.a[1]
+	player/boot/loader/reader/left_shift1_syn_518.a[1]
+	player/boot/catalog/fat_value_reg[19]_syn_4.a[0]
+	player/boot/catalog/current_cluster_reg[13]_syn_4.a[1]
+	player/boot/catalog/current_cluster_reg[4]_syn_4.a[0]
+	player/boot/loader/reader/left_shift1_syn_522.a[1]
+	player/boot/loader/reader/left_shift1_syn_508.a[1]
+	player/boot/mount/root32_reg[12]_syn_6.d[1]
+	player/boot/mount/root32_reg[12]_syn_5.d[1]
+	player/boot/loader/reader/mux109_syn_76.c[1]
+	player/boot/loader/reader/state_reg[0]_syn_15.mi[1]
+	player/boot/loader/reader/state_reg[0]_syn_18.mi[0]
+	player/boot/loader/reader/state_reg[0]_syn_15.mi[0]
+	player/boot/loader/reader/mux109_syn_76.d[1]
+	player/boot/loader/reader/mux113_syn_96.mi[0]
+	player/boot/loader/reader/state_reg[6]_syn_13.mi[1]
+	player/boot/loader/writer/busy_reg_syn_14.mi[0]
+	player/boot/loader/writer/busy_reg_syn_15.mi[0]
+	player/boot/loader/writer/busy_reg_syn_17.mi[0]
+	player/boot/mount/error_code_reg[2]_syn_407.b[0]
+	player/boot/mount/error_code_reg[2]_syn_409.b[0]
+	player/boot/mount/root32_reg[12]_syn_6.mi[0]
+	player/boot/mount/root32_reg[12]_syn_5.mi[0]
+	player/boot/mount/root32_reg[12]_syn_5.mi[1]
+	player/boot/mount/root32_reg[12]_syn_6.mi[1]
+	player/boot/mount/error_code_reg[2]_syn_411.b[0]
+	player/boot/mount/error_code_reg[2]_syn_411.d[0]
+	player/boot/mount/count_wide_b1[63]_syn_46.b[1]
+	player/boot/mount/count_wide_b1[63]_syn_48.b[1]
+	rm/sync_reg[2]_syn_204.e[0]
+	player/boot/mount/root32_reg[12]_syn_4.e[0]
+	player/boot/mount/root32_reg[14]_syn_4.e[0]
+	player/boot/catalog/left_shift0_syn_469.e[0]
+	player/boot/mount/root32_reg[14]_syn_4.e[1]
+	player/boot/mount/mux58_syn_148.c[0]
+	player/boot/mount/error_code_reg[2]_syn_407.d[0]
+	player/boot/mount/error_code_reg[2]_syn_409.d[0]
+	player/boot/mount/fat32_reg[28]_syn_5.c[1]
+	player/boot/mount/fat32_reg[28]_syn_6.c[1]
+	player/boot/mount/fat32_reg[28]_syn_7.c[1]
+	player/boot/mount/fat32_reg[25]_syn_12.c[1]
+	player/boot/mount/fat32_reg[28]_syn_9.c[0]
+	player/boot/mount/fat32_reg[28]_syn_10.c[0]
+	player/boot/mount/fat32_reg[24]_syn_9.c[0]
+	player/boot/mount/fat32_reg[25]_syn_5.c[0]
+	player/boot/mount/fat32_reg[25]_syn_6.c[0]
+	player/boot/mount/fat32_reg[25]_syn_7.c[0]
+	player/boot/mount/fat32_reg[25]_syn_8.c[0]
+	player/boot/mount/fat32_reg[25]_syn_11.c[1]
+	player/boot/mount/fat32_reg[25]_syn_10.c[1]
+	player/boot/mount/fat32_reg[24]_syn_6.c[0]
+	player/boot/mount/fat32_reg[24]_syn_7.c[0]
+	player/boot/mount/fat32_reg[24]_syn_8.c[0]
+	player/boot/mount/count_wide_b1[63]_syn_46.c[1]
+	player/boot/mount/count_wide_b1[63]_syn_48.c[1]
+	player/boot/mount/count_wide_b1[63]_syn_46.d[1]
+	player/boot/mount/count_wide_b1[63]_syn_48.d[1]
+	player/boot/mount/error_code_reg[2]_syn_407.c[0]
+	player/boot/mount/error_code_reg[2]_syn_409.c[0]
+	player/boot/mount/error_code_reg[2]_syn_375.d[1]
+	player/boot/mount/error_code_reg[2]_syn_381.d[1]
+	player/boot/mount/error_code_reg[2]_syn_381.d[0]
+	rm/sync_reg[2]_syn_204.d[0]
+	player/boot/mount/root32_reg[12]_syn_4.d[0]
+	player/boot/mount/root32_reg[14]_syn_4.d[0]
+	player/boot/catalog/left_shift0_syn_469.d[0]
+	player/boot/mount/root32_reg[14]_syn_4.d[1]
+	rm/sync_reg[2]_syn_204.b[0]
+	player/boot/mount/root32_reg[12]_syn_4.b[0]
+	player/boot/mount/root32_reg[14]_syn_4.b[0]
+	player/boot/catalog/left_shift0_syn_469.b[0]
+	player/boot/mount/root32_reg[14]_syn_4.b[1]
+	player/boot/mount/error_code_reg[2]_syn_411.c[0]
+	player/boot/loader/parser/mux142_syn_123.mi[0]
+	rm/sync_reg[2]_syn_320.mi[0]
+	player/boot/loader/reader/mux107_syn_150.mi[0]
+	player/boot/loader/writer/slot_valid_reg[3]_syn_216.mi[0]
+	player/boot/loader/parser/pixel_valid_n_syn_136.mi[0]
+	card/command_reg[4]_syn_26.mi[0]
+	rm/sync_reg[2]_syn_230.mi[0]
+	player/audio_source/file_reader/left_shift1_syn_424.mi[0]
+	player/audio_source/file_reader/left_shift1_syn_426.mi[0]
+	rm/sync_reg[2]_syn_266.mi[0]
+	player/audio_source/file_reader/busy_reg_syn_96.mi[0]
+	player/audio_source/parser/busy_reg_syn_776.mi[0]
+	player/audio_source/parser/busy_reg_syn_778.mi[0]
+	player/audio_source/file_reader/left_shift0_syn_440.mi[0]
+	rm/sync_reg[2]_syn_249.mi[0]
+	player/boot/catalog/error_code_reg[2]_syn_11.mi[0]
+	rm/sync_reg[2]_syn_305.mi[0]
+	player/boot/catalog/mux138_syn_136.mi[0]
+	rm/sync_reg[2]_syn_217.mi[1]
+	player/boot/catalog/left_shift1_syn_441.mi[0]
+	player/boot/catalog/left_shift1_syn_439.mi[0]
+	rm/sync_reg[2]_syn_227.mi[1]
+	rm/sync_reg[2]_syn_243.mi[1]
+	player/boot/mount/error_code_reg[2]_syn_367.mi[0]
+	player/boot/mount/error_code_reg[2]_syn_411.mi[0]
+	rm/sync_reg[2]_syn_224.mi[0]
+	player/boot/mount/error_code_reg[2]_syn_371.mi[0]
+	player/boot/mount/count_wide_b10[31]_syn_4.mi[0]
+	rm/sync_reg[1]_syn_3.mi[1]
+	rv/sync_reg[2]_syn_39.mi[0]
+	player/boot/mount/mux58_syn_148.d[0]
+	player/boot/mount/error_code_reg[2]_syn_381.a[1]
+	player/boot/mount/error_code_reg[2]_syn_381.a[0]
+	player/boot/mount/error_code_reg[2]_syn_381.b[1]
+	player/boot/mount/error_code_reg[2]_syn_381.b[0]
+	player/boot/mount/error_code_reg[2]_syn_381.c[1]
+	player/boot/mount/error_code_reg[2]_syn_381.c[0]
+	player/boot/mount/error_code_reg[2]_syn_375.a[1]
+	player/boot/mount/error_code_reg[2]_syn_375.b[1]
+	player/boot/mount/error_code_reg[2]_syn_375.c[1]
+	rm/sync_reg[2]_syn_204.c[0]
+	player/boot/mount/root32_reg[12]_syn_4.c[0]
+	player/boot/mount/root32_reg[14]_syn_4.c[0]
+	player/boot/catalog/left_shift0_syn_469.c[0]
+	player/boot/mount/root32_reg[14]_syn_4.c[1]
+	rm/sync_reg[2]_syn_204.a[0]
+	player/boot/mount/root32_reg[12]_syn_4.a[0]
+	player/boot/mount/root32_reg[14]_syn_4.a[0]
+	player/boot/catalog/left_shift0_syn_469.a[0]
+	player/boot/mount/root32_reg[14]_syn_4.a[1]
+	player/boot/mount/error_code_reg[2]_syn_407.a[0]
+	player/boot/mount/error_code_reg[2]_syn_409.a[0]
+
+DummyNode in Model: EG_PHY_MSLICE
+	card/state_b[1]_syn_84.b[0]
+	card/state_b[1]_syn_85.b[0]
+	card/stream_index_reg[0]_syn_36.mi[1]
+	card/stream_index_reg[4]_syn_16.mi[1]
+	card/stream_index_reg[5]_syn_25.mi[1]
+	card/stream_index_reg[5]_syn_26.mi[1]
+	card/stream_index_reg[5]_syn_26.a[0]
+	card/stream_index_reg[5]_syn_26.a[1]
+	card/stream_index_reg[5]_syn_26.b[0]
+	card/stream_index_reg[5]_syn_26.b[1]
+	card/state_b[1]_syn_84.d[0]
+	card/state_b[1]_syn_85.d[0]
+	card/state_b[1]_syn_84.d[1]
+	card/state_b[1]_syn_85.d[1]
+	card/state_b[1]_syn_84.c[1]
+	card/state_b[1]_syn_84.c[0]
+	card/state_b[1]_syn_85.c[0]
+	card/state_b[1]_syn_85.c[1]
+	card/mux135_syn_399.mi[0]
+	card/stream_index_reg[5]_syn_26.d[0]
+	card/stream_index_reg[5]_syn_26.d[1]
+	card/state_b[1]_syn_84.b[1]
+	card/state_b[1]_syn_85.b[1]
+	card/state_b[1]_syn_84.a[1]
+	card/state_b[1]_syn_85.a[1]
+	card/state_b[1]_syn_84.a[0]
+	card/state_b[1]_syn_85.a[0]
+	hdmi/u_hdmi_tx_controller_wrapper/u_video_axi_stream_receiver/u_w24_d1024_fifo/u_logic_ramfifo[9]_syn_4.c[0]
+	hdmi/u0_reset_sync/O_sync_reset_reg_syn_55.mi[0]
+	hdmi/u_hdmi_tx_controller_wrapper/u2_hdmi_tmds_encode/S_cnt_t_1_b[4]_syn_8.mi[0]
+	hdmi/u_hdmi_tx_controller_wrapper/u0_hdmi_tmds_encode/S_cnt_t_1_b[2]_syn_19.mi[0]
+	display/mux3_syn_180.mi[0]
+	hdmi/u_hdmi_tx_controller_wrapper/u_video_axi_stream_receiver/u_w24_d1024_fifo/u_logic_ramfifo[9]_syn_4.d[0]
+	hdmi/u_hdmi_tx_controller_wrapper/u_hdmi_data_distribution/O_video_valid_reg_syn_4.mi[0]
+	player/audio_source/file_reader/state_reg[0]_syn_18.mi[0]
+	player/audio_source/file_reader/state_reg[0]_syn_18.mi[1]
+	player/audio_source/file_reader/busy_reg_syn_102.mi[0]
+	card/stream_index_reg[5]_syn_26.c[0]
+	card/stream_index_reg[5]_syn_26.c[1]
+	player/boot/index_reg[14]_syn_4.d[0]
+	player/boot/index_reg[14]_syn_4.d[1]
+	player/boot/index_reg[14]_syn_5.d[0]
+	player/boot/index_reg[14]_syn_6.d[0]
+	player/boot/index_reg[14]_syn_4.c[0]
+	player/boot/index_reg[14]_syn_4.c[1]
+	player/boot/index_reg[14]_syn_5.c[0]
+	player/boot/index_reg[14]_syn_6.c[0]
+	player/boot/index_reg[14]_syn_4.b[0]
+	player/boot/index_reg[14]_syn_4.b[1]
+	player/boot/index_reg[14]_syn_5.b[0]
+	player/boot/index_reg[14]_syn_6.b[0]
+	player/boot/index_reg[14]_syn_5.mi[0]
+	player/boot/index_reg[14]_syn_6.mi[0]
+	player/boot/index_reg[14]_syn_5.mi[1]
+	player/boot/index_reg[14]_syn_6.mi[1]
+	memory/u2_ram/u2_wrrd/app_wr_din_2d_reg[21]_syn_4.c[0]
+	player/boot/loader/parser/mux122_syn_241.c[0]
+	memory/u2_ram/u2_wrrd/app_wr_din_2d_reg[21]_syn_4.d[0]
+	player/boot/loader/parser/mux122_syn_241.d[0]
+	memory/u2_ram/u2_wrrd/app_wr_din_2d_reg[21]_syn_4.a[0]
+	player/boot/loader/parser/mux122_syn_241.a[0]
+	memory/u2_ram/u2_wrrd/app_wr_din_2d_reg[21]_syn_4.b[0]
+	player/boot/loader/parser/mux122_syn_241.b[0]
+	player/boot/index_reg[14]_syn_4.a[0]
+	player/boot/index_reg[14]_syn_4.a[1]
+	player/boot/index_reg[14]_syn_5.a[0]
+	player/boot/index_reg[14]_syn_6.a[0]
+	player/boot/catalog/current_cluster_reg[20]_syn_4.c[0]
+	player/boot/catalog/fat_value_reg[26]_syn_37.c[0]
+	player/boot/catalog/mux143_syn_75.c[0]
+	player/boot/loader/reader/left_shift1_syn_547.c[1]
+	player/boot/catalog/current_cluster_reg[20]_syn_4.d[0]
+	player/boot/catalog/fat_value_reg[26]_syn_37.d[0]
+	player/boot/catalog/mux143_syn_75.d[0]
+	player/boot/loader/reader/left_shift1_syn_547.d[1]
+	player/boot/loader/reader/state_reg[0]_syn_21.mi[0]
+	player/boot/loader/reader/mux112_syn_76.mi[0]
+	player/boot/mount/partition_size_reg[49]_syn_5.mi[0]
+	player/boot/mount/partition_size_reg[49]_syn_6.mi[0]
+	player/boot/mount/partition_size_reg[49]_syn_7.mi[0]
+	player/boot/mount/partition_size_reg[49]_syn_5.mi[1]
+	player/boot/mount/partition_size_reg[49]_syn_6.mi[1]
+	player/boot/mount/partition_size_reg[49]_syn_7.mi[1]
+	player/boot/mount/count_wide_b1[63]_syn_58.b[1]
+	player/boot/mount/count_wide_b1[63]_syn_58.c[1]
+	player/boot/mount/count_wide_b1[63]_syn_58.d[1]
+	player/boot/mount/error_code_reg[2]_syn_397.d[1]
+	rv/sync_reg[2]_syn_49.mi[0]
+	player/boot/mount/partition_size_reg[49]_syn_4.a[1]
+	player/boot/mount/partition_size_reg[49]_syn_4.a[0]
+	player/boot/mount/error_code_reg[2]_syn_383.a[0]
+	player/boot/mount/partition_size_reg[49]_syn_5.a[0]
+	player/boot/mount/partition_size_reg[49]_syn_6.a[0]
+	player/boot/mount/partition_size_reg[49]_syn_7.a[0]
+	player/boot/mount/partition_size_reg[49]_syn_4.c[1]
+	player/boot/mount/partition_size_reg[49]_syn_4.c[0]
+	player/boot/mount/error_code_reg[2]_syn_383.c[0]
+	player/boot/mount/partition_size_reg[49]_syn_5.c[0]
+	player/boot/mount/partition_size_reg[49]_syn_6.c[0]
+	player/boot/mount/partition_size_reg[49]_syn_7.c[0]
+	player/boot/mount/partition_size_reg[49]_syn_4.d[1]
+	player/boot/mount/partition_size_reg[49]_syn_4.d[0]
+	player/boot/mount/error_code_reg[2]_syn_383.d[0]
+	player/boot/mount/partition_size_reg[49]_syn_5.d[0]
+	player/boot/mount/partition_size_reg[49]_syn_6.d[0]
+	player/boot/mount/partition_size_reg[49]_syn_7.d[0]
+	player/boot/mount/partition_size_reg[49]_syn_4.b[1]
+	player/boot/mount/partition_size_reg[49]_syn_4.b[0]
+	player/boot/mount/error_code_reg[2]_syn_383.b[0]
+	player/boot/mount/partition_size_reg[49]_syn_5.b[0]
+	player/boot/mount/partition_size_reg[49]_syn_6.b[0]
+	player/boot/mount/partition_size_reg[49]_syn_7.b[0]
+	player/boot/mount/error_code_reg[2]_syn_397.a[1]
+	player/boot/mount/error_code_reg[2]_syn_397.b[1]
+	player/boot/mount/error_code_reg[2]_syn_397.c[1]
+
+DummyNode in Model: EG_PHY_PAD
+	seg_data[7]_syn_1.opad
+	memory/sdram_syn_5.opad
+	memory/sdram_syn_10.opad
+
+4. checking invalid constraints. (HIGH)
+---------------------------------------------
+There are 0 invalid constraints. (HIGH)
+
+
+5. checking PLL/buffer clocks. (HIGH)
+---------------------------------------------
+PLL/buffer inst: sys_pll_m0/pll_inst
+{
+	There are 0 clock pins that have no clock constraints. (HIGH)
+
+
+	There are 0 clocks whose clock frequency do not match the PLL setting. (HIGH)
+
+
+}
+
+PLL/buffer inst: video_pll_m0/pll_inst
+{
+	There are 0 clock pins that have no clock constraints. (HIGH)
+
+
+	There are 0 clocks whose clock frequency do not match the PLL setting. (HIGH)
+
+
+}
+
+6. checking combinational loops. (HIGH)
+---------------------------------------------
+There are 0 combinational loops. (HIGH)
+
+
+7. checking soft fifo set_max_delay constraints. (HIGH)
+---------------------------------------------
+There are 0 max-delay datapath-only paths that are part of the provided async clock paths, whereas the timing between other registers is not relaxed or ignored. (HIGH)
+
+
+8. checking no path constraints. (MEDIUM)
+---------------------------------------------
+There are 0 constraints that have no timing paths. (MEDIUM)
+
+
+9. checking path exception constraints shadowed/ignored by other constraints. (MEDIUM)
+---------------------------------------------
+
+MCP/SMD Summary
+--------------------
+
+		Max Check
+		--------------------
+		     Total    Dominated     Shadowed      Ignored   Constraint
+
+		Min Check
+		--------------------
+		     Total    Dominated     Shadowed      Ignored   Constraint
+
+10. checking no input delay (MEDIUM)
+--------------------------
+There are 6 input ports that with no input delay specified. (MEDIUM)
+
+	HDMI_DDC_SDA
+	key1
+	key2
+	key_period
+	rst_n
+	sd_miso
+
+11. checking no output delay (MEDIUM)
+--------------------------
+There are 23 output ports that with no output delay specified. (MEDIUM)
+
+	HDMI_CLK_P
+	HDMI_D0_P
+	HDMI_D1_P
+	HDMI_D2_P
+	HDMI_DDC_SCL
+	HDMI_DDC_SDA
+	sd_dclk
+	sd_mosi
+	sd_ncs
+	seg_data[7]
+	seg_data[6]
+	seg_data[5]
+	seg_data[4]
+	seg_data[3]
+	seg_data[2]
+	seg_data[1]
+	seg_data[0]
+	seg_sel[5]
+	seg_sel[4]
+	seg_sel[3]
+	seg_sel[2]
+	seg_sel[1]
+	seg_sel[0]
+
+12. checking partial input delay (MEDIUM)
+--------------------------
+There are 0 input ports with partial input delay specified. (MEDIUM)
+
+
+13. checking partial output delay (MEDIUM)
+--------------------------
+There are 0 output ports with partial output delay specified. (MEDIUM)
+
+
+14. checking abnormal set_input_delay constraints. (MEDIUM)
+---------------------------------------------
+There are 0 abnormal set_input_delay constraints. (MEDIUM)
+
+

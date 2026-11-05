@@ -1,0 +1,2 @@
+TEST_PASS frames=4 rejected=2 writes=2108 sectors=35
+tb_boot.sv:45: $finish called at 181160000 (1ps)

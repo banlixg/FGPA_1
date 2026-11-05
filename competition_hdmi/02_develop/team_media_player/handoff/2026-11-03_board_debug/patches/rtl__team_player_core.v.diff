@@ -1,0 +1,35 @@
+--- a/rtl/team_player_core.v
++++ b/rtl/team_player_core.v
+@@ -16,11 +16,12 @@
+     output wire acr_valid,output wire [19:0] acr_n,acr_cts,
+     output wire [3:0] boot_stage,boot_error,audio_stage,audio_error,
+     output wire [2:0] image_count,output wire boot_done,boot_failed,
++    output wire [3:0] boot_detail,   // 图片加载器最近错误码（诊断）
+     output wire [1:0] active_slot,output wire active_valid,auto_play,
+     output wire [1:0] period_setting,output wire fade_fault,
+     output wire [31:0] video_underruns,audio_underruns
+ );
+-    wire [3:0] mask;wire wvalid,wready,wrsp,werror;wire [20:0] waddr;wire [31:0] wdata;
++    wire [3:0] mask;wire [3:0] dcode;assign boot_detail=dcode;wire wvalid,wready,wrsp,werror;wire [20:0] waddr;wire [31:0] wdata;
+     wire b_req,b_cancel,b_ready;wire [31:0] b_lba;
+     wire a_req,a_cancel,a_ready;wire [31:0] a_lba;
+     wire [31:0] fat,data,clusters,a_size;wire [7:0] spc;wire [27:0] a_cluster;wire a_found;
+@@ -32,14 +33,16 @@
+         if(!mem_rst_n)boot_started<=0;else if(boot_start)boot_started<=1;
+     team_boot_loader #(.IMAGE_WIDTH(WIDTH),.IMAGE_HEIGHT(HEIGHT)) boot(
+         .clk(mem_clk),.rst_n(mem_rst_n),.start(boot_start),.slot_valid(mask),.image_count(image_count),
+-        .finished(boot_done),.failed(boot_failed),.stage(boot_stage),.error_code(boot_error),.rejected_count(),
++        .finished(boot_done),.failed(boot_failed),.stage(boot_stage),.error_code(boot_error),.rejected_count(),.last_image_error(dcode),
+         .fat_lba(fat),.data_lba(data),.cluster_count(clusters),.spc(spc),
+         .audio_found(a_found),.audio_cluster(a_cluster),.audio_size(a_size),
+         .rd_req_valid(b_req),.rd_cancel(b_cancel),.rd_req_ready(sd_req_ready&&!boot_done),.rd_req_lba(b_lba),
+         .rd_valid(sd_valid&&!boot_done),.rd_ready(b_ready),.rd_data(sd_data),.rd_last(sd_last),.rd_error(sd_error&&!boot_done),
+         .wr_valid(wvalid),.wr_ready(wready),.wr_addr(waddr),.wr_data(wdata),.wr_rsp_valid(wrsp),.wr_rsp_error(werror));
+     wire lv,lr,lpv,ld,le;wire [20:0] la;wire [9:0] lpi;wire [23:0] lpd;
+-    team_sdram_port #(.LINE_WIDTH(WIDTH)) memory_port(
++    // 2026-11-03 板测：写后读回校验在本板 SIP 仍失败，先 VERIFY_ENABLE=0 验证显示读通路；
++    // 恢复校验把 VERIFY_ENABLE 改回 1（端口状态机完整保留）。
++    team_sdram_port #(.VERIFY_ENABLE(0),.LINE_WIDTH(WIDTH)) memory_port(
+         .clk(mem_clk),.rst_n(mem_rst_n),.mem_initialized(mem_initialized),.mem_busy(mem_busy),.mem_refresh(mem_refresh),
+         .wr_valid(wvalid),.wr_ready(wready),.wr_addr(waddr),.wr_data(wdata),.wr_rsp_valid(wrsp),.wr_rsp_error(werror),
+         .line_valid(lv),.line_ready(lr),.line_addr(la),.line_pixel_valid(lpv),.line_pixel_index(lpi),

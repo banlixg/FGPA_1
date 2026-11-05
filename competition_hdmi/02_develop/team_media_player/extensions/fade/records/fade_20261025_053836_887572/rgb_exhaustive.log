@@ -1,0 +1,2 @@
+TEST_PASS rgb exhaustive_gains=512 channel_values=256 checks=135181
+tb_team_fade_rgb.sv:56: $finish called at 1351870000 (1ps)

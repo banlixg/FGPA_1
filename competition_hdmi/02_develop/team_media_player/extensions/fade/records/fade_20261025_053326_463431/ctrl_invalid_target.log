@@ -1,0 +1,2 @@
+TEST_PASS ctrl mode=invalid_target checks=5 accepted=0 fade_out_steps=0 fade_in_steps=0
+tb_team_fade_ctrl.sv:203: $finish called at 100000 (1ps)

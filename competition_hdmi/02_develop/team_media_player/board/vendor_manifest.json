@@ -1,0 +1,72 @@
+[
+  {
+    "source": "D:\\FPGA FILE\\official_routine\\day5-6\\lab_ex4_tf\\src\\user_source\\hdl_source\\IP\\sys_pll.v",
+    "file": "board\\vendor\\sys_pll.v",
+    "original_sha256": "02da17afa1b3f23c880254924437b9529ef7ab872b888073fce43d3dce07a4f6",
+    "sha256": "02da17afa1b3f23c880254924437b9529ef7ab872b888073fce43d3dce07a4f6",
+    "modifications": "none"
+  },
+  {
+    "source": "D:\\FPGA FILE\\official_routine\\day5-6\\lab_ex4_tf\\src\\user_source\\hdl_source\\IP\\video_pll.v",
+    "file": "board\\vendor\\video_pll.v",
+    "original_sha256": "57e45a062814673e97773cf6c58ff1629fa45895e30de9d2c2b6bdd30bd9bb13",
+    "sha256": "57e45a062814673e97773cf6c58ff1629fa45895e30de9d2c2b6bdd30bd9bb13",
+    "modifications": "none"
+  },
+  {
+    "source": "D:\\FPGA FILE\\official_routine\\day5-6\\lab_ex4_tf\\src\\user_source\\hdl_source\\hdmi_phy_warpper.v",
+    "file": "board\\vendor\\hdmi_phy_warpper.v",
+    "original_sha256": "416b082b0987001bdbc0a7e20a557cb8fb1dca34e25dc881e6d28a8cb3cf4300",
+    "sha256": "416b082b0987001bdbc0a7e20a557cb8fb1dca34e25dc881e6d28a8cb3cf4300",
+    "modifications": "none"
+  },
+  {
+    "source": "D:\\FPGA FILE\\official_routine\\day5-6\\lab_ex4_tf\\src\\user_source\\hdl_source\\lane_lvds_10_1.v",
+    "file": "board\\vendor\\lane_lvds_10_1.v",
+    "original_sha256": "de9529321354f04837e051d0ec1681cf44783d4be3284703a788e081147500bc",
+    "sha256": "de9529321354f04837e051d0ec1681cf44783d4be3284703a788e081147500bc",
+    "modifications": "none"
+  },
+  {
+    "source": "D:\\FPGA FILE\\official_routine\\day5-6\\lab_ex4_tf\\src\\user_source\\hdl_source\\hdmi1.4b_transmitter_core\\hdmi_1_4b_transmitter_core_wrapper.enc.v",
+    "file": "board\\vendor\\hdmi_1_4b_transmitter_core_wrapper.enc.v",
+    "original_sha256": "867e0b0bdd874bc383d00918c9e1be3fe01edf41f343b6a0d73e262776596a63",
+    "sha256": "867e0b0bdd874bc383d00918c9e1be3fe01edf41f343b6a0d73e262776596a63",
+    "modifications": "none"
+  },
+  {
+    "source": "D:\\FPGA FILE\\official_routine\\day5-6\\lab_ex4_tf\\src\\user_source\\hdl_source\\include\\global_def.v",
+    "file": "board\\vendor\\global_def.v",
+    "original_sha256": "04f854d7fe2f7816705b988ec59822fc258e4ed3a13529e36d0b9e6233a2682f",
+    "sha256": "da6a16ac7e3b8d3415f45b9f18847d8e6170c7f9eb6e192c417f730977072583",
+    "modifications": "refresh period configured for 50 MHz"
+  },
+  {
+    "source": "D:\\FPGA FILE\\official_routine\\day5-6\\lab_ex4_tf\\src\\user_source\\hdl_source\\include\\sdr_as_ram.enc.v",
+    "file": "board\\vendor\\sdr_as_ram.enc.v",
+    "original_sha256": "767dbdfbd83d42223b77dfa7deab42ce8216a8fd6f6cb41b7e7593d9a345ba57",
+    "sha256": "767dbdfbd83d42223b77dfa7deab42ce8216a8fd6f6cb41b7e7593d9a345ba57",
+    "modifications": "none"
+  },
+  {
+    "source": "D:\\FPGA FILE\\official_routine\\day5-6\\lab_ex4_tf\\src\\user_source\\hdl_source\\include\\sdr_init_ref.enc.v",
+    "file": "board\\vendor\\sdr_init_ref.enc.v",
+    "original_sha256": "6da5945f4af793610d0d64c65c7e5d2d1c86ed4c11bc5fdeacd27eb03178b9f6",
+    "sha256": "367e7edf2092c153d9fb6d98376c5726a3d1d7373756e8fe7256ad9546c90da5",
+    "modifications": "plaintext include path made local"
+  },
+  {
+    "source": "D:\\FPGA FILE\\official_routine\\day5-6\\lab_ex4_tf\\src\\user_source\\hdl_source\\include\\sdr_wrrd.enc.v",
+    "file": "board\\vendor\\sdr_wrrd.enc.v",
+    "original_sha256": "c7d7fe07d75f66aa88d9f986b3006319c995162434f104f9990664b374cdfdd2",
+    "sha256": "c7d7fe07d75f66aa88d9f986b3006319c995162434f104f9990664b374cdfdd2",
+    "modifications": "none"
+  },
+  {
+    "source": "D:\\FPGA FILE\\official_routine\\day5-6\\lab_ex4_tf\\src\\user_source\\hdl_source\\SD\\sdram.v",
+    "file": "board\\vendor\\team_board_sdram.v",
+    "original_sha256": "2d985c2477384e677c25714241e1a50206def8916aa03189a5b313b2d22dfc99",
+    "sha256": "464210d5475a01869a0e066e17640f34c70b68de843609fd527411df8fc6d5cd",
+    "modifications": "module renamed and include path made local"
+  }
+]
